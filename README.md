@@ -180,11 +180,13 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Topics 
 + Introduction to scraping the web
 + Introduction to Python
-+ Introduction to APIs+ Cleaning data with [OpenRefine](http://openrefine.org)
++ Introduction to APIs+ Cleaning data with [OpenRefine](http://openrefine.org) and SQL
 
 <a id='c2-readings'></a>
 ####Readings 
 + [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)+ Interactive Data Visualization for the Web, pg 15 – 23+ [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
++ [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
++ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
 
 <a id='c2-assignments'></a>
 ####Assignments 
@@ -234,7 +236,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c4-readings'></a>
 ####Readings 
-+ Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013, ch 1-2+ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
++ Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013, ch 1-2
 
 <a id='c4-assignments'></a>
 ####Assignments 
