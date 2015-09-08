@@ -15,6 +15,7 @@ Continuing Education Units (C.E.U.s): 3.0
 + [Course Requirements](#course-requirements)
 + [Course Readings](#course-readings)
 + [Class Format](#class-format)
++ [Submitting Assignments](#submitting-assignments)
 + [Class Policies](#class-policies)
 	+ [Attendance and Tardiness](#attendance)
 	+ [Participation](#participation)
@@ -100,6 +101,12 @@ The required readings for this course consist of book chapters, newspaper articl
 Class runs from 10 am to 5 pm, with the class time broken up into 50-minute blocks and a 10-minute break every hour. Class will be a mix of lecture and practical exercise work, emphasizing the application of skills covered in the lecture portion of the class. We will have an hour working lunch where you are free to work on class exercises or your final project. Attendance during the lunch hour is not required but encouraged if you’re having any issues with the course material. 
 
 I will also be available for questions or further assistance during lunch. You will have ample time in class to work on practical exercises based on the information presented in lectures. When possible, the final class hour of the day will be set aside for any additional questions or additional tutorials in tools, skills, or techniques. Please plan on attending the full day of class.
+
+######[back to top](#top)
+
+<a id='submitting-assignments'></a>
+###Submitting Assignments
+
 
 ######[back to top](#top)
 
