@@ -8,6 +8,8 @@ Location: TBA
 
 Continuing Education Units (C.E.U.s): 3.0
 
+[Click for more information and to register](bit.ly/1rksh3S)
+
 ----
 ###Navigation
 + [Course Overview](#course-overview)
@@ -106,7 +108,7 @@ I will also be available for questions or further assistance during lunch. You w
 
 <a id='submitting-assignments'></a>
 ###Submitting Assignments
-
+All assignments will be submitted by adding your content to the [class page](https://github.com/datapolitan/MiningTheWeb) and issuing a "[pull request](https://help.github.com/articles/using-pull-requests/)" in the [class repository](https://github.com/datapolitan/MiningTheWeb). All of this will be explained, setup, and otherwise clarified on the first day of class. **Assignments aren't considered submitted until the pull request has been issued.** We will have ample time in class to address any technical issues and a reference guide for the process.
 
 ######[back to top](#top)
 
@@ -164,6 +166,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c1-assignments'></a>
 ####Assignments
+1. Complete the visualization started in class with data from an open data portal. Style the map in CartoDB and embed your visualization into the class page with short descriptive text on where you found the data, what you did to visualize the data, and any thoughts on what you've created.
+2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c1-resources'></a> 
 ####Resources 
@@ -184,6 +188,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c2-assignments'></a>
 ####Assignments 
+1. Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. Write a short description of the data, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result.
+2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c2-resources'></a>
 ####Resources 
@@ -208,6 +214,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c3-assignments'></a>
 ####Assignments
+1. Create another visualization that either improves on your initial visualization with more/better data or uses different sets of data. The visualization should incorporate at least 2 datasets and tell some interesting story. Discuss the datasets used, the visual design of the visualization, and why you found the data compelling in a short text description of the project.
+2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown. 
 
 <a id='c3-resources'></a> 
 ####Resources 
@@ -230,6 +238,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c4-assignments'></a>
 ####Assignments 
+1. Create another visualization that either improves on your initial visualization with more/better data or uses different sets of data. The visualization should incorporate at least 2 datasets and tell some interesting story, using a more sophisticated visual style that incorporates the elements of good design discussed in class. Discuss the datasets used, the visual design of the visualization, and why you found the data compelling in a short text description of the project.
+2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c4-resources'></a>
 ####Resources 
