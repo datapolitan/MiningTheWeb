@@ -1,0 +1,20 @@
+body{
+    margin-left:5%;
+    margin-right:5%;
+}
+div {
+    font-family: sans-serif;
+    width:95%;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+#header {
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.vis-critique {
+    font-size:1em;
+}
