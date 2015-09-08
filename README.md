@@ -23,11 +23,30 @@ Continuing Education Units (C.E.U.s): 3.0
 + [Resources](#resources)
 + [Course Outline](#course-outline)
 	+ [Class 1](#class1)
+		+ [Topics](#c1-topics)
+		+ [Readings](#c1-readings)
+		+ [Assignments](#c1-assignments)
+		+ [Resources](#c1-resources)
 	+ [Class 2](#class2)
+		+ [Topics](#c2-topics)
+		+ [Readings](#c2-readings)
+		+ [Assignments](#c2-assignments)
+		+ [Resources](#c2-resources)
 	+ [Class 3](#class3)
+		+ [Topics](#c3-topics)
+		+ [Readings](#c3-readings)
+		+ [Assignments](#c3-assignments)
+		+ [Resources](#c3-resources)
 	+ [Class 4](#class4)
+		+ [Topics](#c4-topics)
+		+ [Readings](#c4-readings)
+		+ [Assignments](#c4-assignments)
+		+ [Resources](#c4-resources)
++ [Suggested Reading](#suggested-reading)
 
 ----
+##Administrivia
+
 <a id='course-overview'></a>
 ###Course Overview
 This course introduces the tools, techniques, and general approaches used to acquire, clean, analyze, and visualize open data, with particular emphasis on using web-based technologies and open-source tools at each step of the process.
@@ -59,9 +78,10 @@ You will be required to have free accounts with the following services:
 + [CartoDB](http://cartodb.com/)
 + [Google](https://accounts.google.com/signup?service=mail)
 + [Twitter](https://twitter.com/signup)
-+ [Slack](
+
 
 <!--
++ [Slack](
 Tumblr - https://www.tumblr.com/register
 -->
 
@@ -120,47 +140,98 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ----
 <a id='course-outline'></a>
-###Course Outline
+##Course Outline
+####Topics will be covered that day in class. Reading Assignments are to be read before class in preparation of the lecture and exercises. Assignments are due before the start of the next class and build on the information presented in class.
 
+######[back to top](#top)
 <a id='class1'></a>
 ####Class 1 - September 12, 2015
-<a id='Topics'></a>
+<a id='c1-topics'></a>
 ####Topics 
-+ Introduction to scraping the web+ Introduction to Python+ Introduction to APIs+ Cleaning data with [OpenRefine](http://openrefine.org)
++ What is open data?+ Data on the web+ Introduction to mapping+ Introduction to open source tools and services for mapping and visualization+ Introduction to HTML and CSS+ Introduction to Git and [Github](http://github.com)
 
-<a id='Readings'></a>
+<a id='c1-readings'></a>
 ####Readings
++ Lohr, Steve. “[For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights.](http://nyti.ms/1xuuZSd)” New York Times 17 August 2014. + Chris Whong "[Taxi TechBlog 1: Data Prep and Backend](http://chriswhong.com/data-visualization/taxitechblog1/)"
++ Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
 
-<a id='Assignments'></a>
+<a id='c1-assignments'></a>
 ####Assignments
 
-<a id='Resources'></a> 
+<a id='c1-resources'></a> 
 ####Resources 
++ [A tutorial for getting started with Git and Github](http://bit.ly/1zlMfhK)+ [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p)
 
 ######[back to top](#top)
 ----
 ####Class 2<a id='class2'></a> - September 19, 2015
-####Topics <a id='Topics'></a>
-####Readings <a id='Readings'></a>
-####Assignments <a id='Assignments'></a>
-####Resources <a id='Resources'></a>
+<a id='c2-topics'></a>
+####Topics 
++ Introduction to scraping the web
++ Introduction to Python
++ Introduction to APIs+ Cleaning data with [OpenRefine](http://openrefine.org)
+
+<a id='c2-readings'></a>
+####Readings 
++ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)+ Interactive Data Visualization for the Web, pg 15 – 23+ [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
+
+<a id='c2-assignments'></a>
+####Assignments 
+
+<a id='c2-resources'></a>
+####Resources 
++ [An online class for getting started with querying APIs with Python](http://www.codecademy.com/en/tracks/apis-python)
 
 
 
 ######[back to top](#top)
 ----
-####Class 3<a id='class3'></a> - September 26, 2015
-####Topics <a id='Topics'></a>
-####Readings <a id='Readings'></a>
-####Assignments <a id='Assignments'></a>
-####Resources <a id='Resources'></a>
+<a id='class3'></a>
+####Class 3 - September 26, 2015
+
+<a id='c3-topics'></a>
+####Topics 
++ (Re)Introduction to Basic Statistics
++ Analyzing Open Data+ Basics of Visualization
+
+<a id='c3-readings'></a>
+####Readings 
++ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)” Ch. 1 and 2.
++ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. + Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. + [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
+
+<a id='c3-assignments'></a>
+####Assignments
+
+<a id='c3-resources'></a> 
+####Resources 
 
 ######[back to top](#top)
 ----
-####Class 4<a id='class4'></a> - October 3, 2015
-####Topics <a id='Topics'></a>
-####Readings <a id='Readings'></a>
-####Assignments <a id='Assignments'></a>
-####Resources <a id='Resources'></a>
+<a id='class4'></a>
+####Class 4 - October 3, 2015
+
+<a id='c4-topics'></a>
+####Topics 
++ Final project presentations+ Course review+ Advanced topics, to possibly include:	+ Introduction to Interactive Visualization of Data with D3 and Leaflet
+	+ Introduction to Spatial Databases
+	+ Advanced CartoDB (possible guest lecture)
+	+ Visualizing social media data
+
+<a id='c4-readings'></a>
+####Readings 
++ Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013, ch 1-2+ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
+
+<a id='c4-assignments'></a>
+####Assignments 
+
+<a id='c4-resources'></a>
+####Resources 
+
+######[back to top](#top)
+
+----
+<a id="suggested-reading"></a>
+###Suggested Reading+ Fry, Ben. Visualizing Data: Exploring and Explaining Data with the Processing Environment. O'Reilly Media, Inc., 2007.+ Garrad, Chris. Geoprocessing with Python. Manning Publications Co., forthcoming. Janert, Philipp K. Data analysis with open source tools. O'Reilly Media, Inc., 2010.+ McCallum, Q. Ethan. Bad Data Handbook: Cleaning Up The Data So You Can Get Back To Work. O'Reilly Media, Inc., 2012.+ McKinney, Wes. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media, Inc., 2012.+ Munzner, Tamara. Visualization Analysis and Design. AK Peters, 2014.+ Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013.
++ Tufte, Edward R., and P. R. Graves-Morris. The visual display of quantitative information. Vol. 2. Cheshire, CT: Graphics press, 1983.
 
 ######[back to top](#top)
