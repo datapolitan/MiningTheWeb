@@ -43,7 +43,6 @@ Continuing Education Units (C.E.U.s): 3.0
 	+ [Class 4](#class4)
 		+ [Topics](#c4-topics)
 		+ [Readings](#c4-readings)
-		+ [Assignments](#c4-assignments)
 		+ [Resources](#c4-resources)
 + [Suggested Reading](#suggested-reading)
 
@@ -112,6 +111,12 @@ All assignments will be submitted by adding your content to the [class page](htt
 
 ######[back to top](#top)
 
+###Assessment
+Area | Percentage
+--- | ---Attendance | 20%Class Participation | 20%Visualization Critiques | 20%Project Presentations & Visualization | 40%
+
+######[back to top](#top)
+
 <a id='class-policies'></a>
 ###Class Policies 
 <a id='attendance'></a>
@@ -138,12 +143,15 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 	+ [New York City Open Data Portal](https://nycopendata.socrata.com/)
 	+ [New York State Open Data Portal](https://data.ny.gov/)
 	+ [Hilary Mason’s Research Quality Data Sets](https://bitly.com/bundles/hmason/1)
+	+ [Kirk Bourne's list of open data sources](http://www.datasciencecentral.com/profiles/blogs/a-plethora-of-open-data-repositories-i-e-thousands)
 + Visualizations
 	+ [Flowing Data](http://flowingdata.com/)
 	+ [Tableau Visualization Gallery](http://www.tableausoftware.com/public/gallery)
 	+ [Visualizing.org](http://www.visualizing.org/)
 	+ [IQuantNY](http://iquantny.tumblr.com/)
 	+ [Data is Beautiful](http://www.reddit.com/r/dataisbeautiful/)
++ Reference
+	+ [Get LatLon](http://teczno.com/squares/)
 
 ######[back to top](#top)
 
@@ -216,7 +224,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c3-assignments'></a>
 ####Assignments
-1. Create another visualization that either improves on your initial visualization with more/better data or uses different sets of data. The visualization should incorporate at least 2 datasets and tell some interesting story. Discuss the datasets used, the visual design of the visualization, and why you found the data compelling in a short text description of the project.
+1. Create another visualization that either improves on your initial visualization with more/better data or uses different sets of data. The visualization should incorporate at least 2 datasets and tell some interesting story, using a more sophisticated visual style that incorporates the elements of good design discussed in class. Discuss the datasets used, the visual design of the visualization, and why you found the data compelling in a short text description of the project.
 2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown. 
 
 <a id='c3-resources'></a> 
@@ -238,11 +246,6 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Readings 
 + Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013, ch 1-2
 
-<a id='c4-assignments'></a>
-####Assignments 
-1. Create another visualization that either improves on your initial visualization with more/better data or uses different sets of data. The visualization should incorporate at least 2 datasets and tell some interesting story, using a more sophisticated visual style that incorporates the elements of good design discussed in class. Discuss the datasets used, the visual design of the visualization, and why you found the data compelling in a short text description of the project.
-2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
-
 <a id='c4-resources'></a>
 ####Resources 
 
@@ -250,7 +253,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ----
 <a id="suggested-reading"></a>
-###Suggested Reading+ Fry, Ben. Visualizing Data: Exploring and Explaining Data with the Processing Environment. O'Reilly Media, Inc., 2007.+ Garrad, Chris. Geoprocessing with Python. Manning Publications Co., forthcoming. Janert, Philipp K. Data analysis with open source tools. O'Reilly Media, Inc., 2010.+ McCallum, Q. Ethan. Bad Data Handbook: Cleaning Up The Data So You Can Get Back To Work. O'Reilly Media, Inc., 2012.+ McKinney, Wes. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media, Inc., 2012.+ Munzner, Tamara. Visualization Analysis and Design. AK Peters, 2014.+ Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013.
-+ Tufte, Edward R., and P. R. Graves-Morris. The visual display of quantitative information. Vol. 2. Cheshire, CT: Graphics press, 1983.
+###Suggested Reading+ Fry, Ben. *Visualizing Data: Exploring and Explaining Data with the Processing Environment*. O'Reilly Media, Inc., 2007.+ Garrad, Chris. *Geoprocessing with Python*. Manning Publications Co., forthcoming. Janert, Philipp K. Data analysis with open source tools. O'Reilly Media, Inc., 2010.+ McCallum, Q. Ethan. *Bad Data Handbook: Cleaning Up The Data So You Can Get Back To Work*. O'Reilly Media, Inc., 2012.+ McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media, Inc., 2012.+ Munzner, Tamara. *Visualization Analysis and Design*. AK Peters, 2014.+ Murray, Scott. *Interactive data visualization for the Web*. O'Reilly Media, Inc., 2013.
++ Tufte, Edward R., and P. R. Graves-Morris. *The visual display of quantitative information*. Vol. 2. Cheshire, CT: Graphics press, 1983.
 
 ######[back to top](#top)
