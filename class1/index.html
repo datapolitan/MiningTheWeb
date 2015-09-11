@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      p, h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      li {
+        font-family: 'Yanone Kaffeesatz';
+        font-size:2em;
+      }
+      img {
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      blockquote {
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+        text-align:justify;
+      }
+      blockquote:before {
+        color: #ccc;
+        content: open-quote;
+        font-size: 6em;
+        line-height: 0.1em;
+        margin-right: 0.25em;
+        vertical-align: -0.4em;
+      }
+      blockquote p {
+        display: inline;
+        font-size:3em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+#Mining the Web
+###Richard Dunks
+
+---
+class: center, middle
+
+#Day One
+
+---
+
+# Goals for this morning
+
+---
+
+# Goals for this morning
++ Introduce ourselves and get to know a little of our background
+
+---
+
+# Goals for this morning
++ Introduce ourselves and get to know a little of our background
++ Go over class policies, procedures, and objectives
+
+---
+
+# Goals for this morning
++ Introduce ourselves and get to know a little of our background
++ Go over class policies, procedures, and objectives
++ Introduce you to the concept and practice of open data
+
+---
+
+# Goals for this morning
++ Introduce ourselves and get to know a little of our background
++ Go over class policies, procedures, and objectives
++ Introduce you to the concept and practice of open data
++ Install and configure the tools we’ll be using in this class
+
+---
+
+# Introductions
+
+Name
+
+Occupation
+
+What have you done with data?
+
+Why are you taking the course?
+
+---
+
+# Course information
+
+Course Page: https://github.com/datapolitan/MiningTheWeb
+
+Skill Survey: http://goo.gl/forms/4cDKrSq2fo
+
+---
+
+# Assumptions
+
+---
+
+# Assumptions
++ You are each here because we want to do good or cool with data
+
+---
+
+# Assumptions
++ You are each here because we want to do good or cool with data
++ You have some technical skill/aptitude
+
+---
+
+# Assumptions
++ You are each here because we want to do good or cool with data
++ You have some technical skill/aptitude
++ You have some background/interest in visualization
+
+---
+
+# Assumptions
++ You are each here because we want to do good or cool with data
++ You have some technical skill/aptitude
++ You have some background/interest in visualization
++ You each have something meaningful to contribute to the class
+
+---
+
+# Assumptions
++ You are each here because we want to do good or cool with data
++ You have some technical skill/aptitude
++ You have some background/interest in visualization
++ You each have something meaningful to contribute to the class
++ You don’t want to sit and watch me have all the fun
+
+---
+
+# Learning Objectives
+
+---
+
+# Learning Objectives
++ You will learn to formulate and articulate a meaningful research question with public open data, as well as meaningfully critique the work of others
+
+---
+
+# Learning Objectives
++ You will learn to formulate and articulate a meaningful research question with public open data, as well as meaningfully critique the work of others
++ You will learn how to acquire data through open data portals, application programmer interfaces (APIs), and scraping data from web sites
+
+---
+
+# Learning Objectives
++ You will learn to formulate and articulate a meaningful research question with public open data, as well as meaningfully critique the work of others
++ You will learn how to acquire data through open data portals, application programmer interfaces (APIs), and scraping data from web sites
++ You will learn how to clean data using open source tools in preparation for analysis and visualization
+
+---
+
+# Learning Objectives (cont'd)
+
+---
+
+# Learning Objectives (cont'd)
++ You will learn how to conduct exploratory data analysis using descriptive statistics
+
+---
+
+# Learning Objectives (cont'd)
++ You will learn how to conduct exploratory data analysis using descriptive statistics
++ You will learn to visualize your analytical findings in meaningful and visually-engaging graphics, as well as meaningfully critique the work of others
+
+---
+
+# Learning Objectives (cont'd)
++ You will learn how to conduct exploratory data analysis using descriptive statistics
++ You will learn to visualize your analytical findings in meaningful and visually-engaging graphics, as well as meaningfully critique the work of others
++ You will learn the basics of cartographic design as it relates to visualizing open data
+
+---
+
+# Course Policies
+
+---
+
+# Course Policies
++ Attendance and Tardiness – Show up to every class and be on time
+
+---
+
+# Course Policies
++ Attendance and Tardiness – Show up to every class and be on time
++ Participation – Take an active role in your learning
+
+---
+
+# Course Policies
++ Attendance and Tardiness – Show up to every class and be on time
++ Participation – Take an active role in your learning
++ Late Assignments – Get your work in on time
+
+---
+
+# Course Policies
++ Attendance and Tardiness – Show up to every class and be on time
++ Participation – Take an active role in your learning
++ Late Assignments – Get your work in on time
++ Office hours – I’m available when you need me (best to reach out on Slack)
+
+---
+
+# Assessment
+
+---
+
+# Assessment
+
++ 20% - Attendance
+
+---
+
+# Assessment
+
++ 20% - Attendance
++ 20% - Class Participation
+
+---
+
+# Assessment
+
++ 20% - Attendance
++ 20% - Class Participation
++ 20% - Visualization Critiques
+
+---
+
+# Assessment
+
++ 20% - Attendance
++ 20% - Class Participation
++ 20% - Visualization Critiques
++ 40% - Project Presentations and Visualization
+
+---
+
+
+# After this class, you won't be...
+
+---
+
+# After this class, you won't be...
+
++ A mapping wizard
+
+---
+
+# After this class, you won't be...
+
++ A mapping wizard
++ A QGIS expert
+
+---
+
+# After this class, you won't be...
+
++ A mapping wizard
++ A QGIS expert
++ A programming genius
+
+---
+
+# After this class, you won't be...
+
++ A mapping wizard
++ A QGIS expert
++ A programming genius
++ A spatial database guru
+
+---
+
+# After this class, you won't be...
+
++ More desirable to someone you meet at the club (unless there’s a data nerd convention in town)
+
+---
+
+# After this class, you won't be...
+
++ More desirable to someone you meet at the club (unless there’s a data nerd convention in town)
+
+![pimp](../images/Pimp-or-Dancing.gif)
+
+---
+
+![meme](../images/319px-Meme-Warning.png)
+
+---
+class: center, middle
+# Course Structure
+
+---
+
+# Class time
+##Class meets 10 am to 5 pm
+
+---
+
+# Class time
+##Class meets 10 am to 5 pm
++ 3 hours of morning instruction
+
+---
+
+# Class time
+##Class meets 10 am to 5 pm
++ 3 hours of morning instruction
++ 1/2 hour of lunch (free to leave or stay)
+
+---
+
+# Class time
+##Class meets 10 am to 5 pm
++ 3 hours of morning instruction
++ 1/2 hour of lunch (free to leave or stay)
++ 3 hours of afternoon instruction
+
+---
+
+# Class time
+##Class meets 10 am to 5 pm
++ 3 hours of morning instruction
++ 1/2 hour of lunch (free to leave or stay)
++ 3 hours of afternoon instruction
++ 1/2 hour of open lab, Question and Answer (if possible)
+
+---
+
+# Class time
+
+##Instruction blocks
++ 50 minutes of class
++ 10 minute break (at 50 minutes past the hour)
+
+---
+
+#Class Atmosphere
+
+![hack](../images/hacking.gif)
+
+---
+
+class: center, middle
+# How do I teach?
+
+I written some blogposts about it:
+
+http://wp.me/p2PLpM-1Jr 
+
+http://wp.me/p2PLpM-1Or
+
+---
+class: center, middle
+
+# Let's Get Started
+
+---
+
+> Facts do not "speak for themselves." They speak for or against competing theories. Facts divorced from theory or visions are mere isolated curiosities.
+
+##-Thomas Sowell *A Conflict of Visions*
+
+---
+
+> We live in a world where there is more and more information, and less and less meaning.
+
+##― Jean Baudrillard *Simulacra and Simulation*
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
