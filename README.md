@@ -4,7 +4,7 @@
 
 Instructor: [Richard Dunks](http://www.datapolitan.com)
 
-Location: TBA
+Location: [ISC Building, Lower Level, Room 003](https://www.dropbox.com/s/ilkyk0f7ojfbvcz/FindPratt_090915.jpg?dl=0)
 
 Continuing Education Units (C.E.U.s): 3.0
 
@@ -113,7 +113,11 @@ All assignments will be submitted by adding your content to the [class page](htt
 
 ###Assessment
 Area | Percentage
---- | ---Attendance | 20%Class Participation | 20%Visualization Critiques | 20%Project Presentations & Visualization | 40%
+--- | ---
+Attendance | 20%
+Class Participation | 20%
+Visualization Critiques | 20%
+Project Presentations & Visualization | 40%
 
 ######[back to top](#top)
 
@@ -165,11 +169,17 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Class 1 - September 12, 2015
 <a id='c1-topics'></a>
 ####Topics 
-+ What is open data?+ Data on the web+ Introduction to mapping+ Introduction to open source tools and services for mapping and visualization+ Introduction to HTML and CSS+ Introduction to Git and [Github](http://github.com)
++ What is open data?
++ Data on the web
++ Introduction to mapping
++ Introduction to open source tools and services for mapping and visualization
++ Introduction to HTML and CSS
++ Introduction to Git and [Github](http://github.com)
 
 <a id='c1-readings'></a>
 ####Readings
-+ Lohr, Steve. “[For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights.](http://nyti.ms/1xuuZSd)” New York Times 17 August 2014. + Chris Whong "[Taxi TechBlog 1: Data Prep and Backend](http://chriswhong.com/data-visualization/taxitechblog1/)"
++ Lohr, Steve. “[For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights.](http://nyti.ms/1xuuZSd)” New York Times 17 August 2014. 
++ Chris Whong "[Taxi TechBlog 1: Data Prep and Backend](http://chriswhong.com/data-visualization/taxitechblog1/)"
 + Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
 
 <a id='c1-assignments'></a>
@@ -179,7 +189,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c1-resources'></a> 
 ####Resources 
-+ [A tutorial for getting started with Git and Github](http://bit.ly/1zlMfhK)+ [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p)
++ [A tutorial for getting started with Git and Github](http://bit.ly/1zlMfhK)
++ [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p)
 
 ######[back to top](#top)
 ----
@@ -188,11 +199,14 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Topics 
 + Introduction to scraping the web
 + Introduction to Python
-+ Introduction to APIs+ Cleaning data with [OpenRefine](http://openrefine.org) and SQL
++ Introduction to APIs
++ Cleaning data with [OpenRefine](http://openrefine.org) and SQL
 
 <a id='c2-readings'></a>
 ####Readings 
-+ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)+ Interactive Data Visualization for the Web, pg 15 – 23+ [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
++ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
++ Interactive Data Visualization for the Web, pg 15 – 23
++ [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
 + [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
 + Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
 
@@ -215,12 +229,16 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 <a id='c3-topics'></a>
 ####Topics 
 + (Re)Introduction to Basic Statistics
-+ Analyzing Open Data+ Basics of Visualization
++ Analyzing Open Data
++ Basics of Visualization
 
 <a id='c3-readings'></a>
 ####Readings 
-+ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)” Ch. 1 and 2.
-+ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. + Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. + [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
++ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)
+” Ch. 1 and 2.
++ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. 
++ Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. 
++ [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
 
 <a id='c3-assignments'></a>
 ####Assignments
@@ -237,7 +255,10 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c4-topics'></a>
 ####Topics 
-+ Final project presentations+ Course review+ Advanced topics, to possibly include:	+ Introduction to Interactive Visualization of Data with D3 and Leaflet
++ Final project presentations
++ Course review
++ Advanced topics, to possibly include:
+	+ Introduction to Interactive Visualization of Data with D3 and Leaflet
 	+ Introduction to Spatial Databases
 	+ Advanced CartoDB (possible guest lecture)
 	+ Visualizing social media data
@@ -253,7 +274,13 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ----
 <a id="suggested-reading"></a>
-###Suggested Reading+ Fry, Ben. *Visualizing Data: Exploring and Explaining Data with the Processing Environment*. O'Reilly Media, Inc., 2007.+ Garrad, Chris. *Geoprocessing with Python*. Manning Publications Co., forthcoming. Janert, Philipp K. Data analysis with open source tools. O'Reilly Media, Inc., 2010.+ McCallum, Q. Ethan. *Bad Data Handbook: Cleaning Up The Data So You Can Get Back To Work*. O'Reilly Media, Inc., 2012.+ McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media, Inc., 2012.+ Munzner, Tamara. *Visualization Analysis and Design*. AK Peters, 2014.+ Murray, Scott. *Interactive data visualization for the Web*. O'Reilly Media, Inc., 2013.
+###Suggested Reading
++ Fry, Ben. *Visualizing Data: Exploring and Explaining Data with the Processing Environment*. O'Reilly Media, Inc., 2007.
++ Garrad, Chris. *Geoprocessing with Python*. Manning Publications Co., forthcoming. Janert, Philipp K. Data analysis with open source tools. O'Reilly Media, Inc., 2010.
++ McCallum, Q. Ethan. *Bad Data Handbook: Cleaning Up The Data So You Can Get Back To Work*. O'Reilly Media, Inc., 2012.
++ McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media, Inc., 2012.
++ Munzner, Tamara. *Visualization Analysis and Design*. AK Peters, 2014.
++ Murray, Scott. *Interactive data visualization for the Web*. O'Reilly Media, Inc., 2013.
 + Tufte, Edward R., and P. R. Graves-Morris. *The visual display of quantitative information*. Vol. 2. Cheshire, CT: Graphics press, 1983.
 
 ######[back to top](#top)
