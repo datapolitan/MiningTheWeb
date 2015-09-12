@@ -768,29 +768,153 @@ class:center
 
 class:center
 #Data Formats - CSV
-![img](../images/csv.png)
+![img-full](../images/csv.png)
+
+---
+
+class:center
+#Data Formats - JSON
+![img-full](../images/json.png)
+
+---
+
+class:center
+#Data Formats - GeoJSON
+![img-full](../images/geojson.png)
+
+For more information see Eric Brelsford's [GeoJSON and Github tutorial](http://youtu.be/TQs7fYo9d_M)
+
+---
+
+class:center
+#Data Formats - XML
+![img-full](../images/xml.png)
+
+---
+
+class:center,middle
+#Let's Create a Visualization in CartoDB
+
 ---
 
 class: middle,center
 #10 Min Break
 
 ---
+class: center,middle
+# Introduction to HTML and CSS
 <!-- beginning of e block -->
+
+---
+
+# Overview of HTML
+
+---
+
+# Overview of HTML
++ Hypertext Markup Language
+
+---
+
 # Overview of HTML
 + Hypertext Markup Language
 + Mark text with tags to instruct browser how to display the text 
 
 ---
 
+# Overview of HTML
++ Hypertext Markup Language
++ Mark text with tags to instruct browser how to display the text 
++ Classes define sets of tags
+
+```html
+<div class='project'>
+  <h3>Visualizing Subway Usage in New York City - Richard Dunks</h3>
+  Here is my awesome CartoDB visualization using Census data and NYCT subway route shapefiles:
+  <br>
+  <br>
+
+  <iframe width="100%" height="520" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</div>
+```
+
+---
+
+# Overview of HTML
++ Hypertext Markup Language
++ Mark text with tags to instruct browser how to display the text 
++ Classes define sets of tags
++ IDs identify particular tags
+
+```html
+<div id='header'>
+  <h2>Pratt Institute Spatial Analysis and Visualization Initiative<br>
+    Mining the Web - Fall 2015<br>
+    Project Page</h2>
+  <h3>Guidelines for assignment submission</h3>
+  <p>We will be using this page to submit assignments. Write up your visualization critiques using the "vis-critique" class and "project" class for your CartoDB visualizations, following the examples below. </p>
+</div>
+```
+
+---
+
+#Overview of CSS
+
+---
+
 #Overview of CSS
 + Cascading Style Sheet
-+ Defines styles associated with HTML tags
 
+---
+
+#Overview of CSS
++ Cascading Style Sheet
++ Defines styles associated with HTML tags, as well as classes and IDs
+
+---
+
+#Overview of CSS
++ Cascading Style Sheet
++ Defines styles associated with HTML tags, as well as classes and IDs
+
+```css
+img {
+  width:70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
+---
+
+#Overview of CSS
++ Cascading Style Sheet
++ Defines styles associated with HTML tags, as well as classes and IDs
+
+```css
+#header {
+    font-size:2em;
+    font-weight:bold;
+    text-align:center;
+}
+
+.vis-critique {
+    font-size:1em;
+}
+```
 ---
 class: center, middle
 #Let’s create a webpage
 
 class1/HTML_example
+
+---
+
+class: center,middle
+#Now Let's Look at the Class Webpage
+
+http://www.datapolitan.com/MiningTheWeb/
 
 <!-- end of e block -->
 ---
@@ -969,16 +1093,28 @@ class:center,middle
 
 ---
 
-#Assignments
+#Assignment - Visualization Critique 1
+##Complete the visualization started in class with data from an open data portal. Style the map in CartoDB and embed your visualization into the class page with short descriptive text on where you found the data, what you did to visualize the data, and any thoughts on what you've created.
+
+---
+
+#Assignment - Project 1
+##Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 ---
 
 #Readings
++ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
++ Interactive Data Visualization for the Web, pg 15 – 23
++ [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
++ [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
++ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
 
 ---
-<!-- beginning of g block -->
 
+class: center,middle
 #Any Issues? Questions?
+<!-- beginning of g block -->
 
 ---
 class:center, middle
