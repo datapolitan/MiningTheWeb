@@ -3,51 +3,7 @@
   <head>
     <title>Mining the Web - Class 1</title>
     <meta charset="utf-8">
-    <style>
-      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-
-      body { font-family: 'Droid Serif'; }
-      p, h1, h2, h3 {
-        font-family: 'Yanone Kaffeesatz';
-        font-weight: normal;
-      }
-      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-      li {
-        font-family: 'Yanone Kaffeesatz';
-        font-size:2em;
-      }
-      img {
-        width:70%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .image-full {
-        width:100%;
-      }
-      blockquote {
-        background: #f9f9f9;
-        border-left: 10px solid #ccc;
-        margin: 1.5em 10px;
-        padding: 0.5em 10px;
-        quotes: "\201C""\201D""\2018""\2019";
-        text-align:justify;
-      }
-      blockquote:before {
-        color: #ccc;
-        content: open-quote;
-        font-size: 6em;
-        line-height: 0.1em;
-        margin-right: 0.25em;
-        vertical-align: -0.4em;
-      }
-      blockquote p {
-        display: inline;
-        font-size:3em;
-      }
-    </style>
+    <link rel="stylesheet" href="slide.css"/>
   </head>
   <body>
     <textarea id="source">
@@ -91,6 +47,15 @@ class: center, middle
 + Go over class policies, procedures, and objectives
 + Introduce you to the concept and practice of open data
 + Install and configure the tools we’ll be using in this class
+
+---
+
+# Goals for this morning
++ Introduce ourselves and get to know a little of our background
++ Go over class policies, procedures, and objectives
++ Introduce you to the concept and practice of open data
++ Install and configure the tools we’ll be using in this class
++ Create a basic map
 
 ---
 
@@ -554,7 +519,7 @@ Hint: You're going to find out in this class
 ---
 class: center,middle
 
-![apis](../images/the-open-data-movement.jpg)
+![img-full](../images/the-open-data-movement.jpg)
 
 ---
 
@@ -578,8 +543,205 @@ class: center, middle
 
 <!-- end of b block -->
 ---
+<!-- beginning of c block -->
+# Tool Installation
++ Sublime Text: http://www.sublimetext.com/2
++ Git for Windows: https://git-for-windows.github.io/
++ Git for Mac: Open Terminal and type `git --version`
 
+# Account Creation
++ CartoDB - www.cartodb.com 
++ Github - https://github.com/  
 
+---
+class:middle,center
+#Lunch
+
+---
+
+# Goals for this Afternoon
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of HTML and CSS
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of HTML and CSS
++ Introduce the basic concepts of mapping and visualizing spatial data
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of HTML and CSS
++ Introduce the basic concepts of mapping and visualizing spatial data
++ Create a basic map
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of HTML and CSS
++ Introduce the basic concepts of mapping and visualizing spatial data
++ Create a basic map
++ Create a basic visualization
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of HTML and CSS
++ Introduce the basic concepts of mapping and visualizing spatial data
++ Create a basic visualization
++ Introduce basic tools for acquiring, cleaning, analyzing, and visualizing data
+
+---
+
+# Overview of HTML
++ Hypertext Markup Language
++ Mark text with tags to instruct browser how to display the text 
+
+---
+
+#Overview of CSS
++ Cascading Style Sheet
++ Defines styles associated with HTML tags
+
+---
+class: center, middle
+#Let’s create a webpage
+
+class1/HTML_example
+
+---
+class:center,middle
+#Introduction to Git
+
+---
+
+class:center,middle
+#Why Git?
+
+---
+
+class:center,middle
+![img-full](../images/git1.png)
+
+---
+
+class:center,middle
+![img-full](../images/git2.png)
+
+---
+
+class:center,middle
+![img-full](../images/git3.png)
+
+---
+
+class:center,middle
+![img-full](../images/git4.png)
+
+---
+
+class:center,middle
+#Collaborating with Git
+
+---
+
+class:center,middle
+![img-full](../images/git5.png)
+
+---
+
+class:center,middle
+![img-full](../images/git6.png)
+
+---
+
+class:center,middle
+![img-full](../images/git7.png)
+
+---
+
+class:center,middle
+![img-full](../images/git8.png)
+
+---
+
+class:center,middle
+![img-full](../images/git9.png)
+
+---
+
+class:center,middle
+![img-full](../images/git10.png)
+
+---
+
+class:center,middle
+![img-full](../images/git11.png)
+
+---
+
+class:center,middle
+![img-full](../images/git12.png)
+
+---
+
+class:center,middle
+![img-full](../images/git13.png)
+
+---
+class:center
+#Git Workflow
+![img-full](../images/git14.png)
+
+---
+class:center,middle
+#Setup Git for this class
+
+`git clone https://github.com/datapolitan/MiningTheWeb.git`
+
+---
+##To Get Updates: `git pull`
+
+##To Make a Commit: 
+
++ ###If the file hasn't been added to the repository: `git add filename.ext`
++ ###Once the file has been added: `git commit -am 'commit message'`
+
+---
+
+##To Create a Branch: `git checkout -b branch_name`
+
+##To Push Commit to Github (remote server): `git push`
+##To Push Commit to Branch: `git push --set-upstream origin branch_name`
+(Don't worry, git will remind you of this)
+
+---
+
+#The Workflow for Projects
+
+```bash
+#get any changes in the repository
+git fetch 
+#checkout the main gh-pages branch
+git checkout gh-pages 
+#pull any commits in the gh-pages branch
+git pull 
+#checkout your own branch on your local machine to do your assignment
+git checkout -b lastName_assignment 
+#commit your awesome code to your local branch
+git commit -am 'my awesome code' 
+#push your awesome code to Github
+git push --set-upstream origin lastName_assignment 
+```
+
+---
+##You submit your work with a pull request
+
+![img-full](../images/github_pull.png)
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
