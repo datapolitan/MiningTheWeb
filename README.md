@@ -209,6 +209,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 + [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
 + [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
 + Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
++ McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media, Inc., 2012, "Appendix Python Language Essentials"
 
 <a id='c2-assignments'></a>
 ####Assignments 
