@@ -466,7 +466,7 @@ class: middle, center
 class: center, middle
 
 
-#10 Min break
+#10 Min Break
                                                 
 <!-- end of a block -->
 ---
@@ -483,6 +483,7 @@ class: center,middle
 + [Twitter NYC: A Multilingual City](http://ny.spatial.ly)
 + [NYC Taxis: A Day in the Life](http://nyctaxi.herokuapp.com/)
 + [Wikipedia Worldview](http://www.wikipediaworldview.net/)
++ [Meet the Fire Hydrant that Unfairly Nets NYC $25,000 a Year](http://iquantny.tumblr.com/post/83696310037/meet-the-fire-hydrant-that-unfairly-nets-nyc)
 
 ---
 
@@ -505,16 +506,28 @@ class: center,middle
 ![healthy](../images/healthy_out.jpg)
 
 ---
-class: center, middle
 
-#What can _you_ do with open data?
+#Some Things I've Done with Open Data
++ [UN Comtrade Visualization](http://richarddunks.github.io/)
++ [Corridorscope](http://www.corridorscope.com)
++ [Rudin Center Job Access](http://www.datapolitan.com/job_access/)
++ [Subway Transit Sheds in NYC](http://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map)
++ [MTA Subway Station Status](http://www.datapolitan.com/mta_station_repair_status/)
++ [Citibike Dock Status Twitter Bot](https://twitter.com/CitiBikedocks)
 
 ---
 class: center, middle
 
 #What can _you_ do with open data?
 
-Hint: You're going to find out in this class
+<h3>&nbsp;</h3>
+
+---
+class: center, middle
+
+#What can _you_ do with open data?
+
+<h3>You're going to find out in this class</h3>
 
 ---
 class: center,middle
@@ -524,9 +537,6 @@ class: center,middle
 ---
 
 #What can you find?
-##Search for something in one of these open data portals
-##Preferably something with locations
-##Save the data to your computer
 
 + https://www.data.gov/
 + http://data.gov.uk/
@@ -539,12 +549,13 @@ class: center,middle
 + https://data.kcmo.org/ (Kansas City)
 + http://data.lexingtonky.gov/ 
 
+<!-- end of b block -->
 ---
 class: center, middle
 
-#10 Min break
+#10 Min Break
 
-<!-- end of b block -->
+
 ---
 <!-- beginning of c block -->
 # Tool Installation
@@ -557,6 +568,14 @@ class: center, middle
 + Github - https://github.com/  
 
 ---
+
+class:middle,center
+
+#Let's Create a Map Using the Data You Found
+###http://cartodb.com
+
+<!-- end of c block -->
+---
 class:middle,center
 #Lunch
 
@@ -567,39 +586,183 @@ class:middle,center
 ---
 
 # Goals for this Afternoon
-+ Introduce the basic concepts of HTML and CSS
-
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of HTML and CSS
 + Introduce the basic concepts of mapping and visualizing spatial data
 
 ---
 
 # Goals for this Afternoon
-+ Introduce the basic concepts of HTML and CSS
-+ Introduce the basic concepts of mapping and visualizing spatial data
-+ Create a basic map
-
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of HTML and CSS
-+ Introduce the basic concepts of mapping and visualizing spatial data
-+ Create a basic map
-+ Create a basic visualization
-
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of HTML and CSS
 + Introduce the basic concepts of mapping and visualizing spatial data
 + Create a basic visualization
-+ Introduce basic tools for acquiring, cleaning, analyzing, and visualizing data
 
 ---
 
+# Goals for this Afternoon
++ Introduce the basic concepts of mapping and visualizing spatial data
++ Create a basic visualization
++ Introduce the basic concepts of HTML and CSS
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of mapping and visualizing spatial data
++ Create a basic visualization
++ Introduce the basic concepts of HTML and CSS
++ Introduce Git and Github
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of mapping and visualizing spatial data
++ Create a basic visualization
++ Introduce the basic concepts of HTML and CSS
++ Introduce Git and Github
++ Discuss the ways Git and Github will be used in this class
+
+---
+
+# Goals for this Afternoon
++ Introduce the basic concepts of mapping and visualizing spatial data
++ Create a basic visualization
++ Introduce the basic concepts of HTML and CSS
++ Introduce Git and Github
++ Discuss the ways Git and Github will be used in this class
++ Review Assignments and Readings for next class
+
+---
+
+class: center,middle
+#Introduction to Mapping
+<!-- beginning of d block -->
+
+---
+
+#Spatial Information
+![img-full](../images/map1.png)
+
+---
+
+#Vectors
++ X and Y coordinates
+
+---
+
+#Vectors
++ X and Y coordinates
++ Possibly a Z coordinate as well
+
+---
+
+#Vectors
++ X and Y coordinates
++ Possibly a Z coordinate as well
++ 3 Types: Point, Line, and Polygon
+
+---
+
+#Vectors
++ X and Y coordinates
++ Possibly a Z coordinate as well
++ 3 Types: Point, Line, and Polygon
++ Symbology
+
+---
+
+class: center,middle
+![img](../images/point_feature.png)
+
+Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html
+
+---
+
+class: center,middle
+![img](../images/polyline_feature.png)
+
+Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html
+
+---
+
+class: center,middle
+![img](../images/polygon_feature.png)
+
+Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html
+
+---
+
+#Rasters
+
+---
+
+#Rasters
++ Grid of values
+
+---
+
+#Rasters
++ Grid of values
++ Examples:
+
+---
+
+#Rasters
++ Grid of values
++ Examples:
++ Basemaps
+
+---
+
+#Rasters
++ Grid of values
++ Examples:
++ Basemaps
++ Satellite imagery
+
+---
+
+class:center
+#Spatial Information
+![img](../images/spatial_example.png)
+
+---
+class:center
+#Projections
+![img-full](../images/projections.png)
+
+---
+class:center
+#Projections
+![img](../images/ny_projections.png)
+
+---
+class:center
+#Projections
+![img](../images/mapProjections.gif)
+<br>
+<br>
+<br>
+Source: http://geoarc.blogspot.com/2013/02/map-projections.html
+
+---
+class:center
+#Geocoding
+![img-full](../images/geocoding.png)
+
+---
+
+class:center
+#Geospatial Information Systems (GIS)
+![img](../images/gis.png)
+
+---
+
+class:center
+![img](../images/geodb.png)
+---
+
+class: middle,center
+#10 Min Break
+
+---
+<!-- beginning of e block -->
 # Overview of HTML
 + Hypertext Markup Language
 + Mark text with tags to instruct browser how to display the text 
@@ -616,10 +779,17 @@ class: center, middle
 
 class1/HTML_example
 
+<!-- end of e block -->
 ---
+
+class: middle, center
+#10 Min Break
+
+---
+
 class:center,middle
 #Introduction to Git
-
+<!-- beginning of f block -->
 ---
 
 class:center,middle
@@ -704,9 +874,23 @@ class:center
 class:center,middle
 #Setup Git for this class
 
-`git clone https://github.com/datapolitan/MiningTheWeb.git`
+---
+
+class:middle,center
+# First of all, we need to get some keys
+
+<iframe src="//giphy.com/embed/djd7OPtmcFJII" width="480" height="259" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+##Follow these instructions: 
+###https://help.github.com/articles/generating-ssh-keys/
 
 ---
+##To Download the code for class (only do this once): 
+###`git clone https://github.com/datapolitan/MiningTheWeb.git`
+
+---
+#From now on
+
 ##To Get Updates: `git pull`
 
 ##To Make a Commit: 
@@ -724,7 +908,7 @@ class:center,middle
 
 ---
 
-#The Workflow for Projects
+#The Workflow for Assignments
 
 ```bash
 #get any changes in the repository
@@ -755,9 +939,37 @@ git push --set-upstream origin lastName_assignment
 
 ---
 
-##Describe the request with your name and what you're submitting
+##Describe the request with your name and what you're submitting and click "Create pull request"
 
 ![img-full](../images/github_pull3.png)
+
+---
+
+class:middle,center
+#Congratulations! 
+#You've submitted your assignment!
+
+---
+
+class:center,middle
+#And what are those assignments?
+
+---
+
+#Assignments
+
+---
+
+#Readings
+
+---
+<!-- beginning of g block -->
+
+#Any Issues? Questions?
+
+---
+class:center, middle
+#See you next week
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
