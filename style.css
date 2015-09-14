@@ -7,6 +7,7 @@ div {
     width:95%;
     margin-left:1em;
     margin-right:1em;
+    font-size:1em;
 }
 
 #header {
@@ -16,5 +17,23 @@ div {
 }
 
 .vis-critique {
-    font-size:1em;
+    background:#E6E6E6;
+    padding:5px;
+    margin:10px;
+    border-radius:15px;
 }
+
+.project{
+    background:#ADD6FF;
+    padding:10px;
+    margin:10px;
+    border-radius:15px;
+
+}
+
+iframe {
+/*    border: 1px solid #333333;
+    border-radius:10px;
+    padding:5px;
+    background:white;
+*/}
