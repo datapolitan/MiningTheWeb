@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mining the Web - Class 1</title>
+    <title>Mining the Web - Class 2</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="slide.css"/>
   </head>
@@ -12,6 +12,7 @@ class: center, middle
 
 #Mining the Web
 ###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class2/
 
 ---
 class: center, middle
@@ -21,8 +22,21 @@ class: center, middle
 ---
 
 # Goals for this morning
++ Check-in with homework and readings
++ Present your visualizations and critiques
++ Discuss ways of acquiring data
++ Demonstrate ways of manually scraping data from the web 
++ Introduce APIs and how to access them
 
 ---
+
+#Readings
++ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
++ Interactive Data Visualization for the Web, pg 15 – 23
++ [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
++ [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
++ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
++ McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media, Inc., 2012, "Appendix Python Language Essentials"
 
 <!-- beginning of a block -->
 ---
@@ -37,13 +51,9 @@ class: center, middle
 
 ---
 
-#Readings
-+ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
-+ Interactive Data Visualization for the Web, pg 15 – 23
-+ [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
-+ [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
-+ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
-+ McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media, Inc., 2012, "Appendix Python Language Essentials"
+#Some things to install
++ OpenRefine: http://openrefine.org/download.html
++ [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
 
 ---
 
@@ -52,6 +62,240 @@ class: center, middle
 #10 Min Break
                                                 
 <!-- end of a block -->
+
+---
+
+class:center,middle
+#Data and the Web
+
+---
+
+#Data Portals
+
+---
+
+#Data Portals
++ Organize available data
+
+---
+
+#Data Portals
++ Organize available data
++ Provide tools for visualizing, combining, and downloading data
+
+---
+
+class:center,middle
+#Manual Scraping
+Example from Eric Brelsford - OpenRefine
+
+http://www.youtube.com/watch?v=KQlCTo0Q71Q 
+
+---
+
+class:center,middle
+#Manual Scraping Example
+##http://bit.ly/ScrapeExample
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping2.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping3.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping4.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping5.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping6.png)
+
+---
+
+class:middle,center
+#Copy the response
+#Paste into text editor
+##&nbsp;
+
+---
+
+class:middle,center
+#Copy the response
+#Paste into text editor
+##or...
+
+---
+
+class:middle,center
+#Introduction to OpenRefine
+![img-center](../images/or_book.png)
+
+https://www.packtpub.com/big-data-and-business-intelligence/using-openrefine 
+
+
+---
+
+#OpenRefine
+
+---
+
+#OpenRefine
++ In-browser application
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
++ Converts data from various file types
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
++ Converts data from various file types
++ Exports data into various formats
+
+---
+
+#OpenRefine - Pros
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
++ Can export to various formats
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
++ Can export to various formats
++ Meant specifically to clean data
+
+---
+
+#OpenRefine - Cons
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
++ Only display 50 rows at a time
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
++ Only display 50 rows at a time
++ Meant for cleaning data (not displaying it)
+
+---
+
+#Copying Data into OpenRefine
+![img-full](../images/or1.png)
+
+---
+
+#Copying Data into OpenRefine
+![img-full](../images/or2.png)
+
+---
+
+#Loading JSON Data into OpenRefine
+![img-full](../images/or3.png)
+
+---
+
+#Loading JSON Data into OpenRefine
+![img-full](../images/or4.png)
+###Mouse-over the desired JSON level
+
+---
+
+#Creating a Project
+![img-full](../images/or5.png)
+
+---
+
+#Renaming a Column
+![img-full](../images/or6.png)
+
+---
+
+#Renaming a Column
+
+![img](../images/or7.png)
+
+---
+
+#Renaming a Column
+![img-full](../images/or8.png)
+
+---
+
+#Export Data as CSV
+![img-full](../images/or9.png)
+
+---
+
+class:center,middle
+#Upload the Data to CartoDB and Style
+
+---
+
+#new york times example
 
 ---
 
