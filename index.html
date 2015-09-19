@@ -18,23 +18,119 @@
       <p>We will be using this page to submit assignments. Write up your visualization critiques using the "vis-critique" class and "project" class for your CartoDB visualizations, following the examples below. </p>
     </div>
 
-    <div class='vis-critique'>
-      <h3>Introduction - Mark Yarish</h3>
-      <p>Hello, my name is Mark Yarish and I am a student. I'm originally from Newtown, Ct. I have lived in NYC for 16 years.</p>
-      <div>
-
-    <div class='vis-critique'>
-      <h3>NYC Street Trees by Species map - Jill Hubley</h3>
-      <p>This is an example visualization critique of a great visualization created by a web developer and designer, <a href="http://www.JillHubley.com" target="_blank">Jill Hubley</a>. In this map, Jill has made a visualization from the 2007 Street Tree Census Data <a href="https://data.cityofnewyork.us/Environment/Street-Tree-Census-Brooklyn-/ztcw-bzc8" target="_blank">Brooklyn Street Tree Data</a> using CartoDB, Leaflet, D3.js, and jQuery.</p>
-      <p>You can see <a href="http://jillhubley.com/blog/nyctrees" target="_blank">the full map here</a>.
-    </div>
     <div class='project'>
       <h3>Visualizing Traffic Related Fatalities - Mark Yarish</h3>
       Here is my CartoDB visualization using Vision Zero data and the Nokia Day shapefiles. For this excercise, I filtered out only fatalties related to automobile accidents 9with fatalities) where a car hit either a pedistrian or a bicycle for the borough of Brooklyn:
       <br>
       <br>
+      <iframe width="100%" height="520" frameborder="0" src="https://myarish.cartodb.com/viz/74143430-5dba-11e5-8f58-0ec6f7c8b2b9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
 
-      <<iframe width="100%" height="520" frameborder="0" src="https://myarish.cartodb.com/viz/74143430-5dba-11e5-8f58-0ec6f7c8b2b9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <div class='vis-critique'>
+      <h3>NYC Street Trees by Species map - Mark Yarish</h3>
+      <p>This is an example visualization critique of a great visualization created by a web developer and designer, <a href="http://www.JillHubley.com" target="_blank">Jill Hubley</a>. In this map, Jill has made a visualization from the 2007 Street Tree Census Data <a href="https://data.cityofnewyork.us/Environment/Street-Tree-Census-Brooklyn-/ztcw-bzc8" target="_blank">Brooklyn Street Tree Data</a> using CartoDB, Leaflet, D3.js, and jQuery.</p>
+      <p>You can see <a href="http://jillhubley.com/blog/nyctrees" target="_blank">the full map here</a>.
+    </div>
+
+    <div class="project">
+      <h3>Traffic Cameras in Seattle - Andrew Hayias</h3>
+
+      <p>This is my map of traffic cameras in Seattle, found using opendata and visualized with CartoDB. I used simple dots to represent the data, because I felt that knowing exactly where the cameras were located was important for the user. When clicking on each dot, it should tell you the address of the camera and have a link to a video if available.</p>
+      <iframe width="100%" height="520" frameborder="0" src="https://ahayias.cartodb.com/viz/108169ea-5970-11e5-8236-0e43f3deba5a/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+    <div class='vis-critique'>
+      <h3>Pankil Shah's Citibike Visualization - Andrew Hayias</h3>
+        <p>For my visualization critique I used Pankil Shah's citi bike data visualization found on Tableau. It contains data for every citi bike station in New York City. The map looks at frequency between stations. It shows total number of trips, total miles, and the average trip time.</p>
+        <p>I really like this visualization and the data it shows. The data gets rather detailed, showing which days and hours have the most traffic and even breaks it down by gender and age. One question I have is how the data on gender is actually collected.</p>
+          <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1004px; height: 869px;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;89&#47;89BYWF56K&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='path' value='shared&#47;89BYWF56K' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;89&#47;89BYWF56K&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='tabs' value='no' /></object></div>
+    </div>
+
+    <div class='vis-critique'>
+      <h3>Introduction - Andrew Hayias</h3>
+      <p>Hello, my name is Andrew Hayias. I'm originally from Long Island.</p>
+    </div>
+
+
+    <div class='vis-critique'>
+      <h3>Bars in NYC - Doh Y Jung</h3>
+      <p><a href="http://lamp.sla.ny.gov/nysla/index.htm" target="_blank">This</a> was an example I found of bars distributed in NYC based on the Liquor license information. I found this to be a pretty poorly constructed map. First of all, it uses Flash. Secondly, crowded data points does not aggregate to help viewers get a better sense of the distribution. There is no legend explaining what each colors and symbols mean.
+      <br>
+      <br>
+
+      So I tried to create a better version using cartodb.
+
+      <iframe width="100%" height="520" frameborder="0" src="https://djdoh88.cartodb.com/viz/47d4b280-5b19-11e5-bfe0-0ec6f7c8b2b9/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+      <br>
+      <br>
+
+      Instead of showing all the locations with liquor store license, I've filtered down only what people would consider as "Bars" by filtering the license type. And I also excluded listings with no business names.
+    </div>
+
+    <div class='project'>
+      <h3>Visualizing @BrooklynBrewery Engagement - Doh Y Jung</h3>
+      In keeping with the theme of bars, I first wanted to try using CartoDB with a dataset that I am familiar with. So from Brandwatch I exported all the "Engagement" (Retweet or At mention) data to <a href="https://twitter.com/brooklynbrewery" target="_blank">@BrooklynBrewery</a>. This CartoDB map is showing geographically where people POST on Twitter reaching out to <a href="https://twitter.com/brooklynbrewery" target="_blank">@BrooklynBrewery</a>.
+      <br>
+      <br>
+      The static set of data was taken from the past 7 days (Sep 7th 2015 - Sep 13th 2015). I tried to provide certain level of interactivity by showing the actual tweet upon clicking dot representation. There was a intensity display through the green gradient.
+      <br>
+      <br>
+      If you zoom into North America, you can see that more people tweet to <a href="https://twitter.com/brooklynbrewery" target="_blank">@BrooklynBrewery</a> from the East Coast, and globally the brand seems to have some traction from the U.K.
+      <br>
+      <br>
+      <iframe width="100%" height="520" frameborder="0" src="https://djdoh88.cartodb.com/viz/165a9596-5a3b-11e5-b1f6-0e018d66dc29/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+
+    <div class='vis-critique'>
+      <h3> Introduction Doh Y Jung</h3>
+      <p> Hello, my name is Doh. And I am a good example of why you should not miss class because I've done this assignment in so many different wrong ways. I currently work for a social media analytics company calld Brandwatch as a data analyst. After learning a thing or two about python, pandas and matplotlib, I wanted to learn more about Data Visualziation, particularly how to map things!<p> 
+    </div>
+
+    <div class='vis-critique'>
+      <h3> Introduction - Markese Lavell Wider </h3>
+      <p>Hello my name is Markese Lavell Wider. I am from Clinton Hills, Brooklyn. I am currently a graduate student at Lehman College - The City University of New York.</p>
+    </div>
+
+    <div class='vis-critique'>
+      <h3>Introduction - Andrew Chee</h3>
+      <p>Hello all. I'm an interaction designer by trade, a musican by training. I keep a website <a href="http://andrewchee.com" target="_new">here</a>.</p>
+    </div>
+
+    <div class='vis-critique'>
+      <h3>Introduction - Allen Shaibani</h3>
+      <p>Hello, my name is Allen Shaibani.</p>
+    </div>
+
+    <div class='vis-critique'>
+      <h3>Introduction - Mark Yarish</h3>
+      <p>Hello, my name is Mark Yarish and I am a student. I'm originally from Newtown, Ct. I have lived in NYC for 16 years.</p>
+    </div>
+
+    <div class='vis-critique'>
+      <h3> Introduction - Megan Hubel</h3>
+      <p>Hello, my name is Megan. Who is bringing doughnuts next week?</p>
+    </div>
+
+    <div class= 'vis-critique' id='acj9117'>
+        <h3>Introduction - Angelo Jack</h3>
+        <p> Hello, My name is Angelo Jack. I'm from NYC and come from a print-production background.</p>
+    </div>
+   
+    <div class='vis-critique'>
+      <h3> Introduction Yvonne Knoepfel</h3>
+      <p> Hello, my name is Yvonne Knoepfel. I am originally from Switzerland and have been in NYC for 2.5 years. I work at the UN in organizational development. <p> 
+    </div>
+
+    <div class='vis-critique'>
+      <h3> Introduction - Richard Dunks</h3>
+      <p>Hello, my name is Richard Dunks and I'm the teacher. I'm originally from Las Vegas, NV. I've lived in NYC for 3 years. I love maps and I love data. I love sharing my experience with others.</p>
+    </div>
+
+    <div class='vis-critique'>
+      <h3>Map Hacking the Sisyphyus Subway map - Richard Dunks</h3>
+      <p>This is an example visualization critique of a great visualization created by the master of interactive visualization and design, <a href="http://www.datapolitan.com" target="_blank">Richard Dunks</a>. In this latest incarnation, he has remade a visualization from the <a href="http://cbcny.org" target="_blank">Citizens Budget Commission</a> using CartoDB, Leaflet, D3.js, and jQuery. While the <a href="http://interactive.cbcny.org/nyct-station-conditions" target="_blank">original visualization</a> showed the data in an interactive format using <a href="http://public.tableau.com" target ="_blank">Tableau Public</a>, Richard created a custom JavaScript map and was able to better display the data, providing multiple data layers and better interactivity with the data.</p>
+      <p>You can see <a href="http://www.datapolitan.com/mta_station_repair_status/" target="_blank">the full map here</a> and a <a href="http://wp.me/p2PLpM-1QD" target="_blank">blogpost about the map here</a>.
+      <iframe width="100%" height="520" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     </div>
 
   </body>
