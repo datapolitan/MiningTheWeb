@@ -6,3 +6,6 @@
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+*.pptx
+*.pdf
+*.key
