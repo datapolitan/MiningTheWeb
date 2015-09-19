@@ -59,8 +59,8 @@ img[alt=img-center-small]{
 img[alt=img-center-medium]{
   width:75%;
 }
-img[alt=img-center-bottom]{
-  bottom:10px;
+img[alt=img-center-large]{
+  width:90%;
 }
 
 blockquote {
