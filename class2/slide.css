@@ -60,6 +60,9 @@ img[alt=img-center-medium]{
   width:75%;
   padding-top:5px;
 }
+img[alt=img-center-ml]{
+  width:89%;
+}
 img[alt=img-center-large]{
   width:90%;
 }
