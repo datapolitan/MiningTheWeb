@@ -166,7 +166,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 <a id='class1'></a>
-####Class 1 - September 12, 2015
+####[Class 1 - September 12, 2015](http://www.datapolitan.com/MiningTheWeb/class1/)
 <a id='c1-topics'></a>
 ####Topics 
 + What is open data?
@@ -194,7 +194,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
-####Class 2<a id='class2'></a> - September 19, 2015
+<a id='class2'></a>
+####[Class 2 - September 19, 2015](http://www.datapolitan.com/MiningTheWeb/class2/)
 <a id='c2-topics'></a>
 ####Topics 
 + Introduction to scraping the web
