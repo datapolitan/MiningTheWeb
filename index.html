@@ -19,6 +19,105 @@
     </div>
 
 
+  <div class='vis-critique'>
+      <h3> Visualization Critique 2 - Yvonne Knoepfel</h3>
+        <p>For my visualization critique for the example of a compelling and interesting visualization I used a map from <a href="http://projects.nytimes.com/crime/homicides/map" target="_blank">the New York Times on homicides in New York City</a>. </p>
+        <p> The map displays the amount of committed murders in New York City from 2013-2011. 
+        Each point represents a case. When hovering over a point, concrete information on the homicide, including date and time, race and age of the victim and the perpetrator is being displayed. The data can be filtered according to the different years and one can notice that the number of cases has dropped by around 70% from 2003 to 2011.</p>
+        <p>I wanted to modify the colours of the points according the different boroughs. When trying to examine the data, I got an error message stating "no response data available". </p>
+    </div>
+
+    <div class='project'>
+      <h3>Assingment 2 - Megan Hubel</h3>
+      <p>Using MTA turnstile data and a separate API for georeferencing, I plotted the average number of entries during rush hour (8am - 10am).</p>
+      <br>
+      
+      <iframe width="100%" height="520" frameborder="0" src="https://mhubel.cartodb.com/viz/8a1a730c-640e-11e5-9cf6-0e0c41326911/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+
+
+    <div class='project'>
+      <h3>Visualizing Earthquakes and Tweets about Earthquakes - Doh Y Jung</h3>
+      Last week, I created a map from my critique so this week, I'm going to be critiquing my own map. Not sure if anyone remembers the earthquake in the East Coast. Everyone from California laughed, but it was pretty serious news and a revelation to a lot of us in the East Coast. I remember there were some <a href="http://mashable.com/2011/08/26/twitter-earthquake-video/#WbGpS69oO8q5">news</a> around how social media was the fastest channel or medium of information transfer during that event!
+      <br>
+      <br>
+      I saw that apart from the dataset we can get from CartoDB directly, USGS also has an API for querying earthquake records in what they call geojson. API request was pretty simple, no access token was needed and I just had to specifiy in my start date, end date and the format of data.
+      <br>
+      <br>
+      <a href="http://earthquake.usgs.gov/fdsnws/event/1/query.json?endtime=2015-09-25&starttime=2015-09-01&format=geojson" target="_blank">See my call!</a>
+      <br>
+      <br>
+      I pulled the json into Python actually through a library called Pandas. Saw that the geocordinates actually had three dimentions, which I presumed was some sort of "above sea level" measure. So I had to do some data cleaning where I seperated out latitude, longitude and discard that last measure. And I also had to convert their timedata from epoch times to a regular YYYY-MM-DD. This was the first time I was exposed to epoc time units. Once basic data processing was finished, I could easily export from Python Pandas to a csv file.
+      <br>
+      <br>
+      Similar to last time, I also pulled tweets around Earthquakes that I've been collecting since two years ago. For both, I made sure that my start and end dates are 9/1/2015 - 9/25/2015 UTC. This was already pulled in a csv format. I had to do some filtering to discard tweets that does not have lat-long information (otherwise, filesize would have been prohibitively large)
+      <br>
+      <br>
+      Then the rest was pretty simple. I uploaded the data to CartoDB. Earthquake data was around 7,000 rows and tweets data was around 31 thousand rows.
+      <br>
+      <br>
+      <iframe width="100%" height="520" frameborder="0" src="https://djdoh88.cartodb.com/viz/17e71244-6450-11e5-8ab3-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <br>
+      <br>
+      Sadly, what I found was that I am technically unable to show two torque layers. It seems to be working but if you look at the dates carefully, two layers move in different time speed (likely because of different number of rows for each tables). And so the timeline gets messed up. So this did not do the job of mapping two events like I wanted it to.
+
+    </div>
+
+
+  <div class='vis-critique'>
+    <h3>Homicides in NYC - Doh Y Jung</h3>
+      After my failed attempt at using the torque feature, I looked for an example that was similar. And I came across this map!
+      <br>
+      <br>
+      <iframe width="100%" height="520" frameborder="0" src="https://dms2203.cartodb.com/viz/f98bdeb6-51fe-11e3-a410-3085a9a956e8/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <br>
+      <br>
+      This map visualized homicidal incidents in NYC since 2003 and I thought this was a good use of the torque feature. One disadvantages of this type of visualization I found was that you can't really do much analysis and dig deeper into the data. You can maybe gather quick insight but thats about it.
+      <br>
+      <br>
+      Still it was reassuring to see that the neighborhoods that I frequent is pretty safe.
+      <br>
+      <br>
+      <a href = "http://projects.nytimes.com/crime/homicides/map" target="_blank">New York Times</a> did something similar that I felt was a little more analytically useful. It had the same timeline features but also had cumulative "All Year" view. And more details around the incident. Apart from the fact that it was in Flash, I found this this type of interactive visualization to be more insightful.
+      <br>
+      <br>
+
+  </div>
+
+
+    <div class='vis-critique'>
+      <h3>Neutrino Hotspots on Earth - Mark Yarish</h3>
+      <a href="http://www.sciencefriday.com/segment/09/18/2015/mapping-out-neutrino-hotspots-here-on-earth.html">http://www.sciencefriday.com/segment/09/18/2015/mapping-out-neutrino-hotspots-here-on-earth.html</a>
+
+      <p>For my critique this week, I choose a map with highlights the Neutrino Hotspots on Earth. I had noticed the map earlier in the week, the bright colors (mostly red & orange) really attract your eyes. I had to read more about the map, the vibrant colors were screaming for my attention.</p>
+
+      <p>I think the map works. The cartographer is trying to make a point to high light the hot spots on earth. If you take a look at the original scientific paper, the writers did map out both the natural and the man made decay. These maps were less eye catching, hence they were emitted from most of the news outlets that published the map. The oiginal maps are at http://www.nature.com/articles/srep13945</p>
+    </div>
+
+    <div class='project'>
+      <h3>DOB Open Jobs (August 25-present) - Mark Yarish</h3>
+        <p>For my current project, I created a map to show the current DOB job status for the borough of Brooklyn. At first, I downloaded the entire file which contained years worth of records for all of New York City. The file was 126 mb. This file was too large so I then used the filtering tool in the city's open data portal to just download the data for the borough of Brooklyn. </p>
+        <p>
+        The file for Brooklyn was 26 mb, still to large to work with in CartoDB. I opened the file in OpenRefine. I used my NYC Geoclient to convert the Bin column to new columns with both latitude and longitude. I also used OpenRefine to filter out just the Jobs for the last 30 days. I then downloaded the csv file to my computer & then uploaded it into CartoDB.</p>
+        <p>I styled my map by using the Stamen Toner Basemap. Instead of using a default icon, I uploaded a hammer on a yellow background. I thought this would be eye catching. </p>
+        <p>I would have liked to include all of the data for the city. Unfortunatly, I could not as it took a real long time to upload a large file to CartoDB. I would also have liked to link other data layers with stalled jobs & complaints about jobs. From looking at the map, you can see that there is so much more activity in North Brooklyn vs South Brooklyn.</p>
+      <iframe width="100%" height="520" frameborder="0" src="https://myarish.cartodb.com/viz/c23b2bd8-63e5-11e5-8c48-0e5b35a699a7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+ 
+    </div>
+
+  <div class="project">
+    <h3>FourSquare locations in Manhattan - Andrew Hayias</H3>
+    <iframe width="100%" height="520" frameborder="0" src="https://ahayias.cartodb.com/viz/beec9b16-6402-11e5-9dc3-0e8dde98a187/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <P>I used FourSquares venue API to locate the most popular check in locations in Manhattan within 2000 meters of Madison Square Garden. I included data such as the venues phone number, facebook page, and total number of check ins when clicking on each location. I would have liked to seen trending venues and check ins, in all of New York City. I also really would have liked to use a different API besides foursquare, but I ran into some problems collecting data.</p>
+  </div>
+
+    <div class='vis-critique'>
+      <h3>Visualization Critique 2 - Andrew Hayias</h3>
+    <p>For my vizualization critique, I looked at the Guardian's comparison of the United States and China. I really like the spiral or "fan" stlye of the vizualization. It makes it easy to compare indicators and is also visually pleasing.</p>
+    <p>Most of the data comes from the World Health Organization, the CIA Factbook and Forbes. The CIA factbook is from 2012,so some of the data may be older or incorrect. The website also allows you to download the full spreadsheet, which is really handy in case I wanted to do my own work with the data.</p>
+
+    <a href="http://www.theguardian.com/news/datablog/2013/jun/07/china-us-how-superpowers-compare-datablog">China Vs The United States Data Visualization</a>
+  </div>
 
     <div class="vis-critique">
       <h3>Critique 2 - Allen Shaibani</h3>
@@ -61,7 +160,16 @@
       <a href="https://public.tableau.com/s/gallery/facebook-world-atlas" target="_new">here</a></p>
       <iframe width="100%" height="520" frameborder="0" src="https://public.tableau.com/s/gallery/facebook-world-atlas" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>        
     </div>
-    
+
+
+    <div class= 'vis-critique' id='acj9117'>
+      <h3>Critique 1 - Angelo Jack</h3>
+      <p> I found this map of world Facebook usage. The color palate of this particular map is clear and straightforward with good contrasts. The transparent layering helps to gives some depth to the data. How the information displayed allows the context to emerge as we can begin to discern geographic regions and countries.</p>
+      <p>Allowing the data to inform the map's shape and bounties is effective in this visualization. Spatial context emerges from the data; no need to use political border lines to guide the reader.
+      <a href="https://public.tableau.com/s/gallery/facebook-world-atlas" target="_new">here</a></p>
+      <iframe width="100%" height="520" frameborder="0" src="https://public.tableau.com/s/gallery/facebook-world-atlas" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>        
+    </div>
+
     <div class='project' id='acj9117'>
       <h3>Assingment 1 - Angelo Jack</h3>
       <p>Here is my CartoDB visualization using U.S. weather data. I chagned the base map, added title, and used torque for diplay.</p>
@@ -122,6 +230,13 @@
     <div class='vis-critique'>
       <h3>ISIS Influence - Yvonne Knoepfel </h3>
       <p> On <a href="http://aleppo.firstmilegeo.com/" target="_blank">Tableau Public</a> I found this map showing the development of ISIS influence on Aleppo from October 2013 until May 2014. While the interactity of the map might be useful to show how different areas of the city change, the term «influence» is not defined (e.g. attacks, control, support). It is also likely that several political forces are operating and borders can't be drawn clearly. A geographical scale is missing, and it would be interesting to see how the population is distributed in the city to get a bigger picture of the situation.</p> 
+    </div>
+
+    <div class='project'>
+      <h3>Chicago Sanitation Compliants - Megan Hubel</h3>
+      <p>This data set was all sanitation complaints (code 311) in the city of Chicago between 9/6/2015 and 9/13/2015. I was curious to know if there were any geographic trends for complaint frequency and the time duration for open complaints. If the city responded to a complaint (all green dots) then I included the number of days it took the city to respond in the hover label.</p>
+      <br>
+      <iframe width='100%' height='520' frameborder='0' src='https://mhubel.cartodb.com/viz/c4d97d30-5d83-11e5-ad85-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     </div>
 
     <div class='project'>
