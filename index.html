@@ -18,6 +18,55 @@
       <p>We will be using this page to submit assignments. Write up your visualization critiques using the "vis-critique" class and "project" class for your CartoDB visualizations, following the examples below. </p>
     </div>
 
+    <div class='project'>
+      <h3>Visualizing Earthquakes and Tweets about Earthquakes - Doh Y Jung</h3>
+      Last week, I created a map from my critique so this week, I'm going to be critiquing my own map. Not sure if anyone remembers the earthquake in the East Coast. Everyone from California laughed, but it was pretty serious news and a revelation to a lot of us in the East Coast. I remember there were some <a href="http://mashable.com/2011/08/26/twitter-earthquake-video/#WbGpS69oO8q5">news</a> around how social media was the fastest channel or medium of information transfer during that event!
+      <br>
+      <br>
+      I saw that apart from the dataset we can get from CartoDB directly, USGS also has an API for querying earthquake records in what they call geojson. API request was pretty simple, no access token was needed and I just had to specifiy in my start date, end date and the format of data.
+      <br>
+      <br>
+      <a href="http://earthquake.usgs.gov/fdsnws/event/1/query.json?endtime=2015-09-25&starttime=2015-09-01&format=geojson" target="_blank">See my call!</a>
+      <br>
+      <br>
+      I pulled the json into Python actually through a library called Pandas. Saw that the geocordinates actually had three dimentions, which I presumed was some sort of "above sea level" measure. So I had to do some data cleaning where I seperated out latitude, longitude and discard that last measure. And I also had to convert their timedata from epoch times to a regular YYYY-MM-DD. This was the first time I was exposed to epoc time units. Once basic data processing was finished, I could easily export from Python Pandas to a csv file.
+      <br>
+      <br>
+      Similar to last time, I also pulled tweets around Earthquakes that I've been collecting since two years ago. For both, I made sure that my start and end dates are 9/1/2015 - 9/25/2015 UTC. This was already pulled in a csv format. I had to do some filtering to discard tweets that does not have lat-long information (otherwise, filesize would have been prohibitively large)
+      <br>
+      <br>
+      Then the rest was pretty simple. I uploaded the data to CartoDB. Earthquake data was around 7,000 rows and tweets data was around 31 thousand rows.
+      <br>
+      <br>
+      <iframe width="100%" height="520" frameborder="0" src="https://djdoh88.cartodb.com/viz/17e71244-6450-11e5-8ab3-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <br>
+      <br>
+      Sadly, what I found was that I am technically unable to show two torque layers. It seems to be working but if you look at the dates carefully, two layers move in different time speed (likely because of different number of rows for each tables). And so the timeline gets messed up. So this did not do the job of mapping two events like I wanted it to.
+
+    </div>
+
+
+  <div class='vis-critique'>
+    <h3>Homicides in NYC - Doh Y Jung</h3>
+      After my failed attempt at using the torque feature, I looked for an example that was similar. And I came across this map!
+      <br>
+      <br>
+      <iframe width="100%" height="520" frameborder="0" src="https://dms2203.cartodb.com/viz/f98bdeb6-51fe-11e3-a410-3085a9a956e8/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <br>
+      <br>
+      This map visualized homicidal incidents in NYC since 2003 and I thought this was a good use of the torque feature. One disadvantages of this type of visualization I found was that you can't really do much analysis and dig deeper into the data. You can maybe gather quick insight but thats about it.
+      <br>
+      <br>
+      Still it was reassuring to see that the neighborhoods that I frequent is pretty safe.
+      <br>
+      <br>
+      <a href = "http://projects.nytimes.com/crime/homicides/map" target="_blank">New York Times</a> did something similar that I felt was a little more analytically useful. It had the same timeline features but also had cumulative "All Year" view. And more details around the incident. Apart from the fact that it was in Flash, I found this this type of interactive visualization to be more insightful.
+      <br>
+      <br>
+
+  </div>
+
+
 
     <div class='vis-critique'>
       <h3>Neutrino Hotspots on Earth - Mark Yarish</h3>
