@@ -166,7 +166,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 <a id='class1'></a>
-####Class 1 - September 12, 2015
+####[Class 1 - September 12, 2015](http://www.datapolitan.com/MiningTheWeb/class1/)
 <a id='c1-topics'></a>
 ####Topics 
 + What is open data?
@@ -194,7 +194,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
-####Class 2<a id='class2'></a> - September 19, 2015
+<a id='class2'></a>
+####[Class 2 - September 19, 2015](http://www.datapolitan.com/MiningTheWeb/class2/)
 <a id='c2-topics'></a>
 ####Topics 
 + Introduction to scraping the web
@@ -213,7 +214,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c2-assignments'></a>
 ####Assignments 
-1. Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. Write a short description of the data, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result.
+1. Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. Write a short description of the data, the API you used to access it, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result. Submit your API code via the Slack channel in the format "<lastname>_assignment2.py" if you do your API query in Python or "<lastname>_assignment2.txt" if you did you query in OpenRefine.
 2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c2-resources'></a>

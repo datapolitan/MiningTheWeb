@@ -6,3 +6,8 @@
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+*.pptx
+*.pdf
+*.key
+.swp
+class2/.ipynb_checkpoints/
