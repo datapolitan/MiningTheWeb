@@ -18,43 +18,74 @@
       <p>We will be using this page to submit assignments. Write up your visualization critiques using the "vis-critique" class and "project" class for your CartoDB visualizations, following the examples below. </p>
     </div>
 
+<div class="project">
+    <h3>How Supplemental Nutrition Assistance Program (SNAP) Distorts the Market for Grocers</h3>
+    <p><b>Hypothesis:</b> The <a target="_blank" href="https://en.wikipedia.org/wiki/Supplemental_Nutrition_Assistance_Program">Supplemental Nurtition Assistance Program (SNAP)</a>, commonly referred to as 'food stamps' encourages an inelastic market place for grocery stores.
+    </p>
+    <p>The Supplemental Nutrition Assistance Program (SNAP) is a federal aid program that provides food purchasing assistance for low and no income people living in the United States.
+    <p><b>Method:</b> SNAP recipients and their relation to their community district were to be juxtaposed to the average prices of groceries within the respecting district.
+    <p><b>Data: </b> Grocery prices were obtained on-site from multiple locations of the same grocer, assuming that the rest of the locations have the same prices. 
+  <br>
+  <br>  
+    <iframe width="100%" height="500" frameborder="0" src="https://jaramana.cartodb.com/viz/1ddcfc98-659c-11e5-9166-0e5b35a699a7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  <br>
+  <br>
+    <p><b>Results: </b> After the data was compiled and collocated, a regression analysis was conducted. A regression analysis of the percentage of community districts on SNAP and the average grocery prices in those respecting community districts yielded in a low correlation coefficient (Multiple R =<b> 0.161</b>). (A high score represents a greater correlation, the limit being 1)
+  <br>
+  <br>
+    <b>
+      Thus, 
+    <i>
+      SNAP use has no to very little relation with grocery prices.
+    </b>
+    </i>
+    </p>
+  <br>
+    <p><i>Post Script:</i> Median household income was obtained to show that perhaps there is a relation between income and grocery prices. A regression analysis resulted in a moderate correlation coefficient (Multiple R=<b> 0.488</b>). This indicated a casual relation between the two data sets.
+  <br>
+  <br> 
+  <br>
+    <p><b>Attribution: </b>
+  <br>
+    <a target="_blank" href="http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml">NYC Planning: BYTES of the BIG APPLE</a>
+  <br>
+    <a target="_blank" href="http://data.cccnewyork.org/">Citizen's Committee for Children: Keeping Track Online</a> 
+</div>
 
-
-    <div class="vis-critique">
-      <h3>Critique 2 - Allen Shaibani</h3>
-      <a href="http://lbutler.github.io/MelbBuildingHeights/">Melbourne Building Heights</a>
-      <p>
-      <object data=http://lbutler.github.io/MelbBuildingHeights/ width="100%" height="600"> <embed src=http://lbutler.github.io/MelbBuildingHeights/ width="600" height="400"> </embed> Error: Embedded data could not be displayed. </object>
-      <br>
-      This visualization immediatly caught my attention
-      <br>
-      <p>I find it beautifal and captivating. I usually steer away from black base maps, as they tend to be tacky and unneccesary. I, however, keep wanting to look at this map. While aesthetically pleasing, this visualization is also informative. The colors are well balanced in relation to the data. A washed out red symbolizes the highest of buildings (250m+) with a deep blue symbolizing the lowest (0-5m). The buildings have been carefully laid out and the map can be zoomed in with no alteration (vector) to the building layouts. The map rolls overs very smoothly, with a palatable initial lag.</p>
-      <p>The map indicates the highest buildings (145-240 and plus meters) are located in what appears to be a central business district. There are other various spots around the city indicating mid-height (60-145m)buildings while the rest of the city sits on a low point of 0-15m.</p>
-      </p>
-      <p>Data was pulled from:</p>
-      <a href="https://data.melbourne.vic.gov.au/">City of Melbourne</a>
-      Visualization inspired by <a href="http://maps.nicholsonroad.com">"Vancouver Building Heights"</a>
-    </div>
+<div class="vis-critique">
+  <h3>Critique 3 - Allen Shaibani</h3>
+  <a target="_blank" href="http://www.nytimes.com/interactive/2013/12/20/sunday-review/dialect-quiz-map.html">How Y’all, Youse and You Guys Talk</a>
+  <p>
+      This visualization really speaks for itself. I always find it interesting to hear the different lingos used through America.
+  <br>
+  <br>
+      The data "comes from over 350,000 survey responses collected from August to October 2013 by Josh Katz, a graphics editor for the New York Times who developed this quiz."
+  <br>
+  <br>
+      The contrasting colors used allow for an effective use of data visualization by concentrating results where appropriate. 
+  </p>
+</div>
 
 <div class="project">
-      <h3>Visualization 02 - Allen Shaibani</h3>
-      <p>For my API Data, I used the Austin Open Data portal to find 311 calls. I obtained the API via the Socrata Open Data API (SODA) using an Endpoint provided with the data. I filtered the 311 calls to show 'Loud Commercial Music' within 'TRAVIS' county. I than created a data table with open refine and exported to Excel, where I cleaned all the extra data.
-      <br>
-      <br>
+  <h3>Visualization 02 - Allen Shaibani</h3>
+  <p>
+      For my API Data, I used the Austin Open Data portal to find 311 calls. I obtained the API via the Socrata Open Data API (SODA) using an Endpoint provided with the data. I filtered the 311 calls to show 'Loud Commercial Music' within 'TRAVIS' county. I than created a data table with open refine and exported to Excel, where I cleaned all the extra data.
+  <br>
+  <br>
       After cleaning the data, I imported the spreadsheet document to CartoDB where I visualized the data using Choropleth to designate the data by zip code, allowing for further examination in regards to the areas of complaints. While Category would be the more intuitive visual to display, I chose Choropleth due to the uniformity of color while still being easy to distinguish the areas. I suspect this may cause debate in proper use of visuals, but for the sake of this project, I will experiment.
-      <br>
-      <br>
+  <br>
+  <br>
       The noise complaints were relatively consistent with the shape of the city, with most complaints being in the urban core while following the 'mesopotamic' structure of Interstate-35 and Texas State Highway Loop 1. There was, however, one striking anomaly.  There was a cluster of complaints on the outskirts by a major highway. After further examining, I find that the area is still mostly agrarian and developing. After going into Street View with Google Earth, I find a large pre-fabricated building with a massive parking lot and fields of grass. There are banners at the border fence with 'hip' modern colors. These are the ingredients for a mega church in suburbia Texas.
-      <br>
-      <br>
+  <br>
+  <br>
       This non-denominational mega church is known as the 'LifeAustin Church,'' no space between Life and Austin as this is a hip modern church. The church is run by Pastor Randy Phillips, a member of Christian boy band 'Phillips, Craig and Dean.' With over 3,500 attendees every week and festivals on a regular basis, this church is most likely the source of Loud Commercial Music.
-      <br>
-      <br>
-      </p>
-      <iframe width="100%" height="520" frameborder="0" src="https://jaramana.cartodb.com/viz/d1282a52-63d5-11e5-9ac6-0ecbf97728a3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-    </div>
+  <br>
+  <br>
+  </p>
+  <iframe width="100%" height="520" frameborder="0" src="https://jaramana.cartodb.com/viz/d1282a52-63d5-11e5-9ac6-0ecbf97728a3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</div>
 
-    <div class= 'vis-critique' id='acj9117'>
+<div class= 'vis-critique' id='acj9117'>
       <h3>Critique 1 - Angelo Jack</h3>
       <p> I found this map of world Facebook usage. The color palate of this particular map is clear and straightforward with good contrasts. The transparent layering helps to gives some depth to the data. How the information displayed allows the context to emerge as we can begin to discern geographic regions and countries.</p>
       <p>Allowing the data to inform the map's shape and bounties is effective in this visualization. Spatial context emerges from the data; no need to use political border lines to guide the reader.
@@ -95,12 +126,16 @@
 
     <div class='vis-critique'>
       <h3>Visualizaton Criqitue - Allen Shaibani</h3>
-      <br>
-      <a href="http://thetruesize.com/">http://thetruesize.com/</a>
-      <p>This visualization alters the scale of countries in relation to their position on a Mercator projection. </p>
-      <p>The visualization uses a light base map that offers information on countries and to an extent, states and provinces. The boundaries are fine yet gentle, allowing for continues movement among the selected country, while maintaining autonomy.</p>
-      <p>The selected countries, however, are shown with strong colors, semi-transparent and pronouncing. If the user selects more than one country, a different strong color will represent the second and so on.</p>
-    </div>
+      <a target="_blank" href="http://thetruesize.com/">http://thetruesize.com/</a>
+      <p>
+        This visualization alters the scale of countries in relation to their position on a Mercator projection. </p>
+      <p>
+        The visualization uses a light base map that offers information on countries and to an extent, states and provinces. The boundaries are fine yet gentle, allowing for continues movement among the selected country, while maintaining autonomy.
+      </p>
+      <p>
+        The selected countries, however, are shown with strong colors, semi-transparent and pronouncing. If the user selects more than one country, a different strong color will represent the second and so on.
+      </p>
+</div>
 
    <div class = 'vis-critique'>
       <h3>When do Americans leave for work + where the work commute is better or worse than yours - Megan Hubel</h3>
