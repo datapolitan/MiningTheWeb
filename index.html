@@ -18,7 +18,7 @@
       <p>We will be using this page to submit assignments. Write up your visualization critiques using the "vis-critique" class and "project" class for your CartoDB visualizations, following the examples below. </p>
     </div>
 
-	<div class='vis-critique'>
+  	<div class='vis-critique'>
       <h3> Visualization Critique - Doh Y Jung</h3>
         <p>There was a lot of coverage around hurriacne Joaquin earlier this week, which got me worried. But fortunately, according to <a href="http://www.nytimes.com/interactive/2015/10/01/us/hurricane-joaquin-map.html" target="_blank">this map</a>, it seems like we'll be alright!</p>
         <p>The map is visualizing hurricane Joaquins path. It's using both colors and the size of the circle to represent the strength (or the predicted strength) of the storm. Position of the cirlce also indicates the location and the larger differently shaded regioon seems to represent eitehr margin of error for the location prediction or larger imapcted region from the hurricane.</p>
@@ -40,14 +40,138 @@
       <p>I couldn't easily figure out how to do an outer join within cartodb so I handled data processing in Python Pandas</p>
     </div>
 
+    <div class='project' id='acj9117'>
+      <h3> Assignment 3 - Angelo Jack</h3>
+      <p>I quickly mapped some US gun crime data given what was going on in the news. Found it curiously interesting to discover that the CDC is currently banned from collection gunshot data.</p>
+      <iframe width="100%" height="520" frameborder="0" src="https://acj9117.cartodb.com/viz/af8a14ac-69af-11e5-ac83-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+    
+    <div class= 'vis-critique' id='acj9117'>
+      <h3>Critique 3 - Angelo Jack</h3>
+      <p> I found this visualization to be quite interesting. The pulsing nature of the movements and sound caught my attention. To see how humans through the environment, not to mention the number of people on the move, is very interesting to me.</p>
+      <iframe src="https://player.vimeo.com/video/132833445" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/132833445">Distance From Home - Translating Global Refugee Movement to Song</a> from <a href="https://vimeo.com/brianfoo">brian foo</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </div>
 
+    <div class="project">
+      <h3>Assigntment 3 - Andrew Hayias</h3>
+      <p>For my visualization, I took water quality complaints throughout New York City and overlaid them over NYCHA housing developments. I used red caution symbols to visualize the water complaints and shaded the NYCHA developments as blue. I also used the dark matter CartoDB basemap to make them stand out. You can click on each complaint and see the address and a description of the complaint. I had wanted to see if water complaints were more concentrated around NYCHA developments. While it does seem that public housing has its fair share of water complaints, they appear to be well distributed around New York City.</p>
+      <iframe width="100%" height="520" frameborder="0" src="https://ahayias.cartodb.com/viz/07415c90-697a-11e5-a4e7-0e674067d321/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
 
-  <div class='vis-critique'>
+    <div class='vis-critique'>
+      <h3>Visualization Critique 3 - Andrew Hayias</h3>
+      <p>For my visualization critique, I used the Guardian's visualization of the 994 mass shootings that took place in America in 1,004 days. The guardian used data from <a href="http://shootingtracker.com/wiki/Main_Page">the Mass Shooting Tracker</a>,which cites all known mass shootings since 2013 in the United States. They define a mass shooting as four or more people shot in one "spree" or setting. This is actually different than the FBI's definition, which would only count the event as a mass shooting if four people were murdered.</p>
+      <p>This is a powerful visualization, showing the location and date of each shooting, along with individual icons for each person killed (red) or wounded (yellow). I feel that by listing each event separately, it does its best visualize the not only the human cost, but how regular these events seem to occur in the United States.  Perhaps one addition to the visualization could be a news link for each shooting or a list of the names of the victims.</p>
+      <a href="http://www.theguardian.com/us-news/ng-interactive/2015/oct/02/mass-shootings-america-gun-violence">994 mass shootings in 1,004 days: this is what America's gun crisis looks like</a>
+    </div>
+
+    <div class="project">
+      <h3>How Supplemental Nutrition Assistance Program (SNAP) Distorts the Market for Grocers - Allen Shaibani</h3>
+      <p><b>Hypothesis:</b> The <a target="_blank" href="https://en.wikipedia.org/wiki/Supplemental_Nutrition_Assistance_Program">Supplemental Nurtition Assistance Program (SNAP)</a>, commonly referred to as 'food stamps' encourages an inelastic market place for grocery stores.
+      </p>
+      <p>The Supplemental Nutrition Assistance Program (SNAP) is a federal aid program that provides food purchasing assistance for low and no income people living in the United States.
+      <p><b>Method:</b> SNAP recipients and their relation to their community district were to be juxtaposed to the average prices of groceries within the respecting district.
+      <p><b>Data: </b> Grocery prices were obtained on-site from multiple locations of the same grocer, assuming that the rest of the locations have the same prices. 
+    <br>
+    <br>  
+      <iframe width="100%" height="500" frameborder="0" src="https://jaramana.cartodb.com/viz/1ddcfc98-659c-11e5-9166-0e5b35a699a7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <br>
+    <br>
+    <p><b>Results: </b> After the data was compiled and collocated, a regression analysis was conducted. A regression analysis of the percentage of community districts on SNAP and the average grocery prices in those respecting community districts yielded in a low correlation coefficient (Multiple R =<b> 0.161</b>). (A high score represents a greater correlation, the limit being 1)
+    <br>
+    <br>
+      <b>
+        Thus, 
+      <i>
+        SNAP use has no to very little relation with grocery prices.
+      </b>
+      </i>
+      </p>
+    <br>
+      <p><i>Post Script:</i> Median household income was obtained to show that perhaps there is a relation between income and grocery prices. A regression analysis resulted in a moderate correlation coefficient (Multiple R=<b> 0.488</b>). This indicated a casual relation between the two data sets.
+    <br>
+    <br> 
+    <br>
+      <p><b>Attribution:</b>
+    <br>
+      <a target="_blank" href="http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml">NYC Planning: BYTES of the BIG APPLE</a>
+    <br>
+      <a target="_blank" href="http://data.cccnewyork.org/">Citizen's Committee for Children: Keeping Track Online</a> 
+    </div>
+
+    <div class="vis-critique">
+      <h3>Critique 3 - Allen Shaibani</h3>
+      <a target="_blank" href="http://www.nytimes.com/interactive/2013/12/20/sunday-review/dialect-quiz-map.html">How Y&#8217;all, Youse and You Guys Talk</a>
+      <p>
+          This visualization really speaks for itself. I always find it interesting to hear the different lingos used through America.
+      <br>
+      <br>
+          The data "comes from over 350,000 survey responses collected from August to October 2013 by Josh Katz, a graphics editor for the New York Times who developed this quiz."
+      <br>
+      <br>
+          The contrasting colors used allow for an effective use of data visualization by concentrating results where appropriate. 
+      </p>
+    </div>
+
+    <div class='vis-critique'>
+      <h3> Visualization Critique 3 - Mark Yarish</h3>
+      <a href="http://www.ny4p.org/research/ccd-profiles" target="_blank">New Yorkers for Parks</a> 
+      <p>This week I received an email from New Yorkers For Parks. The email had a link to a web page, which was broken up by the cities council districts. I really like the layout of the page. It’s kind of confussing to figure out which district you live or work in,  so there is a link to search for your district.</p>
+      <p>Once you identify your district, you can just click the box which will then take you to a report for that council’s district. The map has a legend that is easy to follow. There is also a list of parks below that map. This is pretty handy information if you are new to a neighborhood, or maybe you are thinking of moving to a new neighborhood. A real estate agent would also find this information handy.</p>
+      <p>The second page has some additional statistics that are pretty interesting.  There is also a list of contact information for the neighborhood along with a list of data sources.</p>
+      <p>I would have liked to see a borough wide report or a table of comparisons with each of the districts listed. Overall, this has to be one of the better maps of a neighborhood that I have seen.</p>
+    </div>
+
+    <div class='project'>
+      <h3>Assingment 3 - Mark Yarish</h3>
+      <iframe width="100%" height="520" frameborder="0" src="https://myarish.cartodb.com/viz/10606cb2-6957-11e5-9eba-0e31c9be1b51/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <br>
+      <p>For this weeks project, I mapped out rodent sightings as per 311 and restaurant letter grades as per the department of health for 2015. I was looking to see if there was a strong relationship between rat sightings and restaurant letter grades. I would assume that if there was a rat infestation in a neighborhood, it would be pretty hard for a restaurant to keep the rodents out.</p>
+      <p>It was pretty easy to pull out the rodent data as it was already geocoded. I was surprised to see just how many calls came into 311 for rodents. The data set was huge, so I had to filter out just the data for the borough of Brooklyn. I did the same with the restaurant data set. I filtered out just the graded restaurants for Brooklyn. There were numerous restaurants that have not been graded or are still waiting to be graded. I then had to find the latitude and longitude for each restaurant. I did have a hard time with this, the data that I pulled back was not exact, each address seems to be a bock or two off.</p>
+      <p>I did not see a strong correlation as there were rodents all over the borough. It looks like the rats really like Fulton Street. My results were also of because my restaurants were not precisely mapped.</p>
+    </div>
+
+    <div class= 'vis-critique' id='acj9117'>
+      <h3>Critique 2 - Angelo Jack</h3>
+      <p> This map from the US Census site is Comparing Metro and Micro Area Population Changes over a 10 year period. The data tracks the shifts in population movements to and from specific areas.</p>
+      <p>I found the use of the slider fun, but felt it could be more useful with added features. Perhaps placing the years on either side of the slider. The legend shows a clear with a nice transition to negative values; see map. The information comes from US Census data.<a href=" http://storymaps.esri.com/stories/2014/census-metro-micro-change/">here.</a></p>
+      <iframe width="100%" height="520" frameborder="0" src=" http://arcg.is/1dtjA1N" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+
+    <div class='project' id='acj9117'>
+      <h3> Assignment 2 - Angelo Jack</h3>
+      <p>Here is my CartoDB visualization using data from NYC open data. I attempted to use an API via OpenRefine.</p>
+      <br>
+      <iframe width="100%" height="520" frameborder="0" src="https://acj9117.cartodb.com/viz/19d167aa-643f-11e5-8277-0e49835281d6/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+
+    <div class="project">
+      <h3>Visualization 02 - Allen Shaibani</h3>
+      <p>
+          For my API Data, I used the Austin Open Data portal to find 311 calls. I obtained the API via the Socrata Open Data API (SODA) using an Endpoint provided with the data. I filtered the 311 calls to show 'Loud Commercial Music' within 'TRAVIS' county. I than created a data table with open refine and exported to Excel, where I cleaned all the extra data.
+      <br>
+      <br>
+    </div>
+
+    <div class='vis-critique'>
+      <h3>A Colorful Dot Map of America's Immigrants - Markese Lavell Wider</h3>
+      <p>My visualization critique is of a great dot density map created by <a href="http://personal.tcu.edu/kylewalker/" target="_blank">Kyle E. Walker, Ph.D.</a>. Kyle Walker created a collection of dot density maps represetning immigrant populations in some of the major cities in the United States. To create these maps data was collected from the census at the census tract level. Walker choose to represent the immigrants according to colors which represents the regions of the world from which they originate. I particuallry like the choice of colors used to represent the immigrants and the simple base map because it allows for the data to be clearly seen and creates an appealing visual that is very understandable. I particularly like how the maps go beyond the boundaries of the cities and into the greater metroplitian areas so that you are able to see where immigrant groups may be concentrated outside of the city and makes you think about why those areas are drawing those populations. I love looking at these collection of maps because it tells you how all cities are diffent and how they all have unique cultural footprints created by immigrant populations. </p>
+      <p>You can see Washington, D.C<a href="https://cdn.theatlantic.com/assets/media/img/posts/2015/09/Screen_Shot_2015_09_04_at_11.52.01_AM/ed2bc1c4e.png" target="_blank"> here </a>, New York <a href="https://cdn.theatlantic.com/assets/media/img/posts/2015/09/Screen_Shot_2015_09_04_at_11.46.06_AM/6c2308c42.png" target="_blank"> here</a>, Dallas-Fort Worth <a href="https://cdn.theatlantic.com/assets/media/img/posts/2015/09/Screen_Shot_2015_09_04_at_11.48.10_AM/793052cd4.png"> here</a>, Los Angeles <a href="https://cdn.theatlantic.com/assets/media/img/posts/2015/09/Screen_Shot_2015_09_04_at_11.50.16_AM/6f93e6b2e.png"> here,</a> Chicago <a href="https://cdn.theatlantic.com/assets/media/img/posts/2015/09/Screen_Shot_2015_09_04_at_11.24.23_AM/9eeca9c72.png"> here,</a> and the full story <a href="http://www.citylab.com/work/2015/09/a-colorful-dot-map-of-americas-immigrants/403849/" target="_blank">here</a>.
+    </div>
+    
+    <div class='project'>
+      <h3>Visualizing Free Wi-fi Hotspot locations in New York City - Markese Lavell Wider</h3>
+      <p>Here is my awesome CartoDB visualization using information provided via the NYC OpenData website. In this visualization you are able to see where free Wi-fi Hotspots are located in the city of New York as well as where they are clustered. I chose to use the Dark matter basemap and purple markers outlined with white in order to make the locations pop.</p>  
+      <iframe width="100%" height="520" frameborder="0" src="https://mlw326.cartodb.com/viz/10cf95ae-597d-11e5-87ea-0e0c41326911/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+
+    <div class='vis-critique'>
       <h3> Visualization Critique 2 - Yvonne Knoepfel</h3>
-        <p>For my visualization critique for the example of a compelling and interesting visualization I used a map from <a href="http://projects.nytimes.com/crime/homicides/map" target="_blank">the New York Times on homicides in New York City</a>. </p>
-        <p> The map displays the amount of committed murders in New York City from 2013-2011. 
-        Each point represents a case. When hovering over a point, concrete information on the homicide, including date and time, race and age of the victim and the perpetrator is being displayed. The data can be filtered according to the different years and one can notice that the number of cases has dropped by around 70% from 2003 to 2011.</p>
-        <p>I wanted to modify the colours of the points according the different boroughs. When trying to examine the data, I got an error message stating "no response data available". </p>
+      <p>For my visualization critique for the example of a compelling and interesting visualization I used a map from <a href="http://projects.nytimes.com/crime/homicides/map" target="_blank">the New York Times on homicides in New York City</a>. </p>
+      <p> The map displays the amount of committed murders in New York City from 2013-2011. 
+      Each point represents a case. When hovering over a point, concrete information on the homicide, including date and time, race and age of the victim and the perpetrator is being displayed. The data can be filtered according to the different years and one can notice that the number of cases has dropped by around 70% from 2003 to 2011.</p>
+      <p>I wanted to modify the colours of the points according the different boroughs. When trying to examine the data, I got an error message stating "no response data available". </p>
     </div>
 
     <div class='project'>
@@ -83,7 +207,6 @@
       <br>
       <br>
       Sadly, what I found was that I am technically unable to show two torque layers. It seems to be working but if you look at the dates carefully, two layers move in different time speed (likely because of different number of rows for each tables). And so the timeline gets messed up. So this did not do the job of mapping two events like I wanted it to.
-
     </div>
 
 
@@ -104,9 +227,7 @@
       <a href = "http://projects.nytimes.com/crime/homicides/map" target="_blank">New York Times</a> did something similar that I felt was a little more analytically useful. It had the same timeline features but also had cumulative "All Year" view. And more details around the incident. Apart from the fact that it was in Flash, I found this this type of interactive visualization to be more insightful.
       <br>
       <br>
-
-  </div>
-
+    </div>
 
     <div class='vis-critique'>
       <h3>Neutrino Hotspots on Earth - Mark Yarish</h3>
@@ -119,28 +240,26 @@
 
     <div class='project'>
       <h3>DOB Open Jobs (August 25-present) - Mark Yarish</h3>
-        <p>For my current project, I created a map to show the current DOB job status for the borough of Brooklyn. At first, I downloaded the entire file which contained years worth of records for all of New York City. The file was 126 mb. This file was too large so I then used the filtering tool in the city's open data portal to just download the data for the borough of Brooklyn. </p>
-        <p>
-        The file for Brooklyn was 26 mb, still to large to work with in CartoDB. I opened the file in OpenRefine. I used my NYC Geoclient to convert the Bin column to new columns with both latitude and longitude. I also used OpenRefine to filter out just the Jobs for the last 30 days. I then downloaded the csv file to my computer & then uploaded it into CartoDB.</p>
-        <p>I styled my map by using the Stamen Toner Basemap. Instead of using a default icon, I uploaded a hammer on a yellow background. I thought this would be eye catching. </p>
-        <p>I would have liked to include all of the data for the city. Unfortunatly, I could not as it took a real long time to upload a large file to CartoDB. I would also have liked to link other data layers with stalled jobs & complaints about jobs. From looking at the map, you can see that there is so much more activity in North Brooklyn vs South Brooklyn.</p>
+      <p>For my current project, I created a map to show the current DOB job status for the borough of Brooklyn. At first, I downloaded the entire file which contained years worth of records for all of New York City. The file was 126 mb. This file was too large so I then used the filtering tool in the city's open data portal to just download the data for the borough of Brooklyn. </p>
+      <p>
+      The file for Brooklyn was 26 mb, still to large to work with in CartoDB. I opened the file in OpenRefine. I used my NYC Geoclient to convert the Bin column to new columns with both latitude and longitude. I also used OpenRefine to filter out just the Jobs for the last 30 days. I then downloaded the csv file to my computer & then uploaded it into CartoDB.</p>
+      <p>I styled my map by using the Stamen Toner Basemap. Instead of using a default icon, I uploaded a hammer on a yellow background. I thought this would be eye catching. </p>
+      <p>I would have liked to include all of the data for the city. Unfortunatly, I could not as it took a real long time to upload a large file to CartoDB. I would also have liked to link other data layers with stalled jobs & complaints about jobs. From looking at the map, you can see that there is so much more activity in North Brooklyn vs South Brooklyn.</p>
       <iframe width="100%" height="520" frameborder="0" src="https://myarish.cartodb.com/viz/c23b2bd8-63e5-11e5-8c48-0e5b35a699a7/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
- 
     </div>
 
-  <div class="project">
-    <h3>FourSquare locations in Manhattan - Andrew Hayias</H3>
-    <iframe width="100%" height="520" frameborder="0" src="https://ahayias.cartodb.com/viz/beec9b16-6402-11e5-9dc3-0e8dde98a187/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-    <P>I used FourSquares venue API to locate the most popular check in locations in Manhattan within 2000 meters of Madison Square Garden. I included data such as the venues phone number, facebook page, and total number of check ins when clicking on each location. I would have liked to seen trending venues and check ins, in all of New York City. I also really would have liked to use a different API besides foursquare, but I ran into some problems collecting data.</p>
-  </div>
+    <div class="project">
+      <h3>FourSquare locations in Manhattan - Andrew Hayias</H3>
+      <iframe width="100%" height="520" frameborder="0" src="https://ahayias.cartodb.com/viz/beec9b16-6402-11e5-9dc3-0e8dde98a187/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <P>I used FourSquares venue API to locate the most popular check in locations in Manhattan within 2000 meters of Madison Square Garden. I included data such as the venues phone number, facebook page, and total number of check ins when clicking on each location. I would have liked to seen trending venues and check ins, in all of New York City. I also really would have liked to use a different API besides foursquare, but I ran into some problems collecting data.</p>
+    </div>
 
     <div class='vis-critique'>
       <h3>Visualization Critique 2 - Andrew Hayias</h3>
-    <p>For my vizualization critique, I looked at the Guardian's comparison of the United States and China. I really like the spiral or "fan" stlye of the vizualization. It makes it easy to compare indicators and is also visually pleasing.</p>
-    <p>Most of the data comes from the World Health Organization, the CIA Factbook and Forbes. The CIA factbook is from 2012,so some of the data may be older or incorrect. The website also allows you to download the full spreadsheet, which is really handy in case I wanted to do my own work with the data.</p>
-
-    <a href="http://www.theguardian.com/news/datablog/2013/jun/07/china-us-how-superpowers-compare-datablog">China Vs The United States Data Visualization</a>
-  </div>
+      <p>For my vizualization critique, I looked at the Guardian's comparison of the United States and China. I really like the spiral or "fan" stlye of the vizualization. It makes it easy to compare indicators and is also visually pleasing.</p>
+      <p>Most of the data comes from the World Health Organization, the CIA Factbook and Forbes. The CIA factbook is from 2012,so some of the data may be older or incorrect. The website also allows you to download the full spreadsheet, which is really handy in case I wanted to do my own work with the data.</p>
+      <a href="http://www.theguardian.com/news/datablog/2013/jun/07/china-us-how-superpowers-compare-datablog">China Vs The United States Data Visualization</a>
+    </div>
 
     <div class="vis-critique">
       <h3>Critique 2 - Allen Shaibani</h3>
@@ -158,17 +277,17 @@
       Visualization inspired by <a href="http://maps.nicholsonroad.com">"Vancouver Building Heights"</a>
     </div>
 
-<div class="project">
+    <div class="project">
       <h3>Visualization 02 - Allen Shaibani</h3>
       <p>For my API Data, I used the Austin Open Data portal to find 311 calls. I obtained the API via the Socrata Open Data API (SODA) using an Endpoint provided with the data. I filtered the 311 calls to show 'Loud Commercial Music' within 'TRAVIS' county. I than created a data table with open refine and exported to Excel, where I cleaned all the extra data.
       <br>
       <br>
       After cleaning the data, I imported the spreadsheet document to CartoDB where I visualized the data using Choropleth to designate the data by zip code, allowing for further examination in regards to the areas of complaints. While Category would be the more intuitive visual to display, I chose Choropleth due to the uniformity of color while still being easy to distinguish the areas. I suspect this may cause debate in proper use of visuals, but for the sake of this project, I will experiment.
-      <br>
-      <br>
+  <br>
+  <br>
       The noise complaints were relatively consistent with the shape of the city, with most complaints being in the urban core while following the 'mesopotamic' structure of Interstate-35 and Texas State Highway Loop 1. There was, however, one striking anomaly.  There was a cluster of complaints on the outskirts by a major highway. After further examining, I find that the area is still mostly agrarian and developing. After going into Street View with Google Earth, I find a large pre-fabricated building with a massive parking lot and fields of grass. There are banners at the border fence with 'hip' modern colors. These are the ingredients for a mega church in suburbia Texas.
-      <br>
-      <br>
+  <br>
+  <br>
       This non-denominational mega church is known as the 'LifeAustin Church,'' no space between Life and Austin as this is a hip modern church. The church is run by Pastor Randy Phillips, a member of Christian boy band 'Phillips, Craig and Dean.' With over 3,500 attendees every week and festivals on a regular basis, this church is most likely the source of Loud Commercial Music.
       <br>
       <br>
@@ -177,15 +296,27 @@
     </div>
 
     <div class= 'vis-critique' id='acj9117'>
-      <h3>Critique 1 - Angelo Jack</h3>
-      <p> I found this map of world Facebook usage. The color palate of this particular map is clear and straightforward with good contrasts. The transparent layering helps to gives some depth to the data. How the information displayed allows the context to emerge as we can begin to discern geographic regions and countries.</p>
-      <p>Allowing the data to inform the map's shape and bounties is effective in this visualization. Spatial context emerges from the data; no need to use political border lines to guide the reader.
-      <a href="https://public.tableau.com/s/gallery/facebook-world-atlas" target="_new">here</a></p>
-      <iframe width="100%" height="520" frameborder="0" src="https://public.tableau.com/s/gallery/facebook-world-atlas" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>        
+      <h3>Critique 2 - Angelo Jack</h3>
+      <p> This map from the US Census site is Comparing Metro and Micro Area Population Changes over a 10 year period. The data tracks the shifts in population movements to and from specific areas.</p>
+      <p>I found the use of the slider fun, but felt it could be more useful with added features. Perhaps placing the years on either side of the slider. The legend shows a clear with a nice transition to negative values; see map. The information comes from US Census data.<a href=" http://storymaps.esri.com/stories/2014/census-metro-micro-change/">here.</a></p>
+      <iframe width="100%" height="520" frameborder="0" src=" http://arcg.is/1dtjA1N" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     </div>
 
+    <div class='project' id='acj9117'>
+      <h3> Assignment 2 - Angelo Jack</h3>
+      <p>Here is my CartoDB visualization using data from NYC open data. I attempted to use an API via OpenRefine.</p>
+      <iframe width="100%" height="520" frameborder="0" src="https://acj9117.cartodb.com/viz/19d167aa-643f-11e5-8277-0e49835281d6/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
 
     <div class= 'vis-critique' id='acj9117'>
+      <br>
+      <br>
+      </p>
+      <iframe width="100%" height="520" frameborder="0" src="https://jaramana.cartodb.com/viz/d1282a52-63d5-11e5-9ac6-0ecbf97728a3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    </div>
+
+    <div class= 'vis-critique' id='acj9117'>
+
       <h3>Critique 1 - Angelo Jack</h3>
       <p> I found this map of world Facebook usage. The color palate of this particular map is clear and straightforward with good contrasts. The transparent layering helps to gives some depth to the data. How the information displayed allows the context to emerge as we can begin to discern geographic regions and countries.</p>
       <p>Allowing the data to inform the map's shape and bounties is effective in this visualization. Spatial context emerges from the data; no need to use political border lines to guide the reader.
@@ -194,10 +325,8 @@
     </div>
 
     <div class='project' id='acj9117'>
-      <h3>Assingment 1 - Angelo Jack</h3>
+      <h3>Assignment 1 - Angelo Jack</h3>
       <p>Here is my CartoDB visualization using U.S. weather data. I chagned the base map, added title, and used torque for diplay.</p>
-      <br>
-      
       <iframe width="100%" height="520" frameborder="0" src="https://acj9117.cartodb.com/viz/457f2bf6-5ece-11e5-9772-0e73ffd62169/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     </div>
    
@@ -226,12 +355,16 @@
 
     <div class='vis-critique'>
       <h3>Visualizaton Criqitue - Allen Shaibani</h3>
-      <br>
-      <a href="http://thetruesize.com/">http://thetruesize.com/</a>
-      <p>This visualization alters the scale of countries in relation to their position on a Mercator projection. </p>
-      <p>The visualization uses a light base map that offers information on countries and to an extent, states and provinces. The boundaries are fine yet gentle, allowing for continues movement among the selected country, while maintaining autonomy.</p>
-      <p>The selected countries, however, are shown with strong colors, semi-transparent and pronouncing. If the user selects more than one country, a different strong color will represent the second and so on.</p>
-    </div>
+      <a target="_blank" href="http://thetruesize.com/">http://thetruesize.com/</a>
+      <p>
+        This visualization alters the scale of countries in relation to their position on a Mercator projection. </p>
+      <p>
+        The visualization uses a light base map that offers information on countries and to an extent, states and provinces. The boundaries are fine yet gentle, allowing for continues movement among the selected country, while maintaining autonomy.
+      </p>
+      <p>
+        The selected countries, however, are shown with strong colors, semi-transparent and pronouncing. If the user selects more than one country, a different strong color will represent the second and so on.
+      </p>
+</div>
 
    <div class = 'vis-critique'>
       <h3>When do Americans leave for work + where the work commute is better or worse than yours - Megan Hubel</h3>
