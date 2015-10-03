@@ -56,12 +56,18 @@ img[alt=img-center]{
 img[alt=img-center-small]{
   width:35%;
 }
+img[alt=img-center-sm]{
+  width:50%;
+}
+img[alt=img-center-smm]{
+  width:65%;
+}
 img[alt=img-center-medium]{
   width:75%;
   padding-top:5px;
 }
 img[alt=img-center-ml]{
-  width:89%;
+  width:85%;
 }
 img[alt=img-center-large]{
   width:90%;

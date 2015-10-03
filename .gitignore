@@ -9,3 +9,5 @@
 *.pptx
 *.pdf
 *.key
+.swp
+class2/.ipynb_checkpoints/
