@@ -277,11 +277,107 @@ class:center,middle
 
 ---
 
-#Testing API Call
-![img-center-sm](../images/or_gca14.png)
-###Looks good
+#Let's Run It
 
 ---
+
+#Let's Run It
+![img-center-ml](../images/api_res.png)
+
+---
+
+#What Happened?
+
+---
+
+#What Happened?
++ Works fine in browser
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
++ Have to encode the spaces using the `escape()` function
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
++ Have to encode the spaces using the `escape()` function
++ Format is `escape(value,'url')`
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
++ Have to encode the spaces using the `escape()` function
++ Format is `escape(value,'url')`
++ (With a `trim()` thrown in for good measure)
+
+---
+
+#Let's Try That Again
+![img-full](../images/or_gca15a.png)
+
+---
+
+#Let's Try That Again
+![img-full](../images/or_gca15a.png)
+
++ The `escape()` function encodes the spaces with '+' (based on the `'url'` parameter)
+
+---
+
+#Let's Try That Again
+![img-full](../images/or_gca15a.png)
+
++ The `escape()` function encodes the spaces with '+' (based on the `'url'` parameter)
++ The `trim()` function removes the leading and trailing white space
+
+---
+
+class:center,middle
+![img-full](../images/how.png)
+
+---
+
+#GREL Functions
+![img-center-smm](../images/grel_docs.png)
+https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
+
+---
+
+#Parse the Response
+![img](../images/or_gca16.png)
+
+---
+
+#Parse the Response
+![img-full](../images/or_gca17.png)
+
+---
+
+#Parse the Response
+![img-full](../images/or_gca18.png)
 
 ---
 

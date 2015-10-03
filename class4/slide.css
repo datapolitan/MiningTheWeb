@@ -59,6 +59,9 @@ img[alt=img-center-small]{
 img[alt=img-center-sm]{
   width:50%;
 }
+img[alt=img-center-smm]{
+  width:65%;
+}
 img[alt=img-center-medium]{
   width:75%;
   padding-top:5px;
