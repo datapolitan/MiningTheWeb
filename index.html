@@ -18,6 +18,29 @@
       <p>We will be using this page to submit assignments. Write up your visualization critiques using the "vis-critique" class and "project" class for your CartoDB visualizations, following the examples below. </p>
     </div>
 
+	<div class='vis-critique'>
+      <h3> Visualization Critique - Doh Y Jung</h3>
+        <p>There was a lot of coverage around hurriacne Joaquin earlier this week, which got me worried. But fortunately, according to <a href="http://www.nytimes.com/interactive/2015/10/01/us/hurricane-joaquin-map.html" target="_blank">this map</a>, it seems like we'll be alright!</p>
+        <p>The map is visualizing hurricane Joaquins path. It's using both colors and the size of the circle to represent the strength (or the predicted strength) of the storm. Position of the cirlce also indicates the location and the larger differently shaded regioon seems to represent eitehr margin of error for the location prediction or larger imapcted region from the hurricane.</p>
+        <p>In the backend, it is reading in a live-updating <a href="http://int.nyt.com/newsgraphics/2015/20150930-hurricane-joaquin/latest/latest-v2.json" target="_blank">json file</a>, which are updating based on the data from National Weather Service. It seems to also be making connections to the Google API for basemaps and other visualziations.</p>
+        <p>Overall I felt that this map is doing its job properly. Most of the information was well labeled. Data was available for peoeple to investigate. No Flash. Snappy!</p>
+    </div>
+
+    <div class='project'>
+      <h3>Median Household Income by State - Doh Y Jung</h3>
+      <p>I already did layering of two different data types last week (tweets and earthquakes), so instead I wanted to try my hands on more custom cartodb features. I downloaded the shapefile from Andrew Hill's blogpost. The data was originally showing a state by state heatmap of bee populations. I also downlaoded the state median household data from wikipedia and uploaded to cartodb. And using the same shape file, I merged the state-by-state median household income data, this time directly from cartodb, to visualize the following heatmap.</p>
+      <iframe width="100%" height="520" frameborder="0" src="https://djdoh88.cartodb.com/viz/2d7a52d0-69d5-11e5-99b9-0e3ff518bd15/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <p>This was alot prettier than the other state heatmaps that I was able to do in my other previous projects using OpenHeatmap! So yay!</p>
+    </div>
+
+    <div class='project'>
+      <h3>Visualizing Earthquakes and Tweets about Earthquakes - Doh Y Jung</h3>
+      <p>If you recall, last week I had a problem torqueing two layers properly in sync! Just wanted to quickly update everyone that I was able to fix the issue by doing an outer join and assigning a "data type" column through which I seperated tweets and earthquake rows and also torqued cat on!</p>
+      <iframe width='100%' height='520' frameborder='0' src='https://djdoh88.cartodb.com/viz/4b869072-6606-11e5-96f2-0e3bf0989add/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <p>I couldn't easily figure out how to do an outer join within cartodb so I handled data processing in Python Pandas</p>
+    </div>
+
+
 
   <div class='vis-critique'>
       <h3> Visualization Critique 2 - Yvonne Knoepfel</h3>
