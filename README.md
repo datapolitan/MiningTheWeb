@@ -64,8 +64,7 @@ This repository is a resource for code samples and other resources throughout th
 + You will learn how to acquire data through open data portals, application programmer interfaces (APIs), and scraping data from web sites
 + You will learn how to clean data using open source tools in preparation for analysis and visualization
 + You will learn how to conduct exploratory data analysis using descriptive statistics
-+ You will learn to visualize your analytical findings in meaningful and visually-engaging
-graphics, as well as meaningfully critique the work of others
++ You will learn to visualize your analytical findings in meaningful and visually-engaging graphics, as well as meaningfully critique the work of others
 + You will learn the basics of cartographic design as it relates to visualizing open data
 
 ######[back to top](#top)
