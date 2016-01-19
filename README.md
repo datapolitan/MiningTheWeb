@@ -163,7 +163,7 @@ I expect you to be fully engaged while you’re in class. This means asking ques
 All assignments are to be due before the start of class. Assignments submitted after class will be marked down 10% and assignments posted at the end of the next will be marked down 20%. No assignments will be accepted for a grade more than one day late.
 <a id='office-hours'></a>
 ####Office hours
-I won’t be holding regular office hours, but I’m happy to set up a time to meet in person, over the phone, or via Skype/Google Hangout if you have any problems. Please use [Slack](http://datapolitan.slack.com) to reach out to me. I will also be available before or after class to provide any assistance you may need.
+I won’t be holding regular office hours, but I’m happy to set up a time to meet in person, over the phone, or via Skype/Google Hangout if you have any problems. Please use [Slack](http://miningtheweb.slack.com) to reach out to me. I will also be available before or after class to provide any assistance you may need.
 
 ######[back to top](#top)
 
