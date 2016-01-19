@@ -108,7 +108,7 @@ You will be required to have free accounts with the following services:
 + [Github](https://github.com/)
 + [CartoDB](http://cartodb.com/)
 + [Google](https://accounts.google.com/signup?service=mail)
-+ [Twitter](https://twitter.com/signup)
+<!--+ [Twitter](https://twitter.com/signup)-->
 
 
 <!--
