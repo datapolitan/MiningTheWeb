@@ -225,7 +225,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ######[back to top](#top)
 ----
 <a id='class3'></a>
-####Class 3 - September 26, 2015
+####[Class 3 - September 26, 2015](http://www.datapolitan.com/MiningTheWeb/class3/)
 
 <a id='c3-topics'></a>
 ####Topics 
@@ -252,7 +252,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ######[back to top](#top)
 ----
 <a id='class4'></a>
-####Class 4 - October 3, 2015
+####[Class 4 - October 3, 2015](http://www.datapolitan.com/MiningTheWeb/class4/)
 
 <a id='c4-topics'></a>
 ####Topics 
