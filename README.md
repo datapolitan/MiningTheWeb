@@ -28,7 +28,7 @@ Continuing Education Units (C.E.U.s): 3.0
 	+ [Class 1](#class1)
 		+ [Topics](#c1-topics)
 		+ [Readings](#c1-readings)
-		+ [Assignments](#c1-assignments)
+		+ [Assignment](#c1-assignments)
 		+ [Resources](#c1-resources)
 	+ [Class 2](#class2)
 		+ [Topics](#c2-topics)
@@ -108,7 +108,8 @@ You will be required to have free accounts with the following services:
 + [Github](https://github.com/)
 + [CartoDB](http://cartodb.com/)
 + [Google](https://accounts.google.com/signup?service=mail)
-<!--+ [Twitter](https://twitter.com/signup)-->
+
+<!-- + [Twitter](https://twitter.com/signup)-->
 
 
 <!--
@@ -122,7 +123,7 @@ Time will be set aside to help you register and setup these accounts, but please
 
 <a id='course-readings'></a>
 ###Course Readings 
-The required readings for this course consist of book chapters, newspaper articles, and short blog posts. The intention is to help give you a foundation in the critical skills ahead of class lectures. All required readings are available online or will be made available through the class portal. Recommended readings are suggestions if you wish to study further the topics covered in class. The books listed in the Suggested Readings section below offer even more depth and an extended discussion of the material we cover in class.
+The required readings for this course consist of book chapters, newspaper articles, and short blog posts. The intention is to help give you a foundation in the critical skills ahead of class lectures. All required readings are available online or will be made available through the class portal. Recommended readings are suggestions if you wish to study further the topics covered in class. The books listed in the Suggested Readings section below offer even more depth and an extended discussion of the material we cover in class. **Readings are due for the class under which they're listed.**
 
 ######[back to top](#top)
 
@@ -195,7 +196,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 <a id='class1'></a>
-####[Class 1 - January 25, 2016](http://www.datapolitan.com/MiningTheWeb/class1/)
+###[Class 1 - January 25, 2016](http://www.datapolitan.com/MiningTheWeb/class1/)
 <a id='c1-topics'></a>
 ####Topics 
 + What is open data?
@@ -204,12 +205,32 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 + Introduction to open source tools and services for mapping and visualization
 
 <a id='c1-assignments'></a>
-####Assignments
+####Assignment
+1. Complete the visualization started in class with data from an open data portal. Style the map in CartoDB and have it ready to present in class.
+2. Complete the online [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p) course.
 
 <a id='c1-resources'></a> 
 ####Resources 
+
+######[back to top](#top)
+----
+<a id='class2'></a>
+###Class 2 - January 27, 2016
+<a id='c2-topics'></a>
+####Topics 
++ Introduction to HTML and CSS
++ Introduction to Git and [Github](http://github.com)
+
+<a id='c2-readings'></a>
+####Readings
++ Lohr, Steve. “[For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights.](http://nyti.ms/1xuuZSd)” New York Times 17 August 2014. 
++ Chris Whong "[Taxi TechBlog 1: Data Prep and Backend](http://chriswhong.com/data-visualization/taxitechblog1/)"
++ Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
+
+<a id='c2-resources'></a>
+####Resources 
 + [A tutorial for getting started with Git and Github](http://bit.ly/1zlMfhK)
-+ [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p)
+
 
 ----
 <a id="suggested-reading"></a>
