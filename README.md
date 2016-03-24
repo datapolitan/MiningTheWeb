@@ -129,7 +129,7 @@ The required readings for this course consist of book chapters, newspaper articl
 
 <a id='class-format'></a>
 ###Class Format 
-Class runs from 6pm to 9pm, with the class time broken up into two 85-minute blocks with a single 10-minute break around the half-way point of the class. Class will be a mix of lecture and practical exercise work, emphasizing the application of skills covered in the lecture portion of the class. 
+Class runs from 6:30pm to 9:30pm, with the class time broken up into two 85-minute blocks with a single 10-minute break around the half-way point of the class. Class will be a mix of lecture and practical exercise work, emphasizing the application of skills covered in the lecture portion of the class. 
 
 I will also be available for questions or further assistance before and after class. You will have ample time in class to work on practical exercises based on the information presented in lectures. When possible, the final half hour of class will be set aside for any additional questions or additional tutorials in tools, skills, or techniques. Please plan on attending the full class time.
 
