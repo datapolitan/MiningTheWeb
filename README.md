@@ -83,6 +83,8 @@ Continuing Education Units (C.E.U.s): 3.0
 ###Course Overview
 This course introduces the tools, techniques, and general approaches used to acquire, clean, analyze, and visualize open data, with particular emphasis on using web-based technologies and open-source tools at each step of the process.
 
+We will be working with the community preservation group [Save Harlem Now!](http://www.saveharlemnow.org/) to help collect, organize, and visualize data related to historic preservation in Harlem. There is no requirement to participate in this project and each student is free to pursue their own projects in class. The work with Save Harlem Now! is an opportunity to work on a real-world problem related to the collection, analysis, and visualization of data.
+
 ######[back to top](#top)
 
 <!--
@@ -142,12 +144,13 @@ All assignments will be submitted by adding your content to the [class page](htt
 ######[back to top](#top)
 
 ###Assessment
-Area | Percentage
+Area | Total Points
 --- | ---
-Attendance | 20%
-Class Participation | 20%
-Visualization Critiques | 20%
-Project Presentations & Visualization | 40%
+Attendance | 20
+Class Participation | 20
+Visualization Critiques | 20
+Project Presentations & Visualization | 40
+**Total** | **100**
 
 ######[back to top](#top)
 
@@ -155,13 +158,13 @@ Project Presentations & Visualization | 40%
 ###Class Policies 
 <a id='attendance'></a>
 ####Attendance and Tardiness  
-I expect you to attend every class, arriving on time and staying for the entire duration of class. Absences will only be excused for extreme circumstances coordinated in advance and you are responsible for making up any missed work.
+I expect you to attend every class, arriving on time and staying for the entire duration of class. Daily attendance counts 2 points toward your final grade. Excused absences won't result in points being lost. 
 <a id='participation'></a>
 ####Participation 
-I expect you to be fully engaged while you’re in class. This means asking questions when necessary, engaging in class discussions, participating in class exercises, and completing all assigned work. Learning will occur in this class only when you actively use the tools, techniques, and skills described in the lectures. I will provide you ample time and resources to accomplish the goals of this course and expect you to take full advantage of what’s offered.
+I expect you to be fully engaged while you’re in class. This means asking questions when necessary, engaging in class discussions, participating in class exercises, and completing all assigned work. Learning will occur in this class only when you actively use the tools, techniques, and skills described in the lectures. I will provide you ample time and resources to accomplish the goals of this course and expect you to take full advantage of what’s offered. Daily participation counts 2 points toward your final grade.
 <a id='late-assignments'></a>
 ####Late Assignments
-All assignments are to be due before the start of class. Assignments submitted after class will be marked down 10% and assignments posted at the end of the next will be marked down 20%. No assignments will be accepted for a grade more than one day late.
+All assignments are to be due before the start of class to be presented in class. Points will be taken off assignments for being submitted late.
 <a id='office-hours'></a>
 ####Office hours
 I won’t be holding regular office hours, but I’m happy to set up a time to meet in person, over the phone, or via Skype/Google Hangout if you have any problems. Please use [Slack](http://miningtheweb.slack.com) to reach out to me. I will also be available before or after class to provide any assistance you may need.
