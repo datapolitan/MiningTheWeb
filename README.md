@@ -18,6 +18,7 @@ Continuing Education Units (C.E.U.s): 3.0
 + [Course Readings](#course-readings)
 + [Class Format](#class-format)
 + [Submitting Assignments](#submitting-assignments)
++ [Assessment](#assessment)
 + [Class Policies](#class-policies)
 	+ [Attendance and Tardiness](#attendance)
 	+ [Participation](#participation)
@@ -27,7 +28,6 @@ Continuing Education Units (C.E.U.s): 3.0
 + [Course Outline](#course-outline)
 	+ [Class 1 - April 11, 2016](#class1)
 		+ [Topics](#c1-topics)
-		+ [Readings](#c1-readings)
 		+ [Assignment](#c1-assignments)
 		+ [Resources](#c1-resources)
 	+ [Class 2 - April 13, 2016](#class2)
@@ -143,6 +143,7 @@ All assignments will be submitted by adding your content to the [class page](htt
 
 ######[back to top](#top)
 
+<a id='assessment'></a>
 ###Assessment
 Area | Total Points
 --- | ---
@@ -164,7 +165,7 @@ I expect you to attend every class, arriving on time and staying for the entire 
 I expect you to be fully engaged while you’re in class. This means asking questions when necessary, engaging in class discussions, participating in class exercises, and completing all assigned work. Learning will occur in this class only when you actively use the tools, techniques, and skills described in the lectures. I will provide you ample time and resources to accomplish the goals of this course and expect you to take full advantage of what’s offered. Daily participation counts 2 points toward your final grade.
 <a id='late-assignments'></a>
 ####Late Assignments
-All assignments are to be due before the start of class to be presented in class. Points will be taken off assignments for being submitted late.
+All assignments are to be due before the start of class to be presented in class. Points will be taken off late assignments.
 <a id='office-hours'></a>
 ####Office hours
 I won’t be holding regular office hours, but I’m happy to set up a time to meet in person, over the phone, or via Skype/Google Hangout if you have any problems. Please use [Slack](http://miningtheweb.slack.com) to reach out to me. I will also be available before or after class to provide any assistance you may need.
@@ -223,17 +224,177 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Topics 
 + Introduction to HTML and CSS
 + Introduction to Git and [Github](http://github.com)
++ Guest lecture on Save Harlem Now
 
 <a id='c2-readings'></a>
 ####Readings
 + Lohr, Steve. “[For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights.](http://nyti.ms/1xuuZSd)” New York Times 17 August 2014. 
 + Chris Whong "[Taxi TechBlog 1: Data Prep and Backend](http://chriswhong.com/data-visualization/taxitechblog1/)"
 + Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
++ Matt A.V. Chaban, "[Much to Save in Harlem, but Historic Preservation Lags, a Critic Says](http://www.nytimes.com/2016/03/01/nyregion/much-to-save-in-harlem-but-historic-preservation-lags-a-critic-says.html?_r=0)" 
+
+<a id='c2-assignments'></a>
+####Assignments
+1. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+2. A visualization, better, using new data or explore a data set from Save Harlem Now, talk about the challenges working with the data and the mockup a basic data display
 
 <a id='c2-resources'></a>
 ####Resources 
 + [A tutorial for getting started with Git and Github](http://bit.ly/1zlMfhK)
 
+######[back to top](#top)
+----
+
+<a id='class3'></a>
+###Class 3 - April 18, 2016
+<a id='c3-topics'></a>
+####Topics 
++ 
+
+<a id='c3-readings'></a>
+####Readings
+
+<a id='c3-assignments'></a>
+####Assignments
+1.
+
+<a id='c3-resources'></a>
+####Resources 
+
+######[back to top](#top)
+----
+
+<a id='class4'></a>
+###Class 4 - April 20, 2016
+<a id='c4-topics'></a>
+####Topics 
+
+
+<a id='c4-readings'></a>
+####Readings
+
+<a id='c4-assignments'></a>
+####Assignments
+1.
+
+<a id='c4-resources'></a>
+####Resources 
+
+######[back to top](#top)
+----
+
+<a id='class5'></a>
+###Class 5 - April 25, 2016
+<a id='c5-topics'></a>
+####Topics 
+
+
+<a id='c5-readings'></a>
+####Readings
+
+<a id='c5-assignments'></a>
+####Assignments
+1.
+
+<a id='c5-resources'></a>
+####Resources 
+
+######[back to top](#top)
+----
+
+<a id='class6'></a>
+###Class 6 - April 27, 2016
+<a id='c6-topics'></a>
+####Topics 
+
+
+<a id='c6-readings'></a>
+####Readings
+
+<a id='c6-assignments'></a>
+####Assignments
+1.
+
+<a id='c6-resources'></a>
+####Resources 
+
+######[back to top](#top)
+----
+
+<a id='class7'></a>
+###Class 7 - May 2, 2016
+<a id='c7-topics'></a>
+####Topics 
+
+
+<a id='c7-readings'></a>
+####Readings
+
+<a id='c7-assignments'></a>
+####Assignments
+1.
+
+<a id='c7-resources'></a>
+####Resources 
+
+######[back to top](#top)
+----
+
+<a id='class8'></a>
+###Class 8 - May 4, 2016
+<a id='c8-topics'></a>
+####Topics 
+
+
+<a id='c8-readings'></a>
+####Readings
+
+<a id='c8-assignments'></a>
+####Assignments
+1.
+
+<a id='c8-resources'></a>
+####Resources 
+
+######[back to top](#top)
+----
+
+<a id='class9'></a>
+###Class 9 - May 9, 2016
+<a id='c9-topics'></a>
+####Topics 
+
+
+<a id='c9-readings'></a>
+####Readings
+
+<a id='c9-assignments'></a>
+####Assignments
+1.
+
+<a id='c9-resources'></a>
+####Resources 
+
+######[back to top](#top)
+----
+
+<a id='class10'></a>
+###Class 10 - May 11, 2016
+<a id='c10-topics'></a>
+####Topics 
+
+
+<a id='c10-readings'></a>
+####Readings
+
+<a id='c10-assignments'></a>
+####Assignments
+1.
+
+<a id='c10-resources'></a>
+####Resources 
+
+######[back to top](#top)
 
 ----
 <a id="suggested-reading"></a>
