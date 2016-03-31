@@ -278,6 +278,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c3-resources'></a>
 ####Resources 
++ [An online class for getting started with querying APIs with Python](http://www.codecademy.com/en/tracks/apis-python)
 
 ######[back to top](#top)
 ----
@@ -286,6 +287,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 4 - April 20, 2016
 <a id='c4-topics'></a>
 ####Topics 
++ Overview of social media data
++ Collecting social media data from APIs
 + Introduction to SQL for cleaning data
 
 <a id='c4-readings'></a>
@@ -333,6 +336,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 <a id='c6-readings'></a>
 ####Readings
 + Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)” Ch. 1 and 2.
++ Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
 
 <a id='c6-assignments'></a>
 ####Assignments
@@ -349,10 +353,13 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 7 - May 2, 2016
 <a id='c7-topics'></a>
 ####Topics 
-
++ Introduction to visualization design
 
 <a id='c7-readings'></a>
 ####Readings
++ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. 
++ Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. 
++ [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
 
 <a id='c7-assignments'></a>
 ####Assignments
