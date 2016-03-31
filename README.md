@@ -199,6 +199,9 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Topics will be covered that day in class. Reading Assignments are to be read before class in preparation of the lecture and exercises. Assignments are due before the start of the next class and build on the information presented in class.
 
 ######[back to top](#top)
+
+----
+##Week 1 - Acquiring Data
 <a id='class1'></a>
 ###[Class 1 - April 11, 2016](http://www.datapolitan.com/MiningTheWeb/class1/)
 <a id='c1-topics'></a>
@@ -214,7 +217,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 2. Complete the online [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p) course.
 
 <a id='c1-resources'></a> 
-####Resources 
+####Resources
++ [CartoDB Academy](http://academy.cartodb.com/)
 
 ######[back to top](#top)
 ----
@@ -228,9 +232,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c2-readings'></a>
 ####Readings
-+ Lohr, Steve. “[For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights.](http://nyti.ms/1xuuZSd)” New York Times 17 August 2014. 
-+ Chris Whong "[Taxi TechBlog 1: Data Prep and Backend](http://chriswhong.com/data-visualization/taxitechblog1/)"
-+ Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
++ Interactive Data Visualization for the Web, pg 15 – 23 
++ Chris Whong "[Foiling NYC's Taxi Trip Data](http://chriswhong.com/open-data/foil_nyc_taxi/)"
 + Matt A.V. Chaban, "[Much to Save in Harlem, but Historic Preservation Lags, a Critic Says](http://www.nytimes.com/2016/03/01/nyregion/much-to-save-in-harlem-but-historic-preservation-lags-a-critic-says.html?_r=0)" 
 
 <a id='c2-assignments'></a>
@@ -244,19 +247,25 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
+##Week 2: More Acquiring Data/Data Cleaning
 
 <a id='class3'></a>
 ###Class 3 - April 18, 2016
 <a id='c3-topics'></a>
 ####Topics 
-+ 
++ Web scraping
++ Introduction to APIs
++ Introduction to OpenRefine
 
 <a id='c3-readings'></a>
 ####Readings
++ Thomas Levine, [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
++ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
 
 <a id='c3-assignments'></a>
 ####Assignments
-1.
+1. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+2. Identify a question or topic you'd like to explore in this class, with the intention of creating a map related to the topics as part of your final project in this class. Write 2-3 paragraphs on why the topic is interesting to you, what data you'd like to explore using, and what you hope to contribute with your work.
 
 <a id='c3-resources'></a>
 ####Resources 
@@ -268,21 +277,24 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 4 - April 20, 2016
 <a id='c4-topics'></a>
 ####Topics 
-
++ Introduction to SQL for cleaning data
 
 <a id='c4-readings'></a>
 ####Readings
++ [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
++ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
 
 <a id='c4-assignments'></a>
 ####Assignments
-1.
+1. Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. Write a short description of the data, the API you used to access it, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result. Submit your API code via the Slack channel in the format "<lastname>_assignment2.py" if you do your API query in Python or "<lastname>_assignment2.txt" if you did you query in OpenRefine.
 
 <a id='c4-resources'></a>
 ####Resources 
++ [CartoDB Academy](http://academy.cartodb.com/)
 
 ######[back to top](#top)
 ----
-
+##Week 3: Cleaning/Analyzing Data
 <a id='class5'></a>
 ###Class 5 - April 25, 2016
 <a id='c5-topics'></a>
@@ -294,7 +306,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c5-assignments'></a>
 ####Assignments
-1.
+1. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c5-resources'></a>
 ####Resources 
@@ -320,6 +332,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
+##Week 4: Visualizing Data
 
 <a id='class7'></a>
 ###Class 7 - May 2, 2016
@@ -332,7 +345,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c7-assignments'></a>
 ####Assignments
-1.
+1. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c7-resources'></a>
 ####Resources 
@@ -358,6 +371,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
+##Week 5: 
 
 <a id='class9'></a>
 ###Class 9 - May 9, 2016
@@ -370,7 +384,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c9-assignments'></a>
 ####Assignments
-1.
+1. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c9-resources'></a>
 ####Resources 
