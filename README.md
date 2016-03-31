@@ -103,7 +103,7 @@ This repository is a resource for code samples and other resources throughout th
 
 <a id='course-requirements'></a>
 ###Course Requirements 
-All students will need to bring their own laptop for exercises during class. Time will be set aside to help install, configure, and run the programs necessary for all assignments, projects, and exercises. Where possible, all programs will be free and open-source. All assigned work using services hosted online can be run using free accounts.
+**All students will need to bring their own laptop for exercises during class.** Time will be set aside to help install, configure, and run the programs necessary for all assignments, projects, and exercises. Where possible, all programs will be free and open-source. All assigned work using services hosted online can be run using free accounts. **Please update your system to the latest version of your prefered operating system prior to the first day of class to ensure you're able to successfully install and use the tools in class.**
 
 You will be required to have free accounts with the following services:
 
@@ -120,6 +120,15 @@ Tumblr - https://www.tumblr.com/register
 -->
 
 Time will be set aside to help you register and setup these accounts, but please try to come to the first session having already registered for these servies.
+
+In addition, please install the following applications prior to class:
+
++ [Slack](https://slack.com/)
++ [OpenRefine](https://github.com/OpenRefine/OpenRefine/releases/tag/2.6-rc.2)
++ A free text editor of your choice
+	+ [Sublime Text](https://www.sublimetext.com/) (All systems)
+	+ [TextWrangler](http://www.barebones.com/products/textwrangler/) (All systems)
+	+ [Notepad++](https://notepad-plus-plus.org/) (Windows)
 
 ######[back to top](#top)
 
@@ -318,10 +327,12 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 6 - April 27, 2016
 <a id='c6-topics'></a>
 ####Topics 
-
++ A (re-)introduction to statistics
++ SQL for analysis
 
 <a id='c6-readings'></a>
 ####Readings
++ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)” Ch. 1 and 2.
 
 <a id='c6-assignments'></a>
 ####Assignments
@@ -357,7 +368,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 8 - May 4, 2016
 <a id='c8-topics'></a>
 ####Topics 
-
++ Advanced CartoDB (guest lecture)
 
 <a id='c8-readings'></a>
 ####Readings
@@ -371,13 +382,17 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
-##Week 5: 
+##Week 5: Advanced Topics/Final Presentations
 
 <a id='class9'></a>
 ###Class 9 - May 9, 2016
 <a id='c9-topics'></a>
 ####Topics 
-
++ Course review
++ Advanced topics, to possibly include:
+	+ Introduction to Interactive Visualization of Data with D3 and Leaflet
+	+ Introduction to Spatial Databases
+	+ Visualizing social media data
 
 <a id='c9-readings'></a>
 ####Readings
@@ -396,17 +411,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 10 - May 11, 2016
 <a id='c10-topics'></a>
 ####Topics 
++ Final presentations
 
-
-<a id='c10-readings'></a>
-####Readings
-
-<a id='c10-assignments'></a>
-####Assignments
-1.
-
-<a id='c10-resources'></a>
-####Resources 
 
 ######[back to top](#top)
 
