@@ -361,7 +361,6 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
-##Week 4: Visualizing Data
 
 <a id='class7'></a>
 ###Class 7 - May 2, 2016
