@@ -159,7 +159,8 @@ Area | Total Points
 Attendance | 20
 Class Participation | 20
 Visualization Critiques | 20
-Project Presentations & Visualization | 40
+Visualizations | 20
+Final Project | 20
 **Total** | **100**
 
 ######[back to top](#top)
@@ -223,7 +224,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 <a id='c1-assignments'></a>
 ####Assignment
 1. Complete the visualization started in class with data from an open data portal. Style the map in CartoDB and have it ready to present in class.
-2. Complete the online [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p) course.
+2. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 <a id='c1-resources'></a> 
 ####Resources
@@ -237,21 +238,23 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Topics 
 + Introduction to HTML and CSS
 + Introduction to Git and [Github](http://github.com)
-+ Guest lecture on Save Harlem Now
++ Guest lecture on [Save Harlem Now](http://www.saveharlemnow.org/)
 
 <a id='c2-readings'></a>
 ####Readings
 + Interactive Data Visualization for the Web, pg 15 – 23 
-+ Chris Whong "[Foiling NYC's Taxi Trip Data](http://chriswhong.com/open-data/foil_nyc_taxi/)"
 + Matt A.V. Chaban, "[Much to Save in Harlem, but Historic Preservation Lags, a Critic Says](http://www.nytimes.com/2016/03/01/nyregion/much-to-save-in-harlem-but-historic-preservation-lags-a-critic-says.html?_r=0)" 
 
 <a id='c2-assignments'></a>
 ####Assignments
-1. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
-2. A visualization, better, using new data or explore a data set from Save Harlem Now, talk about the challenges working with the data and the mockup a basic data display
+1. Complete the online [CartoDB “Online Mapping for Beginners”](http://bit.ly/1CyXW7p) course.
+2. Create a second visualization or improve on your first, using new data or explore a data set from Save Harlem Now Project. Write 2-3 paragraphs discussing any challenges you encountered working with the data and/or creating your visualization in CartoDB.
+
 
 <a id='c2-resources'></a>
 ####Resources 
++ [Codecademy HTML and CSS Course](https://www.codecademy.com/en/tracks/htmlcss)
++ [W3Schools HTML Tutorial](http://www.w3schools.com/html/default.asp)
 + [A tutorial for getting started with Git and Github](http://bit.ly/1zlMfhK)
 
 ######[back to top](#top)
@@ -268,6 +271,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c3-readings'></a>
 ####Readings
++ Chris Whong "[Foiling NYC's Taxi Trip Data](http://chriswhong.com/open-data/foil_nyc_taxi/)"
 + Thomas Levine, [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
 + [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
 
@@ -278,7 +282,8 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c3-resources'></a>
 ####Resources 
-+ [An online class for getting started with querying APIs with Python](http://www.codecademy.com/en/tracks/apis-python)
++ [School of Data: Cleaning Data with OpenRefine](http://schoolofdata.org/handbook/recipes/cleaning-data-with-refine/)
++ [Enipedia OpenRefine Tutorial](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial)
 
 ######[back to top](#top)
 ----
@@ -289,20 +294,25 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Topics 
 + Overview of social media data
 + Collecting social media data from APIs
-+ Introduction to SQL for cleaning data
++ Introduction to Python for querying APIs
 
 <a id='c4-readings'></a>
 ####Readings
-+ [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
-+ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
++ TBD
 
 <a id='c4-assignments'></a>
 ####Assignments
-1. Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. Write a short description of the data, the API you used to access it, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result. Submit your API code via the Slack channel in the format "<lastname>_assignment2.py" if you do your API query in Python or "<lastname>_assignment2.txt" if you did you query in OpenRefine.
+1. Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. Write a short (2-3 paragraph) description of the data, the API you used to access it, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result. Submit your API code via the Slack channel in the format "lastname-assignment2.py" if you do your API query in Python or "lastname-assignment2.txt" if you did you query in OpenRefine.
+2. Update your project plan for your final project with additional questions, data sources, ideas for visualizing, or other issues/challenges you've discovered.
 
 <a id='c4-resources'></a>
 ####Resources 
 + [CartoDB Academy](http://academy.cartodb.com/)
++ McKinney, Wes. Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython. O'Reilly Media, Inc., 2012, "Appendix Python Language Essentials"
++ [Codecademy Python Course](https://www.codecademy.com/learn/python)
++ [MIT Introduction to Computer Science and Programming with Python](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/index.htm) (free course)
++ [Codecademy Learn to Code for APIs](https://www.codecademy.com/apis)
+
 
 ######[back to top](#top)
 ----
@@ -311,14 +321,17 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 5 - April 25, 2016
 <a id='c5-topics'></a>
 ####Topics 
-
++ Introduction to SQL for cleaning data
++ Cleaning Data with APIs
 
 <a id='c5-readings'></a>
 ####Readings
++ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
 
 <a id='c5-assignments'></a>
 ####Assignments
 1. Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+2. Complete the [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html) course.
 
 <a id='c5-resources'></a>
 ####Resources 
@@ -332,6 +345,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ####Topics 
 + A (re-)introduction to statistics
 + SQL for analysis
++ Python for analysis
 
 <a id='c6-readings'></a>
 ####Readings
@@ -340,7 +354,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c6-assignments'></a>
 ####Assignments
-1.
+1. Create a new visualization or improve on your previous visualization with additional data and provide analysis of the data you've found. Write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented.
 
 <a id='c6-resources'></a>
 ####Resources 
@@ -379,10 +393,11 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 <a id='c8-readings'></a>
 ####Readings
++ TBD
 
 <a id='c8-assignments'></a>
 ####Assignments
-1.
+1. Create your final presentation. Have mockups ready for class on Monday ahead of presentations on Wednesday. More detailed requirements will be provided in class.  
 
 <a id='c8-resources'></a>
 ####Resources 
