@@ -8,7 +8,7 @@ Location: [ISC Building, Lower Level, Room 003](https://www.dropbox.com/s/ilkyk0
 
 Continuing Education Units (C.E.U.s): 3.0
 
-[Click for more information and to register](bit.ly/1rksh3S)
+[Click for more information and to register](http://bit.ly/1rksh3S)
 
 ----
 ###Navigation
@@ -361,6 +361,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 
 ######[back to top](#top)
 ----
+##Week 4: Visualizing Data
 
 <a id='class7'></a>
 ###Class 7 - May 2, 2016
