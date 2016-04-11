@@ -2,6 +2,14 @@ body{
     margin-left:5%;
     margin-right:5%;
 }
+
+h1,h2,h3 {
+    font-family: sans-serif;
+    width:95%;
+    margin-left:1em;
+    margin-right:1em;
+}
+
 div {
     font-family: sans-serif;
     width:95%;
