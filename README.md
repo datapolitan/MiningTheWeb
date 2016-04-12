@@ -213,7 +213,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ----
 ##Week 1 - Acquiring Data
 <a id='class1'></a>
-###Class 1 - April 11, 2016
+###[Class 1 - April 11, 2016](http://www.datapolitan.com/MiningTheWeb/class1)
 <a id='c1-topics'></a>
 ####Topics 
 + What is open data?
