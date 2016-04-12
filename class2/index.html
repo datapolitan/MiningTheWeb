@@ -1,143 +1,112 @@
-<!-- end of c block -->
----
-class:middle,center
-#Lunch
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout:true
+
+<p class="footer">
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mining the Web</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+</p>
 
 ---
 
-# Goals for this Afternoon
+class: center, middle
+![img-center-30](../images/pratt_logo.png)
+#Mining the Web
+###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class2/
+
+---
+class:center,middle
+#Day Two
 
 ---
 
-# Goals for this Afternoon
+# Goals for today
+--
+
 + Introduce the basic concepts of mapping and visualizing spatial data
+--
 
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of mapping and visualizing spatial data
 + Create a basic visualization
+--
 
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of mapping and visualizing spatial data
-+ Create a basic visualization
 + Introduce the basic concepts of HTML and CSS
+--
 
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of mapping and visualizing spatial data
-+ Create a basic visualization
-+ Introduce the basic concepts of HTML and CSS
 + Introduce Git and Github
+--
 
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of mapping and visualizing spatial data
-+ Create a basic visualization
-+ Introduce the basic concepts of HTML and CSS
-+ Introduce Git and Github
 + Discuss the ways Git and Github will be used in this class
+--
 
----
-
-# Goals for this Afternoon
-+ Introduce the basic concepts of mapping and visualizing spatial data
-+ Create a basic visualization
-+ Introduce the basic concepts of HTML and CSS
-+ Introduce Git and Github
-+ Discuss the ways Git and Github will be used in this class
 + Review Assignments and Readings for next class
 
 ---
 
 class: center,middle
 #Introduction to Mapping
-<!-- beginning of d block -->
 
 ---
 
 #Spatial Information
 ![img-full](../images/map1.png)
+#####Image Source: http://www.geocontrolling.com/co-je-gis.htm
 
 ---
 
 #Vectors
-+ X and Y coordinates
+--
 
----
-
-#Vectors
 + X and Y coordinates
+--
+
 + Possibly a Z coordinate as well
+--
 
----
-
-#Vectors
-+ X and Y coordinates
-+ Possibly a Z coordinate as well
 + 3 Types: Point, Line, and Polygon
-
----
-
-#Vectors
-+ X and Y coordinates
-+ Possibly a Z coordinate as well
-+ 3 Types: Point, Line, and Polygon
-+ Symbology
 
 ---
 
 class: center,middle
 ![img](../images/point_feature.png)
 
-Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html
+Source: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/vector_data.html
 
 ---
 
 class: center,middle
 ![img](../images/polyline_feature.png)
 
-Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html
+Source: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/vector_data.html
 
 ---
 
 class: center,middle
 ![img](../images/polygon_feature.png)
 
-Source: http://docs.qgis.org/testing/en/docs/gentle_gis_introduction/vector_data.html
+Source: http://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/vector_data.html
 
 ---
 
 #Rasters
+--
 
----
-
-#Rasters
 + Grid of values
+--
 
----
-
-#Rasters
-+ Grid of values
 + Examples:
+--
 
----
-
-#Rasters
-+ Grid of values
-+ Examples:
 + Basemaps
+--
 
----
-
-#Rasters
-+ Grid of values
-+ Examples:
-+ Basemaps
 + Satellite imagery
 
 ---
@@ -221,60 +190,29 @@ class:center,middle
 #Let's Create a Visualization in CartoDB
 
 ---
-
-class: middle,center
-#10 Min Break
-
----
 class: center,middle
 # Introduction to HTML and CSS
-<!-- beginning of e block -->
 
 ---
 
 # Overview of HTML
+--
 
----
-
-# Overview of HTML
 + Hypertext Markup Language
+--
 
----
-
-# Overview of HTML
-+ Hypertext Markup Language
 + Mark text with tags to instruct browser how to display the text 
+--
 
----
-
-# Overview of HTML
-+ Hypertext Markup Language
-+ Mark text with tags to instruct browser how to display the text 
 + Classes define sets of tags
+--
 
-```html
-<div class='project'>
-  <h3>Visualizing Subway Usage in New York City - Richard Dunks</h3>
-  Here is my awesome CartoDB visualization using Census data and NYCT subway route shapefiles:
-  <br>
-  <br>
-
-  <iframe width="100%" height="520" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</div>
-```
-
----
-
-# Overview of HTML
-+ Hypertext Markup Language
-+ Mark text with tags to instruct browser how to display the text 
-+ Classes define sets of tags
 + IDs identify particular tags
 
 ```html
 <div id='header'>
   <h2>Pratt Institute Spatial Analysis and Visualization Initiative<br>
-    Mining the Web - Fall 2015<br>
+    Mining the Web<br>
     Project Page</h2>
   <h3>Guidelines for assignment submission</h3>
   <p>We will be using this page to submit assignments. Write up your visualization critiques using the "vis-critique" class and "project" class for your CartoDB visualizations, following the examples below. </p>
@@ -284,22 +222,11 @@ class: center,middle
 ---
 
 #Overview of CSS
+--
 
----
-
-#Overview of CSS
 + Cascading Style Sheet
+--
 
----
-
-#Overview of CSS
-+ Cascading Style Sheet
-+ Defines styles associated with HTML tags, as well as classes and IDs
-
----
-
-#Overview of CSS
-+ Cascading Style Sheet
 + Defines styles associated with HTML tags, as well as classes and IDs
 
 ```css
@@ -332,7 +259,7 @@ img {
 class: center, middle
 #Let’s create a webpage
 
-class1/HTML_example
+##[Right click and "Save link as" to download this text](HTML_example/sample.txt)
 
 ---
 
@@ -341,17 +268,11 @@ class: center,middle
 
 http://www.datapolitan.com/MiningTheWeb/
 
-<!-- end of e block -->
----
-
-class: middle, center
-#10 Min Break
-
 ---
 
 class:center,middle
 #Introduction to Git
-<!-- beginning of f block -->
+
 ---
 
 class:center,middle
@@ -547,3 +468,21 @@ class:middle,center
 
 class:center,middle
 #And what are the rest of those assignments?
+
+---
+
+class: center,middle
+#Any Issues? Questions?
+
+---
+class:center, middle
+#See you next week
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
