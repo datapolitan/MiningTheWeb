@@ -3,969 +3,656 @@
   <head>
     <title>Mining the Web - Class 3</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="slide.css"/>
+    <link rel="stylesheet" href="../slide.css"/>
   </head>
   <body>
     <textarea id="source">
 
+layout:true
+
+<p class="footer">
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mining the Web</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+</p>
+
+---
 
 class: center, middle
-![img-center-small](../images/pratt_logo.png)
+![img-center-30](../images/pratt_logo.png)
 #Mining the Web
 ###Richard Dunks
 ###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class3/
 
 ---
+class:center,middle
+#Day Three
+
+---
+
+#Goals for tonight
++ Present critiques
++ Review git and Github
++ Demonstrate how to embed CartoDB visualizations
++ Embed visualizations and present to class
++ Continue discussing ways to acquire data
++ Introduce application programming interfaces (APIs)
+
+---
+
+#Readings for today
++ Chris Whong "[Foiling NYC's Taxi Trip Data](http://chriswhong.com/open-data/foil_nyc_taxi/)"
++ Thomas Levine, [Introduction to web scraping](https://thomaslevine.com/!/web-sites-to-data-tables/)
++ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
+
+---
+
+class:center,middle
+#Visualization Critiques
+##http://www.datapolitan.com/MiningTheWeb/
+
+---
+
+class:center,middle
+#Introduction to Git
+
+---
+
+class:center,middle
+#Why Git?
+
+---
+
+class:center,middle
+![img-full](../images/git1.png)
+
+---
+
+class:center,middle
+![img-full](../images/git2.png)
+
+---
+
+class:center,middle
+![img-full](../images/git3.png)
+
+---
+
+class:center,middle
+![img-full](../images/git4.png)
+
+---
+
+class:center,middle
+#Collaborating with Git
+
+---
+
+class:center,middle
+![img-full](../images/git5.png)
+
+---
+
+class:center,middle
+![img-full](../images/git6.png)
+
+---
+
+class:center,middle
+![img-full](../images/git7.png)
+
+---
+
+class:center,middle
+![img-full](../images/git8.png)
+
+---
+
+class:center,middle
+![img-full](../images/git9.png)
+
+---
+
+class:center,middle
+![img-full](../images/git10.png)
+
+---
+
+class:center,middle
+![img-full](../images/git11.png)
+
+---
+
+class:center,middle
+![img-full](../images/git12.png)
+
+---
+
+class:center,middle
+![img-full](../images/git13.png)
+
+---
+class:center
+#Git Workflow
+![img-full](../images/git14.png)
+
+---
+
+#Committing to Github
+![img](../images/github0.png)
+
+---
+
+#Committing to Github
+![img](../images/github1.png)
+
+---
+
 class:middle,center
-#Day Three 
+#Add your awesome content in your text editor
+
+---
+
+#Committing to Github
+![img](../images/github2.png)
+
+---
+
+#Committing to Github
+![img](../images/github4.png)
+
+
+---
+
+#Some things to install
++ OpenRefine: http://openrefine.org/download.html
++ [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
 
 ---
 
 class:center,middle
-![img](http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-check-in.png)
-
-<!-- 
-# Goals for this morning
-+ Check-in with class
-+ Check-in with readings and homework
-+ Workshop projects
-+ Present your visualizations and critiques
-+ Discuss statistics as it relates to analyzing data
- -->
- <!-- beginning of a block -->
+#Data and the Web
 
 ---
 
-#Readings
-+ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)
-” Ch. 1 and 2.
-+ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. 
-+ Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. 
-+ [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
+#Data Portals
+--
+
++ Organize available data
+--
+
++ Provide tools for visualizing, combining, and downloading data
 
 ---
 
 class:center,middle
-#Visualization Critique Presentations
-##Everyone presents
-<!-- end of a block -->
----
+#Manual Scraping
+Example from Eric Brelsford - OpenRefine
 
-class:center,middle
-#Project Presentations
-##Everyone presents
-<!-- b block -->
-
----
-
-![img-right](../images/cyoa2.jpg)
-#Topics I'd like to cover
-+ Overview of Statistics
-+ Introduction to Visualization Design
-+ Design Exercise in CartoDB
-+ Introduction to Python
+http://www.youtube.com/watch?v=KQlCTo0Q71Q 
 
 ---
 
 class:center,middle
-#Introduction to Statistics
-
----
-class:center,middle
-> We are drowning in information and starving for knowledge.
-
-##Rutherford D. Roger
+#Manual Scraping Example
+##http://bit.ly/ScrapeExample
 
 ---
 
-#Why Statistics?
+#Manual Scraping Example
+![img-full](../images/man_scraping.png)
 
 ---
 
-#Why Statistics?
-+ Tools for extracting meaning from data
+#Manual Scraping Example
+![img-full](../images/man_scraping2.png)
 
 ---
 
-#Why Statistics?
-+ Tools for extracting meaning from data
-+ Commonly understood ways of communicating meaning to others
+#Manual Scraping Example
+![img-full](../images/man_scraping3.png)
 
 ---
 
-#Histogram
+#Manual Scraping Example
+![img-full](../images/man_scraping4.png)
 
 ---
 
-#Histogram
-+ Charts the frequency of instances in the data
+#Manual Scraping Example
+![img-full](../images/man_scraping5.png)
 
 ---
 
-#Histogram
-+ Charts the frequency of instances in the data
-+ Shows the frequency distribution
+#Manual Scraping Example
+![img-full](../images/man_scraping6.png)
 
 ---
 
-#Histogram
-+ Charts the frequency of instances in the data
-+ Shows the frequency distribution
-+ Values are grouped into class intervals
+class:middle,center
+#Copy the response
+#Paste into text editor
+##&nbsp;
 
 ---
 
-#Histogram
-+ Charts the frequency of instances in the data
-+ Shows the frequency distribution
-+ Values are grouped into class intervals
-+ Best to have a consistent size to class intervals
+class:middle,center
+#Copy the response
+#Paste into text editor
+##or...
 
 ---
 
-#Histogram
-+ Charts the frequency of instances in the data
-+ Shows the frequency distribution
-+ Values are grouped into class intervals
-+ Best to have a consistent size to class intervals
-![img-left](../images/hist1.png)
+class:middle,center
+#Introduction to OpenRefine
+![img-center-50](../images/or_book.png)
+
+https://www.packtpub.com/big-data-and-business-intelligence/using-openrefine 
 
 ---
 
-#Histogram
-+ Charts the frequency of instances in the data
-+ Shows the frequency distribution
-+ Values are grouped into class intervals
-+ Best to have a consistent size to class intervals
-![img-left](../images/hist1.png)
-![img-right](../images/hist2.png)
+#OpenRefine
+--
 
++ In-browser application
+--
 
----
++ Used to clean data
+--
 
-#Histogram
-+ Charts the frequency of instances in the data
-+ Shows the frequency distribution
-+ Values are grouped into class intervals
-+ Best to have a consistent size to class intervals
-![img-left](../images/hist1.png)
-![img-right](../images/hist2.png)
++ Converts data from various file types
+--
 
-http://mathematica.stackexchange.com/questions/59520/histogram-with-variable-bin-size
++ Exports data into various formats
 
 ---
 
-class:center,middle
-#Distributions of Data
+#OpenRefine - Pros
+--
+
++ Works with lots of data types
+--
+
++ Great for converting Excel files to CSV (the carriage return problem)
+--
+
++ Facets are powerful (facet on anything)
+--
+
++ Can export to various formats
+--
+
++ Meant specifically to clean data
 
 ---
 
-#Normal Distribution
-![img-center-large](../images/dist_normal.png)
+#OpenRefine - Cons
+--
+
++ In browser memory is limited
+--
+
++ Only display 50 rows at a time
+--
+
++ Meant for cleaning data (not displaying it)
 
 ---
 
-#Long-tail Distribution
-![img-center-large](../images/dist_lt.png)
+#Copying Data into OpenRefine
+![img-full](../images/or1.png)
 
 ---
 
-#Bi-Modal Distribution
-![img-full](../images/dist_bm.png)
+#Copying Data into OpenRefine
+![img-full](../images/or2.png)
 
 ---
 
-#Mean
+#Loading JSON Data into OpenRefine
+![img-full](../images/or3.png)
 
 ---
 
-#Mean
-+ A representative value for the data
+#Loading JSON Data into OpenRefine
+![img-full](../images/or4.png)
+###Mouse-over the desired JSON level
 
 ---
 
-#Mean
-+ A representative value for the data
-+ Usually what people mean by “average”
+#Creating a Project
+![img-full](../images/or5.png)
 
 ---
 
-#Mean
-+ A representative value for the data
-+ Usually what people mean by “average”
-+ Calculate by adding all the values together and dividing by the number instances
+
+#If you get an error about Reconcile service, try this:
+###https://groups.google.com/forum/#!topic/openrefine/IkMN-GLm_nw
+####(Requires Google login)
 
 ---
 
-#Mean
-+ A representative value for the data
-+ Usually what people mean by “average”
-+ Calculate by adding all the values together and dividing by the number instances
-+ Sensitive to extremes
+#Renaming a Column
+![img-full](../images/or6.png)
 
 ---
 
-#Median
+#Renaming a Column
+
+![img](../images/or7.png)
 
 ---
 
-#Median
-+ The “middle” value of a data set
+#Renaming a Column
+![img-full](../images/or8.png)
 
 ---
 
-#Median
-+ The “middle” value of a data set
-+ Center value of a data set with an odd number of values
-
----
-
-#Median
-+ The “middle” value of a data set
-+ Center value of a data set with an odd number of values
-+ Sum of two middle values divided by 2 if the number of items in a data set is even
-
----
-
-#Median
-+ The “middle” value of a data set
-+ Center value of a data set with an odd number of values
-+ Sum of two middle values divided by 2 if the number of items in a data set is even
-+ Resistant to extreme values
-
----
-
-#Median
-+ The “middle” value of a data set
-+ Center value of a data set with an odd number of values
-+ Sum of two middle values divided by 2 if the number of items in a data set is even
-+ Resistant to extreme values
-![img-full](../images/median_balance.png)
-
----
-
-#Median vs Mean
-![img-full](../images/mean_vs_median.png)
-
----
-
-#Mode
-
----
-
-#Mode
-+ The most frequent value in a dataset
-
----
-
-#Mode
-+ The most frequent value in a dataset
-+ Often used for categorical data
-
----
-
-#Mode
-+ The most frequent value in a dataset
-+ Often used for categorical data
-![img-center](../images/mode.png)
-
----
-
-#Measures of Central Tendency
-
----
-
-#Measures of Central Tendency
-+ Quantitative data tends to cluster around some central value
-
----
-
-#Measures of Central Tendency
-+ Quantitative data tends to cluster around some central value
-+ Contrasts with the spread of data around that center (i.e. the variability in the data)
-
----
-
-#Measures of Central Tendency
-+ Quantitative data tends to cluster around some central value
-+ Contrasts with the spread of data around that center (i.e. the variability in the data)
-+ Mean is a more precise measure and more often used
-
----
-
-#Measures of Central Tendency
-+ Quantitative data tends to cluster around some central value
-+ Contrasts with the spread of data around that center (i.e. the variability in the data)
-+ Mean is a more precise measure and more often used
-+ Median is better when there are extreme outliers
-
----
-
-#Measures of Central Tendency
-+ Quantitative data tends to cluster around some central value
-+ Contrasts with the spread of data around that center (i.e. the variability in the data)
-+ Mean is a more precise measure and more often used
-+ Median is better when there are extreme outliers
-+ Mode is used when the data is categorical (as opposed to numeric)
+#Export Data as CSV
+![img-full](../images/or9.png)
 
 ---
 
 class:center,middle
-#Measuring Variability
-
----
-
-#Range
-
----
-
-#Range
-+ The gap between the minimum value and the maximum value
-
----
-
-#Range
-+ The gap between the minimum value and the maximum value
-+ Calculated by subtracting the minimum from the maximum
-
----
-
-#Quantiles
-
----
-
-#Quantiles
-+ Median splits the data set into two equal groups
-
----
-
-#Quantiles
-+ Median splits the data set into two equal groups
-+ Quartiles split the data into four equal groups
-
----
-
-#Quantiles
-+ Median splits the data set into two equal groups
-+ Quartiles split the data into four equal groups
-+ First quartile is 0-25% of the data
-
----
-
-#Quantiles
-+ Median splits the data set into two equal groups
-+ Quartiles split the data into four equal groups
-+ First quartile is 0-25% of the data
-+ Second quartile is 25-50% of the data
-
----
-
-#Quantiles
-+ Median splits the data set into two equal groups
-+ Quartiles split the data into four equal groups
-+ First quartile is 0-25% of the data
-+ Second quartile is 25-50% of the data
-+ Third quartile is 50-75% of the data
-
----
-
-#Quantiles
-+ Median splits the data set into two equal groups
-+ Quartiles split the data into four equal groups
-+ First quartile is 0-25% of the data
-+ Second quartile is 25-50% of the data
-+ Third quartile is 50-75% of the data
-+ Fourth quartile is 75-100% of the data
-
----
-
-#Interquartile Range
-
----
-
-#Interquartile Range
-+ “Middle” 50% of data (between 1st Quartile and 3rd Quartile)
-
----
-
-#Interquartile Range
-+ “Middle” 50% of data (between 1st Quartile and 3rd Quartile)
-![img-center-large](../images/iqr.png)
-
----
-
-#Outliers
-
----
-
-#Outliers
-+ Any data points less than 1.5x the IQR or greater than 1.5x the IQR are considered outliers
-
----
-
-#Outliers
-+ Any data points less than 1.5x the IQR or greater than 1.5x the IQR are considered outliers
-+ Helps identify data points that may skew the analysis
-
----
-
-#Outliers
-+ Any data points less than 1.5x the IQR or greater than 1.5x the IQR are considered outliers
-+ Helps identify data points that may skew the analysis
-+ Focus on the “meat” of the data
-
----
-
-#Outliers
-![img-center-small](../images/outlier.png)
-http://flowingdata.com/2008/02/15/how-to-read-and-use-a-box-and-whisker-plot/ 
-
----
-
-#Standard Deviation
-
----
-
-#Standard Deviation
-+ The average distance of each data point from the mean
-
----
-
-#Standard Deviation
-+ The average distance of each data point from the mean
-+ Larger the standard deviation, the greater the spread
-
----
-
-#Standard Deviation
-+ The average distance of each data point from the mean
-+ Larger the standard deviation, the greater the spread
-![img-full](../images/std1.png)
-
-<!-- 
-
-#Standard Deviation
-![img-center-large](../images/std3.png)
-
--
-
-#Formula for Standard Deviation
-![img-full](../images/std2.png)
-
--
-#Calculating the Standard Deviation
-1. Subtract the mean from each data point
-2. Square the result
-3. Sum them together
-4. Divide by the number of instances
-5. Take the square root
-
-###...or you just use a computer
--
-
-#Variance
-1. Subtract the mean from each data point
-2. Square the result
-3. Sum them together
-4. Divide by the number of instances
-5. ~~Take the square root~~
-
--->
-
-#Measures of Variability
-
----
-
-#Measures of Variability
-+ Describe the distribution of our data
-
----
-
-#Measures of Variability
-+ Describe the distribution of our data
-+ Range (Maximum – Minimum)
-
----
-
-#Measures of Variability
-+ Describe the distribution of our data
-+ Range (Maximum – Minimum)
-+ Inter-quartile Range
-
----
-
-#Measures of Variability
-+ Describe the distribution of our data
-+ Range (Maximum – Minimum)
-+ Inter-quartile Range
-+ Standard Deviation
-<!-- + Variance -->
----
-
-#Measures of Variability
-+ Describe the distribution of our data
-+ Range (Maximum – Minimum)
-+ Inter-quartile Range
-+ Standard Deviation
-+ Identification of outliers (1.5 x IQR)
-
----
-
-#Descriptive Statistics
-
----
-
-#Descriptive Statistics
-+ Quantitatively describe the main features of a dataset
-
----
-
-#Descriptive Statistics
-+ Quantitatively describe the main features of a dataset
-+ Help distinguish distributions and make them comparable
-
----
-
-#Exploratory Data Analysis
-
----
-
-#Exploratory Data Analysis
-+ Goal -> Discover patterns in the data
-
----
-
-#Exploratory Data Analysis
-+ Goal -> Discover patterns in the data
-+ Understand the context
-
----
-
-#Exploratory Data Analysis
-+ Goal -> Discover patterns in the data
-+ Understand the context
-+ Summarize fields
-
----
-
-#Exploratory Data Analysis
-+ Goal -> Discover patterns in the data
-+ Understand the context
-+ Summarize fields
-+ Use graphical representations of the data
-
----
-
-#Exploratory Data Analysis
-+ Goal -> Discover patterns in the data
-+ Understand the context
-+ Summarize fields
-+ Use graphical representations of the data
-+ Explore outliers
-
----
-
-#Exploratory Data Analysis
-+ Goal -> Discover patterns in the data
-+ Understand the context
-+ Summarize fields
-+ Use graphical representations of the data
-+ Explore outliers
-
-###Tukey, J.W. (1977). Exploratory data analysis. Reading, MA: Addison-Wesley.
-
----
-
-#Correlations
-![img-full](../images/corr1.png)
-###How do we measure this relationship?
-
----
-
-#Coefficient of Correlation
-
----
-
-#Coefficient of Correlation
-+ Quantifies the amount of shared variability between variables
-
----
-
-#Coefficient of Correlation
-+ Quantifies the amount of shared variability between variables
-+ Ranges between -1 and +1 
-
----
-
-#Coefficient of Correlation
-+ Quantifies the amount of shared variability between variables
-+ Ranges between -1 and +1 
-+ Negative numbers are inversely proportional
-
----
-
-#Coefficient of Correlation
-+ Quantifies the amount of shared variability between variables
-+ Ranges between -1 and +1 
-+ Negative numbers are inversely proportional
-+ Positive numbers are directly proportional
-
----
-
-#Coefficient of Correlation
-+ Quantifies the amount of shared variability between variables
-+ Ranges between -1 and +1 
-+ Negative numbers are inversely proportional
-+ Positive numbers are directly proportional
-+ The closer to either -1 or +1, the greater the correlation
-
----
-
-#Coefficient of Correlation
-![img-full](../images/corr3.png)
-http://www.statisticshowto.com/what-is-the-correlation-coefficient-formula/
-
-
----
-
-#Coefficient of Correlation
-![img-full](../images/corr2.png)
-
-http://pixshark.com/correlation-examples.htm 
-
----
-
-#Correlations - Height and Weight
-![img-full](../images/corr1.png)
-###These are highly positively correlated (r=0.87779)
-
----
-
-#Correlations - Recycling and Median Income
-![img-center-medium](../images/corr6.png)
-###These are even slightly more correlated (r=0.88478)
-
-http://iquantny.tumblr.com/post/79846201258/the-huge-correlation-between-median-income-and
-
----
-
-#Correlations
-![img-center-ml](../images/corr4.png)
-
----
-
-#Correlations
-![img-full](../images/corr5.png)
-
----
-
-#Correlations
-![img-full](../images/corr5.png)
-##Correlation does not imply causation
+#Upload the Data to CartoDB and Style
 
 ---
 
 class:center,middle
-#Why am I doing this with you?
+#Let's try that again
+###http://nyti.ms/1DOACSp 
 
 ---
 
-class:center,middle
+class: center, middle
+![img-full](../images/nyt1.png)
+
+---
+
+class: center, middle
+![img-full](../images/nyt2.png)
+
+---
+
+class: center, middle
+![img-full](../images/nyt3.png)
+
+---
+
+#TopoJSON
++ Compact representation of geometries (up to 80% smaller)
++ Only represent polygon boundaries once
+
+---
+
+#TopoJSON Links
++ https://github.com/mbostock/topojson/wiki (information on TopoJson)
++ http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html 
++ http://shancarter.github.io/distillery/ (GeoJSON to TopoJSON convertor)
++ http://jeffpaine.github.io/geojson-topojson/ (TopoJSON to GeoJSON convertor)
+
+---
+
 #10 Min Break
-![img-full](https://imgs.xkcd.com/comics/correlation.png)
-http://xkcd.com/552/ 
-
----
-
-class:center,middle
-#Introduction to Visualization Design
 
 
 ---
 
-# Why do we visualize data?
+class:center
+#Manual Downloading
+![img-full](../images/clicking.gif)
+<!-- beginning of c block -->
 
 ---
 
-# Why do we visualize data?
-+ Explore
+class:center
+#Manual Downloading
+![img-full](../images/suck.gif)
 
 ---
 
-# Why do we visualize data?
-+ Explore
-+ Explain
+#Introduction to APIs
 
 ---
 
-# Why do we visualize data?
-+ Explore
-+ Explain
-+ Persuade
+#Introduction to APIs
++ Application Program Interface (API)
 
 ---
 
-# Encoding
+#Introduction to APIs
++ Application Program Interface (API)
++ A tool for making a website's data digestible for a computer
 
 ---
 
-# Encoding
-+ Visual encoding is the process of encoding information visually
+#API Steps
 
 ---
 
-# Encoding
-+ Visual encoding is the process of encoding information visually
-+ Every visualization is a mapping between data objects and features to visual objects and features
+#API Steps
++ Make a request
 
 ---
 
-#Bar Chart
-![img-center-ml](../images/chart1.png)
+#API Steps
++ Make a request
++ Get a response
 
 ---
 
-#"Barless" Bar Chart
-![img-center-ml](../images/chart2.png)
+#API Steps
++ Make a request
++ Get a response
+##&nbsp;
+![img-full](../images/api1.png)
 
 ---
 
-#Horizontal Bar Chart
-![img-full](../images/chart3.png)
+#Using an API
 
 ---
 
-#Ranked Horizontal Bar Chart
-![img-full](../images/chart4.png)
+#Using an API
+1. Register for API keys
 
 ---
 
-#Grouped Bar Chart
-![img-center-ml](../images/chart5.png)
+#Using an API
+1. Register for API keys
+2. Use the keys for a request
 
 ---
 
-#Grouped Bar Chart
-![img-center-ml](../images/chart6.png)
+#Using an API
+1. Register for API keys
+2. Use the keys for a request
+3. Parse the response
 
 ---
 
-#Precognitive Processing
-![img-full](../images/chart7.png)
+#Using an API
+1. Register for API keys
+2. Use the keys for a request
+3. Parse the response
+4. Make beautiful visualizations
 
 ---
 
-#Stacked Bar Chart
-![img-center-ml](../images/chart7a.png)
+#Example API Response
 
 ---
 
-#Line Chart
-![img-full](../images/chart8.png)
+#Example API Response
+![img-full](../images/api2.png)
 
 ---
 
-#Why use a line chart?
-![img-full](../images/chart8a.png)
+#Example API Response
+![img-full](../images/api2.png)
+![img](../images/api3.png)
 
 ---
 
-#Line Chart with Categorical Data
-![img-full](../images/chart9.png)
+#Example API Response
+![img-full](../images/api2.png)
+![img](../images/api3.png)
+##This is JSON (**J**ava**S**cript **O**bject **N**otation)
 
 ---
 
-#Line Chart
-![img-center-medium](../images/chart10.png)
+#Sample API Request
+![img-full](../images/4s_api1.png)
 
 ---
 
-#Line Chart
-![img-full](../images/chart11.png)
+#Sample API Request
+![img-full](../images/4s_api2.png)
 
 ---
 
-#Small Multiples
-![img-center-sm](../images/chart12.png)
+#Sample API Request
+![img-full](../images/4s_api2.png)
+
+###Endpoint
++ `https://api.foursquare.com/v2/venues/search?`
 
 ---
 
-class:center,middle
-![img-full](../images/chart12a.png)
+#Sample API Request
+![img-full](../images/4s_api3.png)
 
 ---
 
-#Banking to 45 degrees
-![img-full](../images/chart12b.png)
+#Sample API Request
+![img-full](../images/4s_api3.png)
+
+###Query Parameters
++ `ll=40.7037253789768,-74.0079939173954`
++ `radius=100`
++ `limit=50`
 
 ---
 
-#Scatter Plot
-![img](../images/chart12c.png)
+#Sample API Request
+![img-full](../images/4s_api4.png)
 
 ---
 
-#Scatter Plot
-![img](../images/chart12d.png)
+#Sample API Request
+![img-full](../images/4s_api4.png)
+
+###Authentication
++ `client_id=TQTH2POSXDUDYOHKHXM0VKDRCBSSYAFUWMVSWBCI10URJBTR`
++ `client_secret=F3TEHU5APOLSMLSJZYZYUV1SOL5V0V2HUS150YXGTXFPINGS`
++ `v=20140609`
 
 ---
 
-#Pie Charts
-![img-full](../images/chart13.png)
+#Sample API Response
+![img](../images/4s_api_resp.png)
 
 ---
 
-#Pie Charts
-![img-center-large](../images/chart14.png)
-"Badpie" by Gilgongo - Own work. Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/us/legalcode) via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Badpie.png#/media/File:Badpie.png)
+#Questions?
+![img](../images/Batman-and-Robin-Running_meme.png)
+###https://developer.foursquare.com/docs/venues/search 
 
 ---
 
-#Pie Charts
-![img-center-ml](../images/chart15.png)
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api1.png)
 
 ---
 
-#Pie Charts
-![img-center-ml](../images/chart15.png)
-![img-center-ml](../images/chart16.png)
-"Piecharts". Licensed under [CC BY 1.0](https://creativecommons.org/licenses/by/1.0/legalcode) via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Piecharts.svg#/media/File:Piecharts.svg)
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api2.png)
 
 ---
 
-#Pie Charts
-![img-center-medium](../images/chart17.png)
-http://simplystatistics.org/2012/11/26/the-statisticians-at-fox-news-use-classic-and-novel-graphical-techniques-to-lead-with-data/ 
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api3.png)
 
 ---
 
-#Channels and Marks
-![img-center-large](../images/chart18.png)
-<br>
-From Tamara Munzner, [Visualization Analysis and Design](http://www.cs.ubc.ca/~tmm/vadbook/)
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api4.png)
 
 ---
+
+#Removing Empty Rows
+##Switch to rows
+![img-full](../images/or_api5.png)
+
+---
+
+#Removing Empty Rows
+##Text Facet on Column
+![img-full](../images/or_api6.png)
+
+---
+
+#Removing Empty Rows
+##Select "blank"
+![img-full](../images/or_api7.png)
+
+---
+
+#Removing Empty Rows
+##Remove All Matching Rows
+![img-full](../images/or_api8.png)
+
+---
+
+#Removing Empty Rows
+##Reset Facet
+![img-full](../images/or_api9.png)
+
+---
+
+#Your turn
+##https://foursquare.com/developers/apps  
++ Register for an account (if you don’t have one already)
++ Create an application
++ Provide a URL (`http://www.pratt.edu` works just fine)
++ Get your client ID and client secret
+
+---
+
+#Exercise
+##Get your own Foursquare venues data
++ Pick a location in New York City (http://teczno.com/squares/#9.75/40.729/-73.983)
++ Find the 100 nearest Foursquare Venues
++ Clean the data in OpenRefine
++ Import to CartoDB and style
+
+---
+
 class:center, middle
-![img-full](../images/chart19.png)
+#No readings for next class
+![img](../images/celebration.gif)
+---
+
+#Assignment 1
++ Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
 
 ---
 
-#Takeaway
-##Be able to reason in terms of visual encoding and relationships between categorical and quantitative values
-<!-- end of d block -->
+#Assignment 2
++ Identify a question or topic you'd like to explore in this class, with the intention of creating a map related to the topics as part of your final project in this class. Write 2-3 paragraphs on why the topic is interesting to you, what data you'd like to explore using, and what you hope to contribute with your work.
 
 ---
 
-class:center,middle
-#Design Exercise
-
----
-
-#CartoCSS
-
----
-
-#CartoCSS
-+ Defines map styles using CSS-style properties
-
----
-
-#CartoCSS
-+ Defines map styles using CSS-style properties
-+ Gives you control of design at different levels
-
----
-
-#CartoCSS
-+ Defines map styles using CSS-style properties
-+ Gives you control of design at different levels
-+ Allows you to customize elements beyond the CartoDB wizard
-
----
-
-#Using CartoCSS with CartoDB
-
----
-
-#Using CartoCSS with CartoDB
-+ Use the wizard to generate CartoCSS and modify as necessary
-
----
-
-#Using CartoCSS with CartoDB
-+ Use the wizard to generate CartoCSS and modify as necessary
-+ Always indent your code for readability
-
----
-
-#Using CartoCSS with CartoDB
-+ Use the wizard to generate CartoCSS and modify as necessary
-+ Always indent your code for readability
-+ Check that you’ve correctly enclosed code in curly braces
-
----
-
-#Using CartoCSS with CartoDB
-+ Use the wizard to generate CartoCSS and modify as necessary
-+ Always indent your code for readability
-+ Check that you’ve correctly enclosed code in curly braces
-+ Order matters
-
----
-
-class:center,middle
-![img-full](../images/batman_docs.png)
-###https://github.com/mapbox/carto/blob/master/docs/latest.md
-
----
-
-class:center,middle
-#Introduction to Python
-<!-- beginning of f block -->
-
----
-
-class:center,middle
-#Let's start with some basics
-##Open Intro_to_Python.ipynb
-
----
-
-class:center,middle
-#Now let's try something more advanced
-##Open API_example.ipynb
-
----
-
-class:center,middle
-#And let's play with some web scraping
-##Open webscrape_example.ipynb
-<!-- end of f block -->
-
----
-
-#Assignment 1 - Project
-###Create another visualization that either improves on your initial visualization with more/better data or uses different sets of data. The visualization should incorporate at least 2 datasets and tell some interesting story, using a more sophisticated visual style that incorporates the elements of good design discussed in class. Discuss the datasets used, the visual design of the visualization, and why you found the data compelling in a short text description of the project.
-
----
-
-#Assignment 2 - Visualization Critique
-###Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
-
----
-
-#Reading
-+ Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013, ch 1-2 (Will Slack)
+#Resources 
++ [School of Data: Cleaning Data with OpenRefine](http://schoolofdata.org/handbook/recipes/cleaning-data-with-refine/)
++ [Enipedia OpenRefine Tutorial](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial)
 
 ---
 
 class: center,middle
-#Any Questions?
+#Any Issues? Questions?
 
 ---
 class:center, middle
 #See you next week
-<!-- end of g block -->
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
