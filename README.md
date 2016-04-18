@@ -233,7 +233,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ######[back to top](#top)
 ----
 <a id='class2'></a>
-###Class 2 - April 13, 2016
+###[Class 2 - April 13, 2016](http://www.datapolitan.com/MiningTheWeb/class2)
 <a id='c2-topics'></a>
 ####Topics 
 + Introduction to HTML and CSS
@@ -262,7 +262,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ##Week 2: More Acquiring Data/Data Cleaning
 
 <a id='class3'></a>
-###Class 3 - April 18, 2016
+###[Class 3 - April 18, 2016](http://www.datapolitan.com/MiningTheWeb/class3)
 <a id='c3-topics'></a>
 ####Topics 
 + Web scraping
@@ -272,7 +272,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 <a id='c3-readings'></a>
 ####Readings
 + Chris Whong "[Foiling NYC's Taxi Trip Data](http://chriswhong.com/open-data/foil_nyc_taxi/)"
-+ Thomas Levine, [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
++ Thomas Levine, [Introduction to web scraping](https://thomaslevine.com/!/web-sites-to-data-tables/)
 + [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
 
 <a id='c3-assignments'></a>
