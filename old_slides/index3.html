@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 3</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+![img-center-small](../images/pratt_logo.png)
+#Mining the Web
+###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class3/
+
+---
+class:middle,center
+#Day Three 
+
+---
+
+class:center,middle
+![img](http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-check-in.png)
+
+<!-- 
+# Goals for this morning
++ Check-in with class
++ Check-in with readings and homework
++ Workshop projects
++ Present your visualizations and critiques
++ Discuss statistics as it relates to analyzing data
+ -->
+ <!-- beginning of a block -->
+
+---
+
+#Readings
++ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)
+” Ch. 1 and 2.
++ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. 
++ Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. 
++ [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
+
+---
+
+class:center,middle
+#Visualization Critique Presentations
+##Everyone presents
+<!-- end of a block -->
+---
+
+class:center,middle
+#Project Presentations
+##Everyone presents
+<!-- b block -->
+
+---
+
+![img-right](../images/cyoa2.jpg)
+#Topics I'd like to cover
++ Overview of Statistics
++ Introduction to Visualization Design
++ Design Exercise in CartoDB
++ Introduction to Python
+
+---
+
+class:center,middle
+#Introduction to Statistics
+
+---
+class:center,middle
+> We are drowning in information and starving for knowledge.
+
+##Rutherford D. Roger
+
+---
+
+#Why Statistics?
+
+---
+
+#Why Statistics?
++ Tools for extracting meaning from data
+
+---
+
+#Why Statistics?
++ Tools for extracting meaning from data
++ Commonly understood ways of communicating meaning to others
+
+---
+
+#Histogram
+
+---
+
+#Histogram
++ Charts the frequency of instances in the data
+
+---
+
+#Histogram
++ Charts the frequency of instances in the data
++ Shows the frequency distribution
+
+---
+
+#Histogram
++ Charts the frequency of instances in the data
++ Shows the frequency distribution
++ Values are grouped into class intervals
+
+---
+
+#Histogram
++ Charts the frequency of instances in the data
++ Shows the frequency distribution
++ Values are grouped into class intervals
++ Best to have a consistent size to class intervals
+
+---
+
+#Histogram
++ Charts the frequency of instances in the data
++ Shows the frequency distribution
++ Values are grouped into class intervals
++ Best to have a consistent size to class intervals
+![img-left](../images/hist1.png)
+
+---
+
+#Histogram
++ Charts the frequency of instances in the data
++ Shows the frequency distribution
++ Values are grouped into class intervals
++ Best to have a consistent size to class intervals
+![img-left](../images/hist1.png)
+![img-right](../images/hist2.png)
+
+
+---
+
+#Histogram
++ Charts the frequency of instances in the data
++ Shows the frequency distribution
++ Values are grouped into class intervals
++ Best to have a consistent size to class intervals
+![img-left](../images/hist1.png)
+![img-right](../images/hist2.png)
+
+http://mathematica.stackexchange.com/questions/59520/histogram-with-variable-bin-size
+
+---
+
+class:center,middle
+#Distributions of Data
+
+---
+
+#Normal Distribution
+![img-center-large](../images/dist_normal.png)
+
+---
+
+#Long-tail Distribution
+![img-center-large](../images/dist_lt.png)
+
+---
+
+#Bi-Modal Distribution
+![img-full](../images/dist_bm.png)
+
+---
+
+#Mean
+
+---
+
+#Mean
++ A representative value for the data
+
+---
+
+#Mean
++ A representative value for the data
++ Usually what people mean by “average”
+
+---
+
+#Mean
++ A representative value for the data
++ Usually what people mean by “average”
++ Calculate by adding all the values together and dividing by the number instances
+
+---
+
+#Mean
++ A representative value for the data
++ Usually what people mean by “average”
++ Calculate by adding all the values together and dividing by the number instances
++ Sensitive to extremes
+
+---
+
+#Median
+
+---
+
+#Median
++ The “middle” value of a data set
+
+---
+
+#Median
++ The “middle” value of a data set
++ Center value of a data set with an odd number of values
+
+---
+
+#Median
++ The “middle” value of a data set
++ Center value of a data set with an odd number of values
++ Sum of two middle values divided by 2 if the number of items in a data set is even
+
+---
+
+#Median
++ The “middle” value of a data set
++ Center value of a data set with an odd number of values
++ Sum of two middle values divided by 2 if the number of items in a data set is even
++ Resistant to extreme values
+
+---
+
+#Median
++ The “middle” value of a data set
++ Center value of a data set with an odd number of values
++ Sum of two middle values divided by 2 if the number of items in a data set is even
++ Resistant to extreme values
+![img-full](../images/median_balance.png)
+
+---
+
+#Median vs Mean
+![img-full](../images/mean_vs_median.png)
+
+---
+
+#Mode
+
+---
+
+#Mode
++ The most frequent value in a dataset
+
+---
+
+#Mode
++ The most frequent value in a dataset
++ Often used for categorical data
+
+---
+
+#Mode
++ The most frequent value in a dataset
++ Often used for categorical data
+![img-center](../images/mode.png)
+
+---
+
+#Measures of Central Tendency
+
+---
+
+#Measures of Central Tendency
++ Quantitative data tends to cluster around some central value
+
+---
+
+#Measures of Central Tendency
++ Quantitative data tends to cluster around some central value
++ Contrasts with the spread of data around that center (i.e. the variability in the data)
+
+---
+
+#Measures of Central Tendency
++ Quantitative data tends to cluster around some central value
++ Contrasts with the spread of data around that center (i.e. the variability in the data)
++ Mean is a more precise measure and more often used
+
+---
+
+#Measures of Central Tendency
++ Quantitative data tends to cluster around some central value
++ Contrasts with the spread of data around that center (i.e. the variability in the data)
++ Mean is a more precise measure and more often used
++ Median is better when there are extreme outliers
+
+---
+
+#Measures of Central Tendency
++ Quantitative data tends to cluster around some central value
++ Contrasts with the spread of data around that center (i.e. the variability in the data)
++ Mean is a more precise measure and more often used
++ Median is better when there are extreme outliers
++ Mode is used when the data is categorical (as opposed to numeric)
+
+---
+
+class:center,middle
+#Measuring Variability
+
+---
+
+#Range
+
+---
+
+#Range
++ The gap between the minimum value and the maximum value
+
+---
+
+#Range
++ The gap between the minimum value and the maximum value
++ Calculated by subtracting the minimum from the maximum
+
+---
+
+#Quantiles
+
+---
+
+#Quantiles
++ Median splits the data set into two equal groups
+
+---
+
+#Quantiles
++ Median splits the data set into two equal groups
++ Quartiles split the data into four equal groups
+
+---
+
+#Quantiles
++ Median splits the data set into two equal groups
++ Quartiles split the data into four equal groups
++ First quartile is 0-25% of the data
+
+---
+
+#Quantiles
++ Median splits the data set into two equal groups
++ Quartiles split the data into four equal groups
++ First quartile is 0-25% of the data
++ Second quartile is 25-50% of the data
+
+---
+
+#Quantiles
++ Median splits the data set into two equal groups
++ Quartiles split the data into four equal groups
++ First quartile is 0-25% of the data
++ Second quartile is 25-50% of the data
++ Third quartile is 50-75% of the data
+
+---
+
+#Quantiles
++ Median splits the data set into two equal groups
++ Quartiles split the data into four equal groups
++ First quartile is 0-25% of the data
++ Second quartile is 25-50% of the data
++ Third quartile is 50-75% of the data
++ Fourth quartile is 75-100% of the data
+
+---
+
+#Interquartile Range
+
+---
+
+#Interquartile Range
++ “Middle” 50% of data (between 1st Quartile and 3rd Quartile)
+
+---
+
+#Interquartile Range
++ “Middle” 50% of data (between 1st Quartile and 3rd Quartile)
+![img-center-large](../images/iqr.png)
+
+---
+
+#Outliers
+
+---
+
+#Outliers
++ Any data points less than 1.5x the IQR or greater than 1.5x the IQR are considered outliers
+
+---
+
+#Outliers
++ Any data points less than 1.5x the IQR or greater than 1.5x the IQR are considered outliers
++ Helps identify data points that may skew the analysis
+
+---
+
+#Outliers
++ Any data points less than 1.5x the IQR or greater than 1.5x the IQR are considered outliers
++ Helps identify data points that may skew the analysis
++ Focus on the “meat” of the data
+
+---
+
+#Outliers
+![img-center-small](../images/outlier.png)
+http://flowingdata.com/2008/02/15/how-to-read-and-use-a-box-and-whisker-plot/ 
+
+---
+
+#Standard Deviation
+
+---
+
+#Standard Deviation
++ The average distance of each data point from the mean
+
+---
+
+#Standard Deviation
++ The average distance of each data point from the mean
++ Larger the standard deviation, the greater the spread
+
+---
+
+#Standard Deviation
++ The average distance of each data point from the mean
++ Larger the standard deviation, the greater the spread
+![img-full](../images/std1.png)
+
+<!-- 
+
+#Standard Deviation
+![img-center-large](../images/std3.png)
+
+-
+
+#Formula for Standard Deviation
+![img-full](../images/std2.png)
+
+-
+#Calculating the Standard Deviation
+1. Subtract the mean from each data point
+2. Square the result
+3. Sum them together
+4. Divide by the number of instances
+5. Take the square root
+
+###...or you just use a computer
+-
+
+#Variance
+1. Subtract the mean from each data point
+2. Square the result
+3. Sum them together
+4. Divide by the number of instances
+5. ~~Take the square root~~
+
+-->
+
+#Measures of Variability
+
+---
+
+#Measures of Variability
++ Describe the distribution of our data
+
+---
+
+#Measures of Variability
++ Describe the distribution of our data
++ Range (Maximum – Minimum)
+
+---
+
+#Measures of Variability
++ Describe the distribution of our data
++ Range (Maximum – Minimum)
++ Inter-quartile Range
+
+---
+
+#Measures of Variability
++ Describe the distribution of our data
++ Range (Maximum – Minimum)
++ Inter-quartile Range
++ Standard Deviation
+<!-- + Variance -->
+---
+
+#Measures of Variability
++ Describe the distribution of our data
++ Range (Maximum – Minimum)
++ Inter-quartile Range
++ Standard Deviation
++ Identification of outliers (1.5 x IQR)
+
+---
+
+#Descriptive Statistics
+
+---
+
+#Descriptive Statistics
++ Quantitatively describe the main features of a dataset
+
+---
+
+#Descriptive Statistics
++ Quantitatively describe the main features of a dataset
++ Help distinguish distributions and make them comparable
+
+---
+
+#Exploratory Data Analysis
+
+---
+
+#Exploratory Data Analysis
++ Goal -> Discover patterns in the data
+
+---
+
+#Exploratory Data Analysis
++ Goal -> Discover patterns in the data
++ Understand the context
+
+---
+
+#Exploratory Data Analysis
++ Goal -> Discover patterns in the data
++ Understand the context
++ Summarize fields
+
+---
+
+#Exploratory Data Analysis
++ Goal -> Discover patterns in the data
++ Understand the context
++ Summarize fields
++ Use graphical representations of the data
+
+---
+
+#Exploratory Data Analysis
++ Goal -> Discover patterns in the data
++ Understand the context
++ Summarize fields
++ Use graphical representations of the data
++ Explore outliers
+
+---
+
+#Exploratory Data Analysis
++ Goal -> Discover patterns in the data
++ Understand the context
++ Summarize fields
++ Use graphical representations of the data
++ Explore outliers
+
+###Tukey, J.W. (1977). Exploratory data analysis. Reading, MA: Addison-Wesley.
+
+---
+
+#Correlations
+![img-full](../images/corr1.png)
+###How do we measure this relationship?
+
+---
+
+#Coefficient of Correlation
+
+---
+
+#Coefficient of Correlation
++ Quantifies the amount of shared variability between variables
+
+---
+
+#Coefficient of Correlation
++ Quantifies the amount of shared variability between variables
++ Ranges between -1 and +1 
+
+---
+
+#Coefficient of Correlation
++ Quantifies the amount of shared variability between variables
++ Ranges between -1 and +1 
++ Negative numbers are inversely proportional
+
+---
+
+#Coefficient of Correlation
++ Quantifies the amount of shared variability between variables
++ Ranges between -1 and +1 
++ Negative numbers are inversely proportional
++ Positive numbers are directly proportional
+
+---
+
+#Coefficient of Correlation
++ Quantifies the amount of shared variability between variables
++ Ranges between -1 and +1 
++ Negative numbers are inversely proportional
++ Positive numbers are directly proportional
++ The closer to either -1 or +1, the greater the correlation
+
+---
+
+#Coefficient of Correlation
+![img-full](../images/corr3.png)
+http://www.statisticshowto.com/what-is-the-correlation-coefficient-formula/
+
+
+---
+
+#Coefficient of Correlation
+![img-full](../images/corr2.png)
+
+http://pixshark.com/correlation-examples.htm 
+
+---
+
+#Correlations - Height and Weight
+![img-full](../images/corr1.png)
+###These are highly positively correlated (r=0.87779)
+
+---
+
+#Correlations - Recycling and Median Income
+![img-center-medium](../images/corr6.png)
+###These are even slightly more correlated (r=0.88478)
+
+http://iquantny.tumblr.com/post/79846201258/the-huge-correlation-between-median-income-and
+
+---
+
+#Correlations
+![img-center-ml](../images/corr4.png)
+
+---
+
+#Correlations
+![img-full](../images/corr5.png)
+
+---
+
+#Correlations
+![img-full](../images/corr5.png)
+##Correlation does not imply causation
+
+---
+
+class:center,middle
+#Why am I doing this with you?
+
+---
+
+class:center,middle
+#10 Min Break
+![img-full](https://imgs.xkcd.com/comics/correlation.png)
+http://xkcd.com/552/ 
+
+---
+
+class:center,middle
+#Introduction to Visualization Design
+
+
+---
+
+# Why do we visualize data?
+
+---
+
+# Why do we visualize data?
++ Explore
+
+---
+
+# Why do we visualize data?
++ Explore
++ Explain
+
+---
+
+# Why do we visualize data?
++ Explore
++ Explain
++ Persuade
+
+---
+
+# Encoding
+
+---
+
+# Encoding
++ Visual encoding is the process of encoding information visually
+
+---
+
+# Encoding
++ Visual encoding is the process of encoding information visually
++ Every visualization is a mapping between data objects and features to visual objects and features
+
+---
+
+#Bar Chart
+![img-center-ml](../images/chart1.png)
+
+---
+
+#"Barless" Bar Chart
+![img-center-ml](../images/chart2.png)
+
+---
+
+#Horizontal Bar Chart
+![img-full](../images/chart3.png)
+
+---
+
+#Ranked Horizontal Bar Chart
+![img-full](../images/chart4.png)
+
+---
+
+#Grouped Bar Chart
+![img-center-ml](../images/chart5.png)
+
+---
+
+#Grouped Bar Chart
+![img-center-ml](../images/chart6.png)
+
+---
+
+#Precognitive Processing
+![img-full](../images/chart7.png)
+
+---
+
+#Stacked Bar Chart
+![img-center-ml](../images/chart7a.png)
+
+---
+
+#Line Chart
+![img-full](../images/chart8.png)
+
+---
+
+#Why use a line chart?
+![img-full](../images/chart8a.png)
+
+---
+
+#Line Chart with Categorical Data
+![img-full](../images/chart9.png)
+
+---
+
+#Line Chart
+![img-center-medium](../images/chart10.png)
+
+---
+
+#Line Chart
+![img-full](../images/chart11.png)
+
+---
+
+#Small Multiples
+![img-center-sm](../images/chart12.png)
+
+---
+
+class:center,middle
+![img-full](../images/chart12a.png)
+
+---
+
+#Banking to 45 degrees
+![img-full](../images/chart12b.png)
+
+---
+
+#Scatter Plot
+![img](../images/chart12c.png)
+
+---
+
+#Scatter Plot
+![img](../images/chart12d.png)
+
+---
+
+#Pie Charts
+![img-full](../images/chart13.png)
+
+---
+
+#Pie Charts
+![img-center-large](../images/chart14.png)
+"Badpie" by Gilgongo - Own work. Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/us/legalcode) via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Badpie.png#/media/File:Badpie.png)
+
+---
+
+#Pie Charts
+![img-center-ml](../images/chart15.png)
+
+---
+
+#Pie Charts
+![img-center-ml](../images/chart15.png)
+![img-center-ml](../images/chart16.png)
+"Piecharts". Licensed under [CC BY 1.0](https://creativecommons.org/licenses/by/1.0/legalcode) via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Piecharts.svg#/media/File:Piecharts.svg)
+
+---
+
+#Pie Charts
+![img-center-medium](../images/chart17.png)
+http://simplystatistics.org/2012/11/26/the-statisticians-at-fox-news-use-classic-and-novel-graphical-techniques-to-lead-with-data/ 
+
+---
+
+#Channels and Marks
+![img-center-large](../images/chart18.png)
+<br>
+From Tamara Munzner, [Visualization Analysis and Design](http://www.cs.ubc.ca/~tmm/vadbook/)
+
+---
+class:center, middle
+![img-full](../images/chart19.png)
+
+---
+
+#Takeaway
+##Be able to reason in terms of visual encoding and relationships between categorical and quantitative values
+<!-- end of d block -->
+
+---
+
+class:center,middle
+#Design Exercise
+
+---
+
+#CartoCSS
+
+---
+
+#CartoCSS
++ Defines map styles using CSS-style properties
+
+---
+
+#CartoCSS
++ Defines map styles using CSS-style properties
++ Gives you control of design at different levels
+
+---
+
+#CartoCSS
++ Defines map styles using CSS-style properties
++ Gives you control of design at different levels
++ Allows you to customize elements beyond the CartoDB wizard
+
+---
+
+#Using CartoCSS with CartoDB
+
+---
+
+#Using CartoCSS with CartoDB
++ Use the wizard to generate CartoCSS and modify as necessary
+
+---
+
+#Using CartoCSS with CartoDB
++ Use the wizard to generate CartoCSS and modify as necessary
++ Always indent your code for readability
+
+---
+
+#Using CartoCSS with CartoDB
++ Use the wizard to generate CartoCSS and modify as necessary
++ Always indent your code for readability
++ Check that you’ve correctly enclosed code in curly braces
+
+---
+
+#Using CartoCSS with CartoDB
++ Use the wizard to generate CartoCSS and modify as necessary
++ Always indent your code for readability
++ Check that you’ve correctly enclosed code in curly braces
++ Order matters
+
+---
+
+class:center,middle
+![img-full](../images/batman_docs.png)
+###https://github.com/mapbox/carto/blob/master/docs/latest.md
+
+---
+
+class:center,middle
+#Introduction to Python
+<!-- beginning of f block -->
+
+---
+
+class:center,middle
+#Let's start with some basics
+##Open Intro_to_Python.ipynb
+
+---
+
+class:center,middle
+#Now let's try something more advanced
+##Open API_example.ipynb
+
+---
+
+class:center,middle
+#And let's play with some web scraping
+##Open webscrape_example.ipynb
+<!-- end of f block -->
+
+---
+
+#Assignment 1 - Project
+###Create another visualization that either improves on your initial visualization with more/better data or uses different sets of data. The visualization should incorporate at least 2 datasets and tell some interesting story, using a more sophisticated visual style that incorporates the elements of good design discussed in class. Discuss the datasets used, the visual design of the visualization, and why you found the data compelling in a short text description of the project.
+
+---
+
+#Assignment 2 - Visualization Critique
+###Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+
+---
+
+#Reading
++ Murray, Scott. Interactive data visualization for the Web. O'Reilly Media, Inc., 2013, ch 1-2 (Will Slack)
+
+---
+
+class: center,middle
+#Any Questions?
+
+---
+class:center, middle
+#See you next week
+<!-- end of g block -->
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
