@@ -272,7 +272,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 <a id='c3-readings'></a>
 ####Readings
 + Chris Whong "[Foiling NYC's Taxi Trip Data](http://chriswhong.com/open-data/foil_nyc_taxi/)"
-+ Thomas Levine, [Introduction to web scraping](http://thomaslevine.com/dada/web-sites-to-data-tables/)
++ Thomas Levine, [Introduction to web scraping](https://thomaslevine.com/!/web-sites-to-data-tables/)
 + [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
 
 <a id='c3-assignments'></a>
