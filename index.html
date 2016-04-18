@@ -19,6 +19,17 @@
     </div>
 
     <h2>Spring 2016</h2>
+ <div class='project'>
+  <h3>Visualization 1 - Zak Accuardi</h3> 
+  <a href="https://zaccuardi.cartodb.com/viz/617dcecc-0048-11e6-82e3-0ef7f98ade21/public_map">Seattle bike and ride infrastructure</a>
+  <iframe width="100%" height="520" frameborder="0" src="https://zaccuardi.cartodb.com/viz/617dcecc-0048-11e6-82e3-0ef7f98ade21/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+  <p>I managed to add four layers to my CartoDB map, including a heat map of Seattle's bike rack facilities overlayed on the Puget Sound bike lane network. I added park-and-ride facilities and regional 'transit centers' for good measure, to hint at places where cars are afforded an easy access point to transit networks but bikes might not be. I coded these point facilities in an intuitive way and tried to color them so that they are visually distinct. There are a few places where this doesn't happen nicely and the icons overlap. I couldn't see an easy way to ask CartoDB to avoid these overlaps but I did make one of the icons more transparent, which helps.</p>
+
+  <p>There are a couple takeaways here. First, on a basic level, bike racks don't map very strongly to bike infrastructure. It's important to have a place to lock your bike, but somewhat moot for most riders if you don't have a safe and convenient means of getting there. Second, with respect to what transit professionals refer to as "first-last mile" access to public transportation, cars in Seattle are substantially advantaged compared to bicycles. In other words, it is much more convenient to drive to a public transportation hub (either a park and ride facility or a Transit Center) than it is to ride a bicycle there in the Seattle region.</p>
+
+  <p>It's too bad that the bike rack data is only for the City of Seattle, but I suppose open data beggars can't be open data choosers. The differences in extent is one issue; a lack of current-ness is another. The bike route map looks like it hasn't been updated since 2011, for example -- which I wouldn't fault them for if it was something harder to inventory, like bike racks, but one would hope that each city in the region would have pretty up-to-date knowledge of the extents of their bike networks (and that this would be of interest to the county/region). Lastly, it would have been nice to do a torque-style cumulative map of bike rack installations, but the data wasn't of sufficient quality to make this possible. The dataset does have timestamps by bike rack but the timestamps aren't accurate enough, making most of the racks clump together when you use torque to visualize the data.</p>
+</div>
 <!-- 
     <div class='vis-critique'>
       <h3> Visualization Critique 2 - Jonah Bleckner</h3>
