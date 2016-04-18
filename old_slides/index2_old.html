@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+![img-center-small](../images/pratt_logo.png)
+#Mining the Web
+###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class2/
+
+---
+class: center, middle
+
+#Day Two
+##Don't kick the box under the table
+
+---
+
+# Goals for this morning
+
+---
+
+# Goals for this morning
++ Check-in with homework and readings
+
+---
+
+# Goals for this morning
++ Check-in with homework and readings
++ Present your visualizations and critiques
+
+---
+
+# Goals for this morning
++ Check-in with homework and readings
++ Present your visualizations and critiques
++ Discuss ways of acquiring data
+
+---
+
+# Goals for this morning
++ Check-in with homework and readings
++ Present your visualizations and critiques
++ Discuss ways of acquiring data
++ Demonstrate ways of manually scraping data from the web 
+
+---
+
+# Goals for this morning
++ Check-in with homework and readings
++ Present your visualizations and critiques
++ Discuss ways of acquiring data
++ Demonstrate ways of manually scraping data from the web 
++ Introduce APIs and how to access them
+
+---
+
+#Readings
++ [Introduction to APIs ch 1-5](https://zapier.com/learn/apis/)
++ Interactive Data Visualization for the Web, pg 15 – 23
++ [Introduction to web scraping](https://thomaslevine.com/!/web-sites-to-data-tables/)
++ [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html)
++ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
++ McKinney, Wes. *Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython*. O'Reilly Media, Inc., 2012, "Appendix Python Language Essentials"
+
+<!-- beginning of a block -->
+---
+
+#Assignment - Project 1
+##Complete the visualization started in class with data from an open data portal. Style the map in CartoDB and embed your visualization into the class page with short descriptive text on where you found the data, what you did to visualize the data, and any thoughts on what you've created.
+
+---
+
+#Assignment - Visualization Critique 1
+##Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+
+---
+
+#Some things to install
++ OpenRefine: http://openrefine.org/download.html
++ [JSONView for Chrome](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)
+
+<!-- end of a block -->
+
+---
+
+class: center, middle
+#10 Min Break
+
+---
+
+class:center,middle
+#Data and the Web
+<!-- beginning of b block -->
+---
+
+#Data Portals
+
+---
+
+#Data Portals
++ Organize available data
+
+---
+
+#Data Portals
++ Organize available data
++ Provide tools for visualizing, combining, and downloading data
+
+---
+
+class:center,middle
+#Manual Scraping
+Example from Eric Brelsford - OpenRefine
+
+http://www.youtube.com/watch?v=KQlCTo0Q71Q 
+
+---
+
+class:center,middle
+#Manual Scraping Example
+##http://bit.ly/ScrapeExample
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping2.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping3.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping4.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping5.png)
+
+---
+
+#Manual Scraping Example
+![img-full](../images/man_scraping6.png)
+
+---
+
+class:middle,center
+#Copy the response
+#Paste into text editor
+##&nbsp;
+
+---
+
+class:middle,center
+#Copy the response
+#Paste into text editor
+##or...
+
+---
+
+class:middle,center
+#Introduction to OpenRefine
+![img-center](../images/or_book.png)
+
+https://www.packtpub.com/big-data-and-business-intelligence/using-openrefine 
+
+
+---
+
+#OpenRefine
+
+---
+
+#OpenRefine
++ In-browser application
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
++ Converts data from various file types
+
+---
+
+#OpenRefine
++ In-browser application
++ Used to clean data
++ Converts data from various file types
++ Exports data into various formats
+
+---
+
+#OpenRefine - Pros
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
++ Can export to various formats
+
+---
+
+#OpenRefine - Pros
++ Works with lots of data types
++ Great for converting Excel files to CSV (the carriage return problem)
++ Facets are powerful (facet on anything)
++ Can export to various formats
++ Meant specifically to clean data
+
+---
+
+#OpenRefine - Cons
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
++ Only display 50 rows at a time
+
+---
+
+#OpenRefine - Cons
++ In browser memory is limited
++ Only display 50 rows at a time
++ Meant for cleaning data (not displaying it)
+
+---
+
+#Copying Data into OpenRefine
+![img-full](../images/or1.png)
+
+---
+
+#Copying Data into OpenRefine
+![img-full](../images/or2.png)
+
+---
+
+#Loading JSON Data into OpenRefine
+![img-full](../images/or3.png)
+
+---
+
+#Loading JSON Data into OpenRefine
+![img-full](../images/or4.png)
+###Mouse-over the desired JSON level
+
+---
+
+#Creating a Project
+![img-full](../images/or5.png)
+
+---
+
+
+#If you get an error about Reconcile service, try this:
+###https://groups.google.com/forum/#!topic/openrefine/IkMN-GLm_nw
+####(Requires Google login)
+
+---
+
+#Renaming a Column
+![img-full](../images/or6.png)
+
+---
+
+#Renaming a Column
+
+![img](../images/or7.png)
+
+---
+
+#Renaming a Column
+![img-full](../images/or8.png)
+
+---
+
+#Export Data as CSV
+![img-full](../images/or9.png)
+
+---
+
+class:center,middle
+#Upload the Data to CartoDB and Style
+
+---
+
+class:center,middle
+#Let's try that again
+###http://nyti.ms/1DOACSp 
+
+---
+
+class: center, middle
+![img-full](../images/nyt1.png)
+
+---
+
+class: center, middle
+![img-full](../images/nyt2.png)
+
+---
+
+class: center, middle
+![img-full](../images/nyt3.png)
+
+---
+
+#TopoJSON
++ Compact representation of geometries (up to 80% smaller)
++ Only represent polygon boundaries once
+
+---
+
+#TopoJSON Links
++ https://github.com/mbostock/topojson/wiki (information on TopoJson)
++ http://blog.thematicmapping.org/2013/06/converting-shapefiles-to-topojson.html 
++ http://shancarter.github.io/distillery/ (GeoJSON to TopoJSON convertor)
++ http://jeffpaine.github.io/geojson-topojson/ (TopoJSON to GeoJSON convertor)
+
+<!-- end of b block -->
+---
+
+class: center, middle
+#10 Min Break
+                                                
+---
+
+class:center
+#Manual Downloading
+![img-full](../images/clicking.gif)
+<!-- beginning of c block -->
+
+---
+
+class:center
+#Manual Downloading
+![img-full](../images/suck.gif)
+
+---
+
+#Introduction to APIs
+
+---
+
+#Introduction to APIs
++ Application Program Interface (API)
+
+---
+
+#Introduction to APIs
++ Application Program Interface (API)
++ A tool for making a website's data digestible for a computer
+
+---
+
+#API Steps
+
+---
+
+#API Steps
++ Make a request
+
+---
+
+#API Steps
++ Make a request
++ Get a response
+
+---
+
+#API Steps
++ Make a request
++ Get a response
+##&nbsp;
+![img-full](../images/api1.png)
+
+---
+
+#Using an API
+
+---
+
+#Using an API
+1. Register for API keys
+
+---
+
+#Using an API
+1. Register for API keys
+2. Use the keys for a request
+
+---
+
+#Using an API
+1. Register for API keys
+2. Use the keys for a request
+3. Parse the response
+
+---
+
+#Using an API
+1. Register for API keys
+2. Use the keys for a request
+3. Parse the response
+4. Make beautiful visualizations
+
+---
+
+#Example API Response
+
+---
+
+#Example API Response
+![img-full](../images/api2.png)
+
+---
+
+#Example API Response
+![img-full](../images/api2.png)
+![img](../images/api3.png)
+
+---
+
+#Example API Response
+![img-full](../images/api2.png)
+![img](../images/api3.png)
+##This is JSON (**J**ava**S**cript **O**bject **N**otation)
+
+---
+
+#Sample API Request
+![img-full](../images/4s_api1.png)
+
+---
+
+#Sample API Request
+![img-full](../images/4s_api2.png)
+
+---
+
+#Sample API Request
+![img-full](../images/4s_api2.png)
+
+###Endpoint
++ `https://api.foursquare.com/v2/venues/search?`
+
+---
+
+#Sample API Request
+![img-full](../images/4s_api3.png)
+
+---
+
+#Sample API Request
+![img-full](../images/4s_api3.png)
+
+###Query Parameters
++ `ll=40.7037253789768,-74.0079939173954`
++ `radius=100`
++ `limit=50`
+
+---
+
+#Sample API Request
+![img-full](../images/4s_api4.png)
+
+---
+
+#Sample API Request
+![img-full](../images/4s_api4.png)
+
+###Authentication
++ `client_id=TQTH2POSXDUDYOHKHXM0VKDRCBSSYAFUWMVSWBCI10URJBTR`
++ `client_secret=F3TEHU5APOLSMLSJZYZYUV1SOL5V0V2HUS150YXGTXFPINGS`
++ `v=20140609`
+
+---
+
+#Sample API Response
+![img](../images/4s_api_resp.png)
+
+---
+
+#Questions?
+![img](../images/Batman-and-Robin-Running_meme.png)
+###https://developer.foursquare.com/docs/venues/search 
+
+---
+
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api1.png)
+
+---
+
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api2.png)
+
+---
+
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api3.png)
+
+---
+
+#Opening API Response directly in OpenRefine
+![img-full](../images/or_api4.png)
+
+---
+
+#Removing Empty Rows
+##Switch to rows
+![img-full](../images/or_api5.png)
+
+---
+
+#Removing Empty Rows
+##Text Facet on Column
+![img-full](../images/or_api6.png)
+
+---
+
+#Removing Empty Rows
+##Select "blank"
+![img-full](../images/or_api7.png)
+
+---
+
+#Removing Empty Rows
+##Remove All Matching Rows
+![img-full](../images/or_api8.png)
+
+---
+
+#Removing Empty Rows
+##Reset Facet
+![img-full](../images/or_api9.png)
+
+---
+
+#Your turn
+##https://foursquare.com/developers/apps  
++ Register for an account (if you don’t have one already)
++ Create an application
++ Provide a URL (`http://www.pratt.edu` works just fine)
++ Get your client ID and client secret
+
+---
+
+#Exercise
+##Get your own Foursquare venues data
++ Pick a location in New York City (http://teczno.com/squares/#9.75/40.729/-73.983)
++ Find the 100 nearest Foursquare Venues
++ Clean the data in OpenRefine
++ Import to CartoDB and style
+<!-- end of c block -->
+---
+
+class: center, middle
+#Lunch
+##Try to install Python (Anaconda)
+##http://continuum.io/downloads
+
+---
+
+#Do This Now
++ [Go here](https://developer.cityofnewyork.us/api/geoclient-api)
++ Register for an account
++ Check for an activation email (may go to spam)
+
+---
+
+#Goals for the Afternoon
+
+---
+
+#Goals for the Afternoon
++ Discuss issues analyzing social media data
+
+---
+
+#Goals for the Afternoon
++ Discuss issues analyzing social media data
++ Introduce the concepts, techniques, and tools for data cleaning
+
+---
+
+#Goals for the Afternoon
++ Discuss issues analyzing social media data
++ Introduce the concepts, techniques, and tools for data cleaning
++ Get hands-on practice cleaning datasets for visualization
+
+---
+
+#Goals for the Afternoon
++ Discuss issues analyzing social media data
++ Introduce the concepts, techniques, and tools for data cleaning
++ Get hands-on practice cleaning datasets for visualization
++ Demonstrate how to geocode within OpenRefine
+
+---
+
+#Goals for the Afternoon
++ Discuss issues analyzing social media data
++ Introduce the concepts, techniques, and tools for data cleaning
++ Get hands-on practice cleaning datasets for visualization
++ Demonstrate how to geocode within OpenRefine
++ Introduce SQL for filtering and enriching data
+
+---
+
+#Goals for the Afternoon
++ Discuss issues analyzing social media data
++ Introduce the concepts, techniques, and tools for data cleaning
++ Get hands-on practice cleaning datasets for visualization
++ Demonstrate how to geocode within OpenRefine
++ Introduce SQL for filtering and enriching data
++ Introduce Python for APIs and webscraping
+
+---
+
+class:center,middle
+#The trouble with social media
+<!-- start of d block -->
+
+---
+
+class:center,middle
+![img](../images/sm1.png)
+
+---
+
+class:center,middle
+![img](../images/sm2.png)
+
+---
+
+class:center,middle
+![img](../images/sm3.png)
+
+---
+
+class:center,middle
+![img-center](../images/sm4.png)
+
+---
+
+class:center,middle
+![img-full](http://i.giphy.com/13GIgrGdslD9oQ.gif)
+<h1 class="meme">I WANT THE SOCIAL MEDIA!</h1>
+
+---
+
+class:center,middle
+![img-full](../images/sm5.png)
+<h1 class="meme">YOU CAN'T HANDLE THE SOCIAL MEDIA!</h1>
+
+---
+
+class:center,middle
+#Introduction to Data Cleaning
+
+---
+
+#What is Data Cleaning?
+
+---
+
+#What is Data Cleaning?
++ Removing data
+
+---
+
+#What is Data Cleaning?
++ Removing data
++ Adding data
+
+---
+
+#What is Data Cleaning?
++ Removing data
++ Adding data
++ Concatenating data together
+
+---
+
+#OpenRefine Data Cleaning
+![img-full](../images/or_c1.png)
+
+---
+
+#OpenRefine Data Cleaning
+![img-full](../images/or_c2.png)
+
+---
+
+class:center,middle
+#OpenRefine Data Cleaning Exercise
+
+---
+
+class:center,middle
+#Now Let's Add to Our Data in OpenRefine
+
+---
+
+class:center,middle
+#Geocoding
+![img-full](../images/geocoding.png)
+
+---
+
+#NYC Geoclient API
+![img-full](../images/nyc_gc1.png)
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc2.png)
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc3.png)
+###Service Endpoint
++ `https://api.cityofnewyork.us/geoclient/v1/bin`
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc4.png)
+###Response Format
++ `json`
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc5.png)
+###Query Parameter
++ `bin=1015234` ([Building Identification Number](http://www.nyc.gov/html/dob/html/bis/glossary.shtml))
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc6.png)
+###Authentication
++ `app_id=48eab85b`
++ `app_key=fa31219b4e426ff96a8ded2905e6ae3a`
+
+---
+
+#NYC Geoclient API Response
+![img-center](../images/nyc_gc7.png)
+
+---
+
+#NYC Geoclient API Setup
++ [Register for an account](https://developer.cityofnewyork.us/api/geoclient-api 
+)
++ Click on the activation email
++ Start a project
++ Click on Geoclient v1 under available APIs
+
+---
+
+class:center,middle
+#Let's Geocode in OpenRefine
+##[Download this file](https://www.dropbox.com/s/p8s2wjw09x055wh/nyc_dob_0315_jobs_r1.xlsx?dl=0)
+
+---
+
+#Query API in OpenRefine
+![img-full](../images/or_gc1.png)
+
+---
+
+#Query API in OpenRefine
+![img-center-large](../images/or_gc2.png)
+
+---
+
+#Parse API Response
+![img-full](../images/or_gc3.png)
+
+---
+
+#Parse API Response
+![img-center-large](../images/or_gc4.png)
+
+---
+
+#Parse API Response
+![img-center-large](../images/or_gc5.png)
+
+---
+
+#Other GREL Functions
+![img-center-medium](../images/grel1.png)
+
+---
+
+#Other GREL Functions
+![img-center-large](../images/grel2.png)
+
+<!-- end of d block -->
+
+---
+
+class: center, middle
+#10 Min Break
+
+---
+
+class:center,middle
+#Introduction to SQL
+##Let's look at earthquakes
+<!-- beginning of e block -->
+
+---
+
+#Add Earthquake Data from Data Library
+![img-full](../images/cdb_earthquake.png)
+##Click "Connect Dataset"
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql1.png)
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql2.png)
+
+---
+
+#Introduction to SQL
+![img-center](../images/sql3.png)
+
+---
+
+#Introduction to SQL
+![img-left](../images/sql4.png)
+<br>
+<br>
+
+---
+
+#Introduction to SQL
+![img-left](../images/sql4.png)
+![img-right](../images/sql5.png)
+<br>
+<br>
+
+---
+
+#Introduction to SQL
+![img-left](../images/sql4.png)
+![img-right](../images/sql5.png)
+<br>
+<br>
+![img-center-medium](../images/sql6.png)
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql7.png)
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql7.png)
+![img-center](../images/sql8.png)
+
+---
+
+class:middle,center
+#How Many Earthquakes Occured in Each Country?
+
+---
+
+#Steps to Answer
+
+---
+
+#Steps to Answer
+1. Import the World Borders file from the Data Library
+
+---
+
+#Steps to Answer
+1. Import the World Borders file from the Data Library
+2. Join the datasets together
+
+---
+class:center, middle
+#How do we do joins in SQL?
+
+---
+
+class:center
+![img-full](../images/sql_join1.png)
+
+http://stackoverflow.com/questions/406294/left-join-and-left-outer-join-in-sql-server
+
+---
+
+#Joining Earthquakes with World Borders
+![img-full](../images/sql_join2.png)
+
+---
+
+#Joining Earthquakes with World Borders
+![img-full](../images/sql_join2.png)
+##Several things going on here
+
+---
+
+#Joining Earthquakes with World Borders
+![img-full](../images/sql_join2.png)
+##Several things going on here
++ Aliases for tables (using the keyword "**AS**")
+
+---
+
+#Joining Earthquakes with World Borders
+![img-full](../images/sql_join2.png)
+##Several things going on here
++ Aliases for tables (using the keyword "**AS**")
++ Using the function **ST_CONTAINS()**
+
+---
+
+#Joining Earthquakes with World Borders
+![img-full](../images/st_c.png)
+
+---
+
+#Several Options to Get Our Answer
+
+---
+
+#Several Options to Get Our Answer
+1. Can create a table and count from there
+
+---
+
+#Several Options to Get Our Answer
+1. Can create a table and count from there
+2. Use this as a temporary table and generate the counts
+
+---
+
+#Several Options to Get Our Answer
+1. Can create a table and count from there
+2. Use this as a temporary table and generate the counts
+![img-full](../images/sql_join3.png)
+
+---
+
+![img](../images/sql_join4.png)
+
+<!-- end of e block -->
+---
+
+class: center, middle
+#10 Min Break
+
+---
+
+class:center,middle
+#Introduction to Python
+<!-- beginning of f block -->
+
+---
+
+class:center,middle
+#Let's start with some basics
+##Open Intro_to_Python.ipynb
+
+---
+
+class:center,middle
+#Now let's try something more advanced
+##Open API_example.ipynb
+
+---
+
+class:center,middle
+#And let's play with some web scraping
+##Open webscrape_example.ipynb
+<!-- end of f block -->
+
+---
+
+#Wrap-up
+<!-- beginning of g block -->
+
+---
+
+#What did we learn today?
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
++ How to use OpenRefine to reformat JSON into CSV files
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
++ How to use OpenRefine to reformat JSON into CSV files
++ How to use OpenRefine to download an API response directly
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
++ How to use OpenRefine to reformat JSON into CSV files
++ How to use OpenRefine to download an API response directly
++ Discussed using social media
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
++ How to use OpenRefine to reformat JSON into CSV files
++ How to use OpenRefine to download an API response directly
++ Discussed using social media
++ How to geocode using the NYC Geoclient API
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
++ How to use OpenRefine to reformat JSON into CSV files
++ How to use OpenRefine to download an API response directly
++ Discussed using social media
++ How to geocode using the NYC Geoclient API
++ How to do API calls from within OpenRefine for geocoding (and other things...)
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
++ How to use OpenRefine to reformat JSON into CSV files
++ How to use OpenRefine to download an API response directly
++ Discussed using social media
++ How to geocode using the NYC Geoclient API
++ How to do API calls from within OpenRefine for geocoding (and other things...)
++ How to work with SQL
+
+---
+
+#What did we learn today?
++ How to manual scrape data from websites
++ How to get data from APIs
++ How to use OpenRefine to reformat JSON into CSV files
++ How to use OpenRefine to download an API response directly
++ Discussed using social media
++ How to geocode using the NYC Geoclient API
++ How to do API calls from within OpenRefine for geocoding (and other things...)
++ How to work with SQL
++ How to join tables with SQL
+
+---
+
+class:center
+#And a little bit of Python for fun
+
+---
+
+class:center
+#And a little bit of Python for fun
+![img-full](../images/python_dev.jpg)
+
+---
+
+#Assignment - Project
+###Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. 
+###Write a short description of the data, the API you used to access it, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result. Submit your API code via the Slack channel in the format "lastname_assignment2.py" if you do your API query in Python or "lastname_assignment2.txt" if you did you query in OpenRefine.
+
+---
+
+#Assignment - Visualization Critique
+###Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+
+---
+
+#Readings
++ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)
+” Ch. 1 and 2.
++ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. 
++ Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. 
++ [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
+
+---
+
+class: center,middle
+#Any Questions?
+
+---
+class:center, middle
+#See you next week
+<!-- end of g block -->
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
