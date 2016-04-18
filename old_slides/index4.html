@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 4</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+![img-center-small](../images/pratt_logo.png)
+#Mining the Web
+###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class4/
+
+---
+
+class:middle,center
+#Day Four 
+
+---
+
+class:center,middle
+![img-full](http://i.giphy.com/YTbZzCkRQCEJa.gif)
+
+---
+
+class:center,middle
+#Goals for Today
+
+---
+
+#Presentations
+![img-full](http://i.giphy.com/yGqPv037oR2WQ.gif)
+
+---
+
+#Learning
+![img-full](http://i.giphy.com/uiVyyVi4Ij4dy.gif)
+
+---
+
+#Fun
+![img-full](http://i.giphy.com/NRoNlf3qsQWNq.gif)
+
+---
+
+#Topics for Today
+
+---
+
+#Topics for Today
++ Demonstrate geocoding addresses in OpenRefine
+
+---
+
+#Topics for Today
++ Demonstrate geocoding addresses in OpenRefine
++ Introduce Python
+
+---
+
+#Topics for Today
++ Demonstrate geocoding addresses in OpenRefine
++ Introduce Python
++ Create a project using Twitter data
+
+---
+
+#Topics for Today
++ Demonstrate geocoding addresses in OpenRefine
++ Introduce Python
++ Create a project using Twitter data
++ Demonstrate how to design basemaps
+
+---
+
+class:center,middle
+#Let's Get Started
+
+---
+
+class:center,middle
+#Presentations
+
+---
+
+class:center,middle
+#10 Min Break
+![img-center-sm](https://imgs.xkcd.com/comics/automation.png)
+
+https://xkcd.com/1319/
+
+---
+
+#Geocoding Addresses in OpenRefine
+1. Start OpenRefine
+2. Load the file `Lincoln_Square_BID_Business_List.csv`
+
+![img-full](../images/or_gca1.png)
+
+---
+
+#NYC Geoclient Address Service
+
+![img-full](../images/or_gca2.png)
+
+https://api.cityofnewyork.us/geoclient/v1/doc#section-1.2.1
+
+---
+
+#Data Cleanup
+![img](../images/or_gca2a.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca3.png)
+
+---
+
+#Data Cleanup
+![img](../images/or_gca4.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca5.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca5.png)
+
+###Trust me, this will help
+
+---
+
+#Data Cleanup
+![img](../images/or_gca6.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca7.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca7a.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca7b.png)
+
+---
+
+#Data Cleanup
+![img-center-medium](../images/or_gca7c.png)
+
+---
+
+#Data Cleanup
+![img-center-medium](../images/or_gca7c.png)
+
+![img-center-medium](../images/or_gca7d.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca8.png)
+
+---
+
+#Data Cleanup
+![img-full](../images/or_gca9.png)
+
+---
+
+#Let's Geocode
+![img](../images/or_gca10.png)
+
+---
+
+#Let's Geocode
+![img](../images/or_gca11.png)
+
+---
+
+#What are the parts of an API call?
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
+
+###https://api.cityofnewyork.us/geoclient/v1/address
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
++ Format (optional in some cases)
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
++ Format (optional in some cases)
+
+###json
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
++ Format (optional in some cases)
++ Query parameters
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
++ Format (optional in some cases)
++ Query parameters
+
+###houseNumber
+###address
+###zip or borough
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
++ Format (optional in some cases)
++ Query parameters
++ Authentication
+
+---
+
+#What are the parts of an API call?
++ Service endpoint
++ Format (optional in some cases)
++ Query parameters
++ Authentication
+
+###app_id
+###app_key
+
+---
+
+#Remember your API keys?
+![img-center-ml](http://www.best-gif.com/wp-content/uploads/2013/10/funny-gifs-forget-my-keys.gif)
+http://www.best-gif.com/oh-man-i-forgot-my-keys/
+
+---
+
+#Creating API Call
+![img-center-ml](../images/or_gca12.png)
+
+---
+
+class:center,middle
+![img-full](../images/yeah.png)
+
+---
+
+#Testing API Call
+![img-full](../images/or_gca13.png)
+
+---
+
+#Testing API Call
+![img-center-sm](../images/or_gca14.png)
+
+---
+
+#Let's Run It
+
+---
+
+#Let's Run It
+![img-center-ml](../images/api_res.png)
+
+---
+
+#What Happened?
+
+---
+
+#What Happened?
++ Works fine in browser
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
++ Have to encode the spaces using the `escape()` function
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
++ Have to encode the spaces using the `escape()` function
++ Format is `escape(value,'url')`
+
+---
+
+#What Happened?
++ Works fine in browser
++ Doesn't work in API call through OpenRefine
++ I don't actually know why this happens (should have some response from service)
++ Have to encode the spaces using the `escape()` function
++ Format is `escape(value,'url')`
++ (With a `trim()` thrown in for good measure)
+
+---
+
+#Let's Try That Again
+![img-full](../images/or_gca15a.png)
+
+---
+
+#Let's Try That Again
+![img-full](../images/or_gca15a.png)
+
++ The `escape()` function encodes the spaces with '+' (based on the `'url'` parameter)
+
+---
+
+#Let's Try That Again
+![img-full](../images/or_gca15a.png)
+
++ The `escape()` function encodes the spaces with '+' (based on the `'url'` parameter)
++ The `trim()` function removes the leading and trailing white space
+
+---
+
+class:center,middle
+![img-full](../images/how.png)
+
+---
+
+#GREL Functions
+![img-center-smm](../images/grel_docs.png)
+https://github.com/OpenRefine/OpenRefine/wiki/GREL-Functions
+
+---
+
+#Parse the Response
+![img](../images/or_gca16.png)
+
+---
+
+#Parse the Response
+![img-full](../images/or_gca17.png)
+
+---
+
+#Parse the Response
+![img-full](../images/or_gca18.png)
+
+---
+
+#The Remainders
+##7 rows that didn't geocode
+![img-full](../images/or_gca19.png)
+
+---
+
+class:center,middle
+#10 Min Break
+![img](http://imgs.xkcd.com/comics/11th_grade.png)
+
+http://xkcd.com/519/
+
+---
+
+class:center,middle
+#Luckily I'm not showing you Perl
+
+---
+
+class:center,middle
+![img-full](http://howes-it-going.com/perl_ex4.jpg)
+
+http://howes-it-going.com/perl_mdb.html
+
+---
+
+class:center,middle
+#A Quick Introduction to Python
+![img](http://learn.coleggwent.ac.uk/pluginfile.php/350752/mod_book/chapter/5983/royal%20python.jpg)
+
+http://learn.coleggwent.ac.uk/mod/book/view.php?id=198016&chapterid=5983
+
+---
+
+#But first...What is a program?
+
+---
+
+#But first...What is a program?
++ A list of instructions to a computer
+
+---
+
+#But first...What is a program?
++ A list of instructions to a computer
++ Computers can do repetitive tasks quickly and efficiently
+
+---
+
+#But first...What is a program?
++ A list of instructions to a computer
++ Computers can do repetitive tasks quickly and efficiently (unlike humans)
+
+---
+
+#But first...What is a program?
++ A list of instructions to a computer
++ Computers can do repetitive tasks quickly and efficiently
++ Instructions are created by humans
+
+---
+
+#But first...What is a program?
++ A list of instructions to a computer
++ Computers can do repetitive tasks quickly and efficiently
++ Instructions are created by humans
++ Instructions must also be in a form a computer understands
+
+---
+
+#So, what do computers understand?
+
+---
+
+#So, what do computers understand?
+
+<a href="https://twitter.com/CitiBikeDocks/status/632679418264219649">![img](../images/cb_status1.png)</a>
+
+---
+
+#So, what do computers understand?
+
+<a href="https://twitter.com/CitiBikeDocks/status/632679418264219649">![img](../images/cb_status1.png)</a>
+
+###"success" (In case your binary is a little rusty)
+
+---
+
+#Programming Languages
+
+---
+
+#Programming Languages
++ Help us write instructions in human-readable code
+
+---
+
+#Programming Languages
++ Help us write instructions in human-readable code
++ Human-readable code is then translated into machine-readable code
+
+---
+
+class:center,middle
+#This is called "compiling"
+![img](https://imgs.xkcd.com/comics/compiling.png)
+
+https://xkcd.com/303/
+
+---
+
+#Why Python?
+
+---
+
+#Why Python?
++ Programming languages vary in structure, syntax, and operation
+
+---
+
+#Why Python?
++ Programming languages vary in structure, syntax, and operation
++ Each have their particular strengths and weaknesses
+
+---
+
+#Why Python?
++ Programming languages vary in structure, syntax, and operation
++ Each have their particular strengths and weaknesses
++ Python sits at the sweet spot between ease of use, functionality, and versatility
+
+---
+
+#Why Python?
++ Programming languages vary in structure, syntax, and operation
++ Each have their particular strengths and weaknesses
++ Python sits at the sweet spot between ease of use, functionality, and versatility
+
+![img-center-small](../images/venn.png)
+
+---
+
+class:center,middle
+#But don't take my word for it
+
+###http://lorenabarba.com/blog/why-i-push-for-python/
+
+---
+class:center,middle
+#Now...
+![img-center-ml](http://i.giphy.com/oadZJB3hwMFjy.gif)
+
+---
+
+class:center,middle
+#Let's start with some basics
+##Open <a href="https://github.com/datapolitan/MiningTheWeb/blob/gh-pages/class4/Intro_to_Python.ipynb" target="_blank">Intro_to_Python.ipynb</a>
+
+---
+
+class:center,middle
+#Now let's try something more advanced
+##Open <a href="https://github.com/datapolitan/MiningTheWeb/blob/gh-pages/class4/API_example.ipynb" target="_blank">API_example.ipynb</a>
+
+<!-- ---
+
+class:center,middle
+#And let's play with some web scraping
+##Open webscrape_example.ipynb -->
+
+---
+
+class:center,middle
+#Lunch
+![img-center-sm](https://imgs.xkcd.com/comics/python.png)
+
+---
+
+class:center,middle
+#Register for a Twitter app
+##https://apps.twitter.com/
+
+---
+
+class:center,middle
+#Let's get hacking
+##https://dev.twitter.com/overview/documentation
+
+---
+
+class:center,middle
+#Wrap-up
+
+---
+
+class:center,middle
+#We've covered a lot of material
+
+---
+
+#Acquiring Data
+
+---
+
+#Acquiring Data
++ Open data and open data portals
+
+---
+
+#Acquiring Data
++ Open data and open data portals
++ Manual data scraping
+
+---
+
+#Acquiring Data
++ Open data and open data portals
++ Manual data scraping
++ APIs
+
+---
+
+#Cleaning Data
+
+---
+
+#Cleaning Data
++ Data formats
+
+---
+
+#Cleaning Data
++ Data formats
++ OpenRefine
+
+---
+
+#Cleaning Data
++ Data formats
++ OpenRefine
++ CartoDB
+
+---
+
+#Cleaning Data
++ Data formats
++ OpenRefine
++ CartoDB
++ SQL
+
+---
+
+#Cleaning Data
++ Data formats
++ OpenRefine
++ CartoDB
++ SQL
++ Python
+
+---
+
+#Analyzing Data
+
+---
+
+#Analyzing Data
++ Statistics
+
+---
+
+#Analyzing Data
++ Statistics
++ SQL 
+
+---
+
+#Visualizing Data
+
+---
+
+#Visualizing Data
++ Principles of design
+
+---
+
+#Visualizing Data
++ Principles of design
++ HTML/CSS
+
+---
+
+#Visualizing Data
++ Principles of design
++ HTML/CSS
++ Maps and projections
+
+---
+
+#Visualizing Data
++ Principles of design
++ HTML/CSS
++ Maps and projections
++ CartoCSS (kinda)
+
+---
+
+#Stay in Touch!
++ email `richard at datapolitan.com`
++ Twitter [@rdunks1](https://twitter.com/rdunks1) or [@datapolitan](https://twitter.com/datapolitan)
++ [LinkedIn](http://linkd.in/ZzS5q5)
+
+---
+
+class:center,middle
+#Thank you!
+##Course Survey: http://goo.gl/forms/1qc5gpwGTy
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
