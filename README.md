@@ -289,7 +289,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ----
 
 <a id='class4'></a>
-###Class 4 - April 20, 2016
+###[Class 4 - April 20, 2016](http://www.datapolitan.com/MiningTheWeb/class4)
 <a id='c4-topics'></a>
 ####Topics 
 + Overview of social media data
