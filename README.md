@@ -318,7 +318,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ----
 ##Week 3: Cleaning/Analyzing Data
 <a id='class5'></a>
-###Class 5 - April 25, 2016
+###[Class 5 - April 25, 2016](http://www.datapolitan.com/MiningTheWeb/class5)
 <a id='c5-topics'></a>
 ####Topics 
 + Introduction to SQL for cleaning data
