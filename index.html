@@ -31,16 +31,25 @@
 
     <h2 id="vis2">Visualization Project 2</h2>
 
-<div class='project'>
-  <h3>Project 2 - Zak Accuardi</h3> 
-  <a href "http://openpaths.cc"> Open Paths API Practice </a>
-  <iframe width="100%" height="520" frameborder="0" src="https://zaccuardi.cartodb.com/viz/95982748-0b10-11e6-82f5-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <div class='project'>
+      <h3>Project 2 - Zak Accuardi</h3> 
+      <a href "http://openpaths.cc"> Open Paths API Practice </a>
+      <iframe width="100%" height="520" frameborder="0" src="https://zaccuardi.cartodb.com/viz/95982748-0b10-11e6-82f5-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-  <p>I have visualized data from OpenPaths, an app/location tracking service built by the data science team at the NY Times. I've had the app enabled on my phone for some time (though it was off for the past few months), so this seemed like a good opportunity to see what I've been doing of late. The geographic scope of the map is not ideal; it will be nicer to limit the geography to the NYC-area or thereabouts using SQL after class this week! The map has only the most basic styling for now, and was a good opportunity to use the Torque functionality in CartoDB (since the data is literally a time series of my location). The one thing I tweaked is that the indicator changes color to reflect when I got a new cell phone.</p>
-  <p>OpenPaths is designed to be user-friendly, but also to protect users' data should they desire to have it protected. I pulled some example code from the OpenPaths website, which is why my code is slightly more sophisticated than my actual Python skills should reflect. This was necessary to navigate the Oauth process, I think, and resulted in a more customizable framework for creating the actual queries.</p>
-  <p>Getting the data was relatively straightforward once I had figured out how to install packages in python -- for software developers' impressive capacity to dumb down instructions to a level of machine-readability, the ones who give advice on Stack Exchange typically don't write text to a level of lay-person-readability. Once I worked out a few kinks though, it was pretty smooth sailing with Anaconda, OpenRefine, and CartoDB.</p>
-  
-</div>
+      <p>I have visualized data from OpenPaths, an app/location tracking service built by the data science team at the NY Times. I've had the app enabled on my phone for some time (though it was off for the past few months), so this seemed like a good opportunity to see what I've been doing of late. The geographic scope of the map is not ideal; it will be nicer to limit the geography to the NYC-area or thereabouts using SQL after class this week! The map has only the most basic styling for now, and was a good opportunity to use the Torque functionality in CartoDB (since the data is literally a time series of my location). The one thing I tweaked is that the indicator changes color to reflect when I got a new cell phone.</p>
+      <p>OpenPaths is designed to be user-friendly, but also to protect users' data should they desire to have it protected. I pulled some example code from the OpenPaths website, which is why my code is slightly more sophisticated than my actual Python skills should reflect. This was necessary to navigate the Oauth process, I think, and resulted in a more customizable framework for creating the actual queries.</p>
+      <p>Getting the data was relatively straightforward once I had figured out how to install packages in python -- for software developers' impressive capacity to dumb down instructions to a level of machine-readability, the ones who give advice on Stack Exchange typically don't write text to a level of lay-person-readability. Once I worked out a few kinks though, it was pretty smooth sailing with Anaconda, OpenRefine, and CartoDB.</p>
+      
+    </div>
+
+
+    <div class='project'> 
+      <h3>Visualization 2 - Jonah Bleckner</h3>
+      <h3>The growth of the LinkNYC Network</h3>
+      <iframe width="100%" height="520" frameborder="0" src="https://jobleckner.cartodb.com/viz/3c5b620c-0a49-11e6-a8e9-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <p>For my second visualization project, I chose to use the Open Data NYC API endpoint to pull the data on the existing network of <a href= "https://www.link.nyc">LinkNYC</a> links as of March 2016. Since this is a small dataset, less than 150 links have been constructed, the script that I wrote on python was very simple. Besides the longitude and latitude coordinates, this dataset also includes the date in which the construction for each link was completed. These construction completion dates allowed me to illustrate the growth of this infrastructural network over the past year.</p>
+      <p>The rhetoric around this highly publicized infrastructure project revolves around the idea that this is an opportunity to address the widening digital divide in NYC. Each of these links provides free wifi, along with other features like a USB charging port, a tablet to browse the web and a source of ad revenue for the city. In light of the language of egalitarianism that has been used to promote LinkNYC, it is interesting to see that the network has only been extended along 3rd and 8th Avenue in Manhattan, and has not reach any of the other boroughs since construction started nearly a year ago. In order to add a bit more complexity to this torque map, I also added shape files for the  subway lines (courtesy of CUNY Mapping Service at the Center for Urban Research) and public schools in the city.</p>
+      </div>
 
     <hr></hr>
 
@@ -54,16 +63,16 @@
       <p>This is a great visualization but should have been placed over a clean basemap outlining the world map. This would make the data more powerful than it already is. Another feature that would have been quite useful would be enabling the zoom functionality and allowing viewers to see further into the visualization and which scientific areas are least focused on in the different nations analyzed.</p>
     </div> 
 
-<div class='vis-critique'> 
-  <h3>Vizualization Critique 2 - Zak Accuardi</h3>
-  <a href="http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem">Why America's Schools Have a Money Problem</a>
-  <iframe src="http://apps.npr.org/dailygraphics/graphics/school-funding-map-20160408/child.html?hasGeoText=true&amp;initialWidth=1205&amp;childId=responsive-embed-school-funding-map-20160408&amp;parentUrl=http%3A%2F%2Fwww.npr.org%2F2016%2F04%2F18%2F474256366%2Fwhy-americas-schools-have-a-money-problem" width="100%" scrolling="no" marginheight="0" frameborder="0" height="1111px"></iframe>
-  <p>I am a big sucker for data journalism, and while this is only the first of what is promised to be several posts on the topic of education funding in the US, it looks really promising. The map itself uses federal data on school district education spending. Education is primarily funded at the state level so the visualization is [subtly and intelligently] state-centric. What's really interesting to me is how clear the variation is within thes states with respect to spending per student. This shows *such* an obvious policy failure, it's really astounding</p>
-  <p> And there lies the map's power. There's nothing sophisticated going on here. This is maps 101, but taught as a master class -- powerful information communicated simply and clearly. They use easily differentiated colors, draw your eye to state boundaries without hitting you over the head with them, and have established the data bins to highlight clear discrepancies. The key in the bottom left corner tells you exactly what you're seeing -- this is merely a relative comparison -- and you can hover over the details for more info on the actual spending numbers. Not only that, but you're shown how each specific district stacks up against its peers *within that state*, which is the right comparison given (as mentioned above) that states are the key policy-making unit in this equation.</p> 
-  <p> Finally (and I genuinely wish I had something critical to say about this map, but I really just think it's amazing), I want to highlight the extraordinary value added by presenting this map in the broader context of a thoughtfully reported narrative. Data here is, as it should be, the beginning of a broader conversation that is better able to capture the "Who", "Why" of (in this case) the education funding challenge in the US, as well as the "How" of what needs to be done to fix it. The map gives us important insight into the "Where" and some of the "What".</p>
-</div>
+    <div class='vis-critique'> 
+      <h3>Vizualization Critique 2 - Zak Accuardi</h3>
+      <a href="http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem">Why America's Schools Have a Money Problem</a>
+      <iframe src="http://apps.npr.org/dailygraphics/graphics/school-funding-map-20160408/child.html?hasGeoText=true&amp;initialWidth=1205&amp;childId=responsive-embed-school-funding-map-20160408&amp;parentUrl=http%3A%2F%2Fwww.npr.org%2F2016%2F04%2F18%2F474256366%2Fwhy-americas-schools-have-a-money-problem" width="100%" scrolling="no" marginheight="0" frameborder="0" height="1111px"></iframe>
+      <p>I am a big sucker for data journalism, and while this is only the first of what is promised to be several posts on the topic of education funding in the US, it looks really promising. The map itself uses federal data on school district education spending. Education is primarily funded at the state level so the visualization is [subtly and intelligently] state-centric. What's really interesting to me is how clear the variation is within thes states with respect to spending per student. This shows *such* an obvious policy failure, it's really astounding</p>
+      <p> And there lies the map's power. There's nothing sophisticated going on here. This is maps 101, but taught as a master class -- powerful information communicated simply and clearly. They use easily differentiated colors, draw your eye to state boundaries without hitting you over the head with them, and have established the data bins to highlight clear discrepancies. The key in the bottom left corner tells you exactly what you're seeing -- this is merely a relative comparison -- and you can hover over the details for more info on the actual spending numbers. Not only that, but you're shown how each specific district stacks up against its peers *within that state*, which is the right comparison given (as mentioned above) that states are the key policy-making unit in this equation.</p> 
+      <p> Finally (and I genuinely wish I had something critical to say about this map, but I really just think it's amazing), I want to highlight the extraordinary value added by presenting this map in the broader context of a thoughtfully reported narrative. Data here is, as it should be, the beginning of a broader conversation that is better able to capture the "Who", "Why" of (in this case) the education funding challenge in the US, as well as the "How" of what needs to be done to fix it. The map gives us important insight into the "Where" and some of the "What".</p>
+    </div>
 
-      <div class="vis-critique">
+    <div class="vis-critique">
       <h3>Visualization Critique 2 - Nayana</h3>
       <h3>Adam Gilchrist at the Bat</h3>
       <p>
@@ -102,13 +111,14 @@
     <hr></hr>
     
     <h2 id="vis1">Visualization 1</h2>
-<div class='project'>
+
+  <div class='project'>
     <h3> Visualization 1 - Oliver Mika</h3>
     <iframe width="100%" height="520" frameborder="0" src="https://oliverarmandomika.cartodb.com/viz/52e88794-057f-11e6-92c0-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     <p> Keeping up with the theme of "Save Harlem Now!", I realised that despite its rich history and reputation, I know little to nothing about the neighborhood. I wanted to get a better feel for what the actual zoning is like to understand why some new development is labeled as being out of place. I used NYC open Data to obtain a list of building heights by floor count just to get a basic idea for what the buiding codes historicaly have been. I also went ahead and included a series of points on the map which represent a variety of facilities in the neighborhood. I included this to see if perhaps there were other indicators for Harlem's gentrification aside from the cheaper price of rent and accessibility.</p>
     <p>
     Unfortunately, I do not feel my data and visualization gets the point across very well. My biggest issue was translating data to the map in a way that could be easy for anyone to understand. But with the Facilities I had trouble labeling each facility type so as of right now they are merely points on the map with data pertaining to literal zoning (i.e. community area numbers, facility numbers rather than type, etc. etc.). The only thing I feel went right was the very basic chloropleth of building heights, which gave me a better feel for the physical landscape of the general area and why new high rises do indeed stick out like sore thumbs. </p>
-    </div>
+  </div>
 
     <div class='project'>
       <h3> Visualization 1 - Matthew Caruso </h3>
