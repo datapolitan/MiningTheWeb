@@ -343,14 +343,13 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 6 - April 27, 2016
 <a id='c6-topics'></a>
 ####Topics 
-+ A (re-)introduction to statistics
-+ SQL for analysis
-+ Python for analysis
++ Python for querying Geoclient API
++ SQL for cleaning and analysis
+
 
 <a id='c6-readings'></a>
 ####Readings
-+ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)” Ch. 1 and 2.
-+ Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
++ TBD
 
 <a id='c6-assignments'></a>
 ####Assignments
@@ -367,10 +366,13 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ###Class 7 - May 2, 2016
 <a id='c7-topics'></a>
 ####Topics 
++ A (re-)introduction to statistics
 + Introduction to visualization design
 
 <a id='c7-readings'></a>
 ####Readings
++ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)” Ch. 1 and 2.
++ Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
 + Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. 
 + Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. 
 + [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
