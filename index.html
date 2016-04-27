@@ -24,9 +24,12 @@
     <a href="#crit1"><h3>Visualization Critique 1</h3></a>
     <a href="#vis1"><h3>Visualization Project 1</h3></a>
     <a href="#crit2"><h3>Visualization Critique 2</h3></a>
+    <a href="#vis2"><h3>Visualization Project 2</h3></a>
+    <a href="#crit3"><h3>Visualization Critique 3</h3></a>
 
 <<<<<<< HEAD
     <hr></hr>
+<<<<<<< HEAD
 =======
 <div class='project'>
   <h3> Map 1- Nayana Malotra</h3>
@@ -39,12 +42,91 @@
 
     </p>
 >>>>>>> origin/gh-pages-nayana
+=======
+    <h2 id="crit3">Visualization Critique 3</h2>
+
+<div class="vis-critique">
+  <h3> Visualization Critique 3 - Zak Accuardi </h3>
+  <a href="http://www.arcgis.com/apps/OnePane/azuretwitter/index.html?appid=b0528926daa24df1a749f6832c127422"> Tweets by Chicago Transit Authority (CTA) Riders </a>
+  <img src="https://lh3.googleusercontent.com/aMNZF5qE-O57j-fqX17694xehBG7iRYooSY1matUhiRebDBV5fR5XaLaJ7kdfOMYrU_gN3YKipVE5-eITJfd9sS2EFPH5Jc6BsnJpQKxGfsDEVnJuVpRtNKAGCD1tN2UPE-md_ucaNcYUevUHld9ERqwldPmz15J9qogdeLuK8ke7fcFj8Cw1Oxb9WMqnlu7tsD0k7Dpw3NXmqYwtLGWjDc69-DQpHzC3XQiKZntn1aTTkpEbSrp_iLhqDTpdj7WuCP3LrI3ivds3tr2vFpV8R0gkqEo174DiIibtNh2OwgsUJgvUwKj-UajBTB3uTYtiLpkrfqFx9uWZIsUSUEx7e3AqqUwOAPxqe6O3Oef2SQnWQ8LmTeocWPeYiN25Q5j3riyGpfWbarCUpmq9CkUyk7PtxnV0Ox4QYdpTSgdUfFz8JUo1dFr0wvbfxG7Z3VYI8j2IShPllRiFJZGggJL1vm_b--Ob_UEN3QkByVeMUYECZNUq2RD9SYQYvUwleuEcYsL1Ns5QgRwoNEGxR97dJCHusj5vOw7pjmXoPsSIlh2u4VV0MsJ3-YbJ_t6cflp9yLe6A=w958-h523-no" style="width:100%;height:520;"> </img>
+
+  <p>This fairly straightforward visualization--produced by a Chicago-based design consultant--shows recent tweets about any topic of the user's choosing, by means of entering text within a dropdown search box (only possible after the user signs in to Twitter). Rail transit lines are displayed with stops indicated by very literal train icons. The city's wards are also indicated by their respective numbers on the map. Both transit stops and wards show some additional metadata when clicked. The choice of train icons to indicate L stops is clunky, especially downtown within Chicago's "loop", where stations are so dense that they obscure the transit lines themselves.</p>
+
+  <p>"Tweets by CTA Riders" was the only map I could find that seems to be trying to accomplish something comparable to what I'm proposing for my project. I don't think they really succeed; indeed, it's possible this map was never quite finished. The requirement for the user to login to Twitter and need to actually search for the term "CTA" manually makes the map's title feel wrong. It's unclear in the context of this map why exactly wards are highlighted on the map; there's no context provided to understand why this is included. The twets show up easily on the map and they've succeeded at enabling them to show up quickly with customized search keywords, which actually seems more advanced than might have been necessary to make the map. The map itself is built on Esri's online platform, which seems to be doing okay but isn't as slick as CartoDB.</p>
+</div>
+
+    <a href="#top"><h4>Back to Top</h4></a>
+    <hr></hr>
+
+    <h2 id="vis2">Visualization Project 2</h2>
+
+    <div class='project'>
+      <h3>Project 2 - Zak Accuardi</h3> 
+      <a href "http://openpaths.cc"> Open Paths API Practice </a>
+      <iframe width="100%" height="520" frameborder="0" src="https://zaccuardi.cartodb.com/viz/95982748-0b10-11e6-82f5-0ecfd53eb7d3/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+      <p>I have visualized data from OpenPaths, an app/location tracking service built by the data science team at the NY Times. I've had the app enabled on my phone for some time (though it was off for the past few months), so this seemed like a good opportunity to see what I've been doing of late. The geographic scope of the map is not ideal; it will be nicer to limit the geography to the NYC-area or thereabouts using SQL after class this week! The map has only the most basic styling for now, and was a good opportunity to use the Torque functionality in CartoDB (since the data is literally a time series of my location). The one thing I tweaked is that the indicator changes color to reflect when I got a new cell phone.</p>
+      <p>OpenPaths is designed to be user-friendly, but also to protect users' data should they desire to have it protected. I pulled some example code from the OpenPaths website, which is why my code is slightly more sophisticated than my actual Python skills should reflect. This was necessary to navigate the Oauth process, I think, and resulted in a more customizable framework for creating the actual queries.</p>
+      <p>Getting the data was relatively straightforward once I had figured out how to install packages in python -- for software developers' impressive capacity to dumb down instructions to a level of machine-readability, the ones who give advice on Stack Exchange typically don't write text to a level of lay-person-readability. Once I worked out a few kinks though, it was pretty smooth sailing with Anaconda, OpenRefine, and CartoDB.</p>
+      
+    </div>
+
+
+    <div class='project'> 
+      <h3>Visualization 2 - Jonah Bleckner</h3>
+      <h3>The growth of the LinkNYC Network</h3>
+      <iframe width="100%" height="520" frameborder="0" src="https://jobleckner.cartodb.com/viz/3c5b620c-0a49-11e6-a8e9-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+      <p>For my second visualization project, I chose to use the Open Data NYC API endpoint to pull the data on the existing network of <a href= "https://www.link.nyc">LinkNYC</a> links as of March 2016. Since this is a small dataset, less than 150 links have been constructed, the script that I wrote on python was very simple. Besides the longitude and latitude coordinates, this dataset also includes the date in which the construction for each link was completed. These construction completion dates allowed me to illustrate the growth of this infrastructural network over the past year.</p>
+      <p>The rhetoric around this highly publicized infrastructure project revolves around the idea that this is an opportunity to address the widening digital divide in NYC. Each of these links provides free wifi, along with other features like a USB charging port, a tablet to browse the web and a source of ad revenue for the city. In light of the language of egalitarianism that has been used to promote LinkNYC, it is interesting to see that the network has only been extended along 3rd and 8th Avenue in Manhattan, and has not reach any of the other boroughs since construction started nearly a year ago. In order to add a bit more complexity to this torque map, I also added shape files for the  subway lines (courtesy of CUNY Mapping Service at the Center for Urban Research) and public schools in the city.</p>
+      </div>
+
+    <a href="#top"><h4>Back to Top</h4></a>
+    <hr></hr>
+>>>>>>> datapolitan/gh-pages
 
     <h2 id="crit2">Visualization Critique 2</h2>
+    <div class='vis-critique'>
+      <h3> Visualization Critique 2 - Sami Noor</h3>
+      <h3>The Strength of Nations</h3>
+      <p>The visualization I chose is called <a href="https://tedideas.files.wordpress.com/2015/09/03_viscom_0172a.jpg?w=1550&amp;h=1314">The Strengths of Nations</a> which was found via Ted - <a href="http://ideas.ted.com/gallery-how-networks-help-us-understand-the-world/">Gorgeous networks that help us understand the world</a>. This was developed to visualize and allow one to see the variations in how different nations pursue science. This visualization analyzes 23 scientific in over 10 nations - USA, United Kingdom, France, China, Australia, Germany, Taiwan, Canada, Spain and Japan.</p>
+      <p>Here are some patterns noted from the site:</p>
+      <p><q>The two European nations with the most scientific publications (France and Germany) excel in physics and chemistry. France's network emphasizes engineering applications. Germany emphasizes the more theoretical aspects of chemistry and physics. Spain on the other hand, focuses on science that links to agriculture. The two pacific rim nations with the most similar profile are China and Taiwan. Both strongly address applied mathematics: from computer science towards engineering and applied physics. Japan explore more the medical areas and physical chemistry.</q></p>
+      <p>This is a great visualization but should have been placed over a clean basemap outlining the world map. This would make the data more powerful than it already is. Another feature that would have been quite useful would be enabling the zoom functionality and allowing viewers to see further into the visualization and which scientific areas are least focused on in the different nations analyzed.</p>
+    </div> 
+
+    <div class='vis-critique'> 
+      <h3>Visualization Critique 2 - Zak Accuardi</h3>
+      <a href="http://www.npr.org/2016/04/18/474256366/why-americas-schools-have-a-money-problem">Why America's Schools Have a Money Problem</a>
+      <iframe src="http://apps.npr.org/dailygraphics/graphics/school-funding-map-20160408/child.html?hasGeoText=true&amp;initialWidth=1205&amp;childId=responsive-embed-school-funding-map-20160408&amp;parentUrl=http%3A%2F%2Fwww.npr.org%2F2016%2F04%2F18%2F474256366%2Fwhy-americas-schools-have-a-money-problem" width="100%" scrolling="no" marginheight="0" frameborder="0" height="1111px"></iframe>
+      <p>I am a big sucker for data journalism, and while this is only the first of what is promised to be several posts on the topic of education funding in the US, it looks really promising. The map itself uses federal data on school district education spending. Education is primarily funded at the state level so the visualization is [subtly and intelligently] state-centric. What's really interesting to me is how clear the variation is within thes states with respect to spending per student. This shows *such* an obvious policy failure, it's really astounding</p>
+      <p> And there lies the map's power. There's nothing sophisticated going on here. This is maps 101, but taught as a master class -- powerful information communicated simply and clearly. They use easily differentiated colors, draw your eye to state boundaries without hitting you over the head with them, and have established the data bins to highlight clear discrepancies. The key in the bottom left corner tells you exactly what you're seeing -- this is merely a relative comparison -- and you can hover over the details for more info on the actual spending numbers. Not only that, but you're shown how each specific district stacks up against its peers *within that state*, which is the right comparison given (as mentioned above) that states are the key policy-making unit in this equation.</p> 
+      <p> Finally (and I genuinely wish I had something critical to say about this map, but I really just think it's amazing), I want to highlight the extraordinary value added by presenting this map in the broader context of a thoughtfully reported narrative. Data here is, as it should be, the beginning of a broader conversation that is better able to capture the "Who", "Why" of (in this case) the education funding challenge in the US, as well as the "How" of what needs to be done to fix it. The map gives us important insight into the "Where" and some of the "What".</p>
+    </div>
+
+    <div class="vis-critique">
+      <h3>Visualization Critique 2 - Nayana</h3>
+      <h3>Adam Gilchrist at the Bat</h3>
+      <p>
+       A <a href="https://visualizeit.files.wordpress.com/2009/05/gilchrist.jpg?w=700"> visualization</a> that I've been exposed to a lot is one generated quickly and often as a tool in cricket commentary. It overlays the trajectory of the ball over a map of the field to represent where the most runs are being scored revealing to both teams where the vulnerabilities+opportunities are. It gives the team at the bat a better understanding of where gaps in fielding are and the opposing team a chance to reevaluate its bowling and defense strategy.</p><p>You lose some information from the angle of the map and it might help to add a layer representing the fielders to better visualize what’s really going on at a given time.</p>
+    </div>
+
+
+    <div class='vis-critique'>
+      <h3>Visualization Critique 2 - Oliver Mika</h3>
+      <h3>Data USA</h3>
+      <iframe src="http://datausa.io/map/?level=county&key=age,age_moe,age_rank"></iframe>
+      <p>
+      For my visualization critique, I decided not just to use a particular visual, but a site I have recently discovered. Data USA is a comprehensive interactive list of census & demographic data put into an extremely easy to use search based website. I enjoy using it because it effortessly compiles data into a straight forward, informative story rather than just listing it in the same fashion the census bureau does. What else is impressive is the list of sources. It's simple, meaning the page is easy to find, and each source is labeled in bold and briefly but clearly explained where it is used within the site. What else, there are also caveats listed for each data source. I particularly appriciate this because it lets the user know that not all parts of the data are going to be correct. </p>
+
+      <p> My biggest criticism of the US Census bureau are it's wild inaccuracies and the fact that one is just led to assume that all the data must be true. I tend to trust data more when it can be noted that there are some inaccuracies due to the author screening it before hand, rather than not knowing just how inaccurate it is overall.  The finishing touches are subtle but difference makers as well; the cloroplethed map, the interactive aspect of clicking on each state, county, PUMA or MSA and pulling up brief population and demographic info. These all may be very basic points that anyone could whip up on CartoDB, but to me they are still difference makers.
+
+      </p>
+    </div>
 
     <div class='vis-critique'>
       <h3> Visualization Critique 2 - Jonah Bleckner</h3>
       <h3>Accidental Skyline</h3>
+      <iframe width='100%' height='520' frameborder='0' src='http://masnyc.cartodb.com/viz/bdf7572a-f197-11e3-854e-0e230854a1cb/embed_map?title=false&description=false&search=false&shareable=true&cartodb_logo=false&layer_selector=true&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1%7C1%7C1%7C0%7C0%7C0&sql=SELECT%20*%2C%0A' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
       <p>For my second visualization critique, I chose a CartoDB map that was produced by the Municipal Arts Society, entitled <a href= "http://www.mas.org/urbanplanning/accidental-skyline/"> "Accidental Skyline,"</a> in response to the proliferation of huge skyscrapers along the southern border of Central Park. This map has the potential to serve as a tool for the public to engage in the on-going and contentious debate about real estate development in the city.</p>
       <p>This map successfully allows users to make six different layers visible simultaneously. The first two layers illutrate the available Floor to Area Ratio (FAR) accross the five boroughs. Regions of the city with a high level of FAR availability (i.e. underused development rights) are considered extremely ripe for developers to build huge profitable building as-of-right. The map then allows users to see the spatial relationship between  the neighborhoods in NYC that are vulnerable to large scale developments, with the historic districts that are protected by the the Landmarks Preservation Committee. Other layers on this interactive map include: Parks, NYCHA's real estate portfolio, and the Subway Lines. One UX issue with this map is that you cannot easily compare the state of each borough; one is forced to look at each borough in isolation. However, the data visualization clearly communicates which areas of the city are likely to see massive redevelopments that are destructive to local communities.</p>
     </div> 
@@ -60,6 +142,15 @@
     <hr></hr>
     
     <h2 id="vis1">Visualization 1</h2>
+
+  <div class='project'>
+    <h3> Visualization 1 - Oliver Mika</h3>
+    <iframe width="100%" height="520" frameborder="0" src="https://oliverarmandomika.cartodb.com/viz/52e88794-057f-11e6-92c0-0ea31932ec1d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+    <p> Keeping up with the theme of "Save Harlem Now!", I realised that despite its rich history and reputation, I know little to nothing about the neighborhood. I wanted to get a better feel for what the actual zoning is like to understand why some new development is labeled as being out of place. I used NYC open Data to obtain a list of building heights by floor count just to get a basic idea for what the buiding codes historicaly have been. I also went ahead and included a series of points on the map which represent a variety of facilities in the neighborhood. I included this to see if perhaps there were other indicators for Harlem's gentrification aside from the cheaper price of rent and accessibility.</p>
+    <p>
+    Unfortunately, I do not feel my data and visualization gets the point across very well. My biggest issue was translating data to the map in a way that could be easy for anyone to understand. But with the Facilities I had trouble labeling each facility type so as of right now they are merely points on the map with data pertaining to literal zoning (i.e. community area numbers, facility numbers rather than type, etc. etc.). The only thing I feel went right was the very basic chloropleth of building heights, which gave me a better feel for the physical landscape of the general area and why new high rises do indeed stick out like sore thumbs. </p>
+  </div>
+
     <div class='project'>
       <h3> Visualization 1 - Matthew Caruso </h3>
       <iframe width="100%" height="520" frameborder="0" src="https://mcaru546.cartodb.com/viz/3a41b03a-05c0-11e6-b106-0e5db1731f59/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 5</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout:true
+
+<p class="footer">
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mining the Web</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+</p>
+
+---
+
+class: center, middle
+![img-center-30](../images/pratt_logo.png)
+#Mining the Web
+###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class5/
+
+---
+class:center,middle
+#Day Five
+
+---
+
+#Goals for tonight
++ Discuss data formats
++ Discuss best practices when it comes to cleaning data
++ Practice using OpenRefine to clean data
++ Introduce Python and SQL for cleaning data
+
+---
+
+#Readings
++ Obe, Regina, and Leo Hsu. PostGIS in action. Manning Publications Co., 2011, Pg 3-8.
+
+---
+
+#Assignment 1
++ Using an API, either of an open data portal such as the [NYC Open Data Portal](https://data.cityofnewyork.us/data) or some other open data source, create a visualization of the data in CartoDB. Write a short (2-3 paragraph) description of the data, the API you used to access it, how you styled it, and the resulting visualization. Discuss other data you'd like to use or other techniques of cleaning the data to get your desired result. Submit your API code via the Slack channel in the format "lastname-assignment2.py" if you do your API query in Python or "lastname-assignment2.txt" if you did you query in OpenRefine.
+
+---
+
+#Assignment 2
++ Update your project plan for your final project with additional questions, data sources, ideas for visualizing, or other issues/challenges you've discovered.
+
+---
+
+class: center, middle
+#Presentations
+##http://www.datapolitan.com/MiningTheWeb/
+
+---
+
+class:center,middle
+#What data formats have we used so far?
+
+---
+
+class:center
+#Data Formats - CSV
+![img-full](../images/csv.png)
+
+---
+
+class:center
+#Data Formats - JSON
+![img-full](../images/json.png)
+
+---
+
+class:center
+#Data Formats - GeoJSON
+![img-full](../images/geojson.png)
+
+For more information see Eric Brelsford's [GeoJSON and Github tutorial](http://youtu.be/TQs7fYo9d_M)
+
+---
+
+class:center
+#Data Formats - XML
+![img-full](../images/xml.png)
+
+---
+
+#What is Data Cleaning?
+--
+
++ Removing data
+--
+
++ Adding data
+--
+
++ Concatenating data together
+
+---
+
+#OpenRefine Data Cleaning
+![img-center-80](../images/or_c1.png)
+
+---
+
+#OpenRefine Data Cleaning
+![img-full](../images/or_c2.png)
+
+
+---
+
+class:center,middle
+#Now Let's Add to Our Data in OpenRefine
+
+---
+
+class:center,middle
+#Geocoding
+![img-full](../images/geocoding.png)
+
+---
+
+#NYC Geoclient API
+![img-full](../images/nyc_gc1.png)
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc2.png)
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc3.png)
+###Service Endpoint
++ `https://api.cityofnewyork.us/geoclient/v1/bin`
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc4.png)
+###Response Format
++ `json`
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc5.png)
+###Query Parameter
++ `bin=1015234` ([Building Identification Number](http://www.nyc.gov/html/dob/html/bis/glossary.shtml))
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc6.png)
+###Authentication
++ `app_id=48eab85b`
++ `app_key=fa31219b4e426ff96a8ded2905e6ae3a`
+
+---
+
+#NYC Geoclient API Response
+![img-center](../images/nyc_gc7.png)
+
+---
+
+#NYC Geoclient API Setup
++ [Register for an account](https://developer.cityofnewyork.us/api/geoclient-api 
+)
++ Click on the activation email
++ Start a project
++ Click on Geoclient v1 under available APIs
+
+---
+
+class:center,middle
+#Let's Geocode in OpenRefine
+##[Download this file](data/nyc_dob_0315_jobs_r1.xlsx)
+
+---
+
+#Query API in OpenRefine
+![img-full](../images/or_gc1.png)
+
+---
+
+#Query API in OpenRefine
+![img-center-80](../images/or_gc2.png)
+
+---
+
+#Parse API Response
+![img-full](../images/or_gc3.png)
+
+---
+
+#Parse API Response
+![img-center-80](../images/or_gc4.png)
+
+---
+
+#Parse API Response
+![img-center-80](../images/or_gc5.png)
+
+---
+
+#Other GREL Functions
+![img-center-75](../images/grel1.png)
+
+---
+
+#Other GREL Functions
+![img-center-80](../images/grel2.png)
+
+---
+
+class:center,middle
+#Let's try that in Python
+##Open API_Example.ipynb
+
+---
+
+class:center,middle
+#Introduction to SQL
+##Let's look at earthquakes
+<!-- beginning of e block -->
+
+---
+
+#Add Earthquake Data from Data Library
+![img-full](../images/cdb_earthquake.png)
+##Click "Connect Dataset"
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql1.png)
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql2.png)
+
+---
+
+#Introduction to SQL
+![img-center-40](../images/sql3.png)
+
+---
+
+#Introduction to SQL
+![img-left](../images/sql4.png)
+<br>
+<br>
+
+---
+
+#Introduction to SQL
+--
+
+![img-left-45](../images/sql4.png)
+--
+
+![img-right-45](../images/sql5.png)
+<br>
+<br>
+--
+
+![img-center-75](../images/sql6.png)
+
+
+
+---
+
+#Introduction to SQL
+--
+
+![img-center-80](../images/sql7.png)
+--
+<br>
+![img-center-40](../images/sql8.png)
+
+---
+
+class:middle,center
+#How Many Earthquakes Occured in Each Country?
+
+---
+
+#Steps to Answer
+
+---
+
+#Steps to Answer
+1. Import the World Borders file from the Data Library
+
+---
+
+#Steps to Answer
+1. Import the World Borders file from the Data Library
+2. Join the datasets together
+
+---
+class:center, middle
+#How do we do joins in SQL?
+
+---
+
+class:center
+![img-full](../images/sql_join1.png)
+
+http://stackoverflow.com/questions/406294/left-join-and-left-outer-join-in-sql-server
+
+---
+
+#Joining Earthquakes with World Borders
+--
+
+![img-center-80](../images/sql_join2.png)
+--
+
+##Several things going on here
+--
+
++ Aliases for tables (using the keyword "**AS**")
+--
+
++ Using the function **ST_CONTAINS()**
+
+---
+
+#Joining Earthquakes with World Borders
+![img-full](../images/st_c.png)
+
+---
+
+#Several Options to Get Our Answer
+--
+
+1. Can create a table and count from there
+--
+
+2. Use this as a temporary table and generate the counts
+--
+
+![img-full](../images/sql_join3.png)
+
+
+---
+
+#Assignment 1
++ Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+
+---
+
+#Assignment 2
++ Complete the [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html) course.
+
+---
+
+class: center,middle
+#Any Issues? Questions?
+
+---
+class:center, middle
+#See you Wednesday
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
