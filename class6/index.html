@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 6</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout:true
+
+<p class="footer">
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mining the Web</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+</p>
+
+---
+
+class: center, middle
+![img-center-30](../images/pratt_logo.png)
+#Mining the Web
+###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class6/
+
+---
+class:center,middle
+#Day Six
+
+---
+
+#Goals for tonight
++ Practice geocoding using OpenRefine to enrich data
++ Practice geocoding using Python
++ Introduce SQL for cleaning data
+
+
+---
+
+#Assignment 1
++ Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+
+---
+
+#Assignment 2
++ Complete the [SQL and PostGIS in CartoDB](http://academy.cartodb.com/courses/04-sql-postgis.html) course.
+
+---
+
+class: center, middle
+#Presentations
+##http://www.datapolitan.com/MiningTheWeb/
+
+---
+
+#NYC Geoclient API Setup
++ [Register for an account](https://developer.cityofnewyork.us/api/geoclient-api 
+)
++ Click on the activation email
++ Start a project
++ Click on Geoclient v1 under available APIs
+
+---
+
+class:center,middle
+#Geocoding
+![img-full](../images/geocoding.png)
+
+---
+
+#NYC Geoclient API
+![img-full](../images/nyc_gc1.png)
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc2.png)
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc3.png)
+###Service Endpoint
++ `https://api.cityofnewyork.us/geoclient/v1/bin`
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc4.png)
+###Response Format
++ `json`
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc5.png)
+###Query Parameter
++ `bin=1015234` ([Building Identification Number](http://www.nyc.gov/html/dob/html/bis/glossary.shtml))
+
+---
+
+#NYC Geoclient API Call
+![img-full](../images/nyc_gc6.png)
+###Authentication
++ `app_id=48eab85b`
++ `app_key=fa31219b4e426ff96a8ded2905e6ae3a`
+
+---
+
+#NYC Geoclient API Response
+![img-center](../images/nyc_gc7.png)
+
+---
+
+class:center,middle
+#Let's Geocode in OpenRefine
+##[Download this file](nyc_dob_0315_jobs_r1.csv)
+
+---
+
+#Query API in OpenRefine
+![img-full](../images/or_gc1.png)
+
+---
+
+#Query API in OpenRefine
+![img-center-80](../images/or_gc2.png)
+
+---
+
+#Parse API Response
+![img-full](../images/or_gc3.png)
+
+---
+
+#Parse API Response
+![img-center-80](../images/or_gc4.png)
+
+---
+
+#Parse API Response
+![img-center-80](../images/or_gc5.png)
+
+---
+
+#Other GREL Functions
+![img-center-75](../images/grel1.png)
+
+---
+
+#Other GREL Functions
+![img-center-80](../images/grel2.png)
+
+---
+
+class:center,middle
+#Let's try that in Python
+##[Open this file](nyc_dob_0315_jobs_r1.csv)
+
+---
+
+#Install the NYC-Geoclient package
++ Go to your command line
++ Type `pip install nyc_geoclient`
+
+---
+
+class:center,middle
+#Introduction to SQL
+##Let's look at earthquakes
+<!-- beginning of e block -->
+
+---
+
+#Add Earthquake Data from Data Library
+![img-full](../images/cdb_earthquake.png)
+##Click "Connect Dataset"
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql1.png)
+
+---
+
+#Introduction to SQL
+![img-full](../images/sql2.png)
+
+---
+
+#Introduction to SQL
+![img-center-40](../images/sql3.png)
+
+---
+
+#Introduction to SQL
+![img-left](../images/sql4.png)
+<br>
+<br>
+
+---
+
+#Introduction to SQL
+--
+
+![img-left-45](../images/sql4.png)
+--
+
+![img-right-45](../images/sql5.png)
+<br>
+<br>
+--
+
+![img-center-75](../images/sql6.png)
+
+
+
+---
+
+#Introduction to SQL
+--
+
+![img-center-80](../images/sql7.png)
+--
+<br>
+![img-center-40](../images/sql8.png)
+
+---
+
+class:middle,center
+#How Many Earthquakes Occured in Each Country?
+
+---
+
+#Steps to Answer
+
+---
+
+#Steps to Answer
+1. Import the World Borders file from the Data Library
+
+---
+
+#Steps to Answer
+1. Import the World Borders file from the Data Library
+2. Join the datasets together
+
+---
+class:center, middle
+#How do we do joins in SQL?
+
+---
+
+class:center
+![img-full](../images/sql_join1.png)
+
+http://stackoverflow.com/questions/406294/left-join-and-left-outer-join-in-sql-server
+
+---
+
+#Joining Earthquakes with World Borders
+--
+
+![img-center-80](../images/sql_join2.png)
+--
+
+##Several things going on here
+--
+
++ Aliases for tables (using the keyword "**AS**")
+--
+
++ Using the function **ST_CONTAINS()**
+
+---
+
+#Joining Earthquakes with World Borders
+![img-full](../images/st_c.png)
+
+---
+
+#Several Options to Get Our Answer
+--
+
+1. Can create a table and count from there
+--
+
+2. Use this as a temporary table and generate the counts
+--
+
+![img-full](../images/sql_join3.png)
+
+---
+
+class: center,middle
+#Any Issues? Questions?
+
+---
+
+#Assignment
+Create a new visualization or improve on your previous visualization with additional data and provide analysis of the data you've found. Write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented.
+
+---
+
+#Readings
++ Hon, Keone. “[An Introduction to Statistics.](http://www.fd.cvut.cz/department/k611/PEDAGOG/THO_A/A_soubory/statistics_firstfive.pdf)” Ch. 1 and 2.
++ Ben Wellington "[Mapping the Sharing Economy](http://iquantny.tumblr.com/post/110747103479/mapping-the-sharing-economy-an-in-depth-view-of)"
+
+---
+class:center, middle
+#See you Wednesday
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
