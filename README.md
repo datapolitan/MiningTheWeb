@@ -340,7 +340,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ----
 
 <a id='class6'></a>
-###Class 6 - April 27, 2016
+###[Class 6 - April 27, 2016](http://www.datapolitan.com/MiningTheWeb/class6)
 <a id='c6-topics'></a>
 ####Topics 
 + Python for querying Geoclient API
@@ -363,7 +363,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ##Week 4: Visualizing Data
 
 <a id='class7'></a>
-###Class 7 - May 2, 2016
+###[Class 7 - May 2, 2016](http://www.datapolitan.com/MiningTheWeb/class7)
 <a id='c7-topics'></a>
 ####Topics 
 + A (re-)introduction to statistics
@@ -385,7 +385,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ----
 
 <a id='class8'></a>
-###Class 8 - May 4, 2016
+###[Class 8 - May 4, 2016](http://www.datapolitan.com/MiningTheWeb/class8)
 <a id='c8-topics'></a>
 ####Topics 
 + Advanced CartoDB (guest lecture)
