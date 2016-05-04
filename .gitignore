@@ -10,4 +10,5 @@
 *.pdf
 *.key
 .swp
-class2/.ipynb_checkpoints/
+*.ipynb_checkpoints/
+old_slides/*
