@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mining the Web - Class 8</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout:true
+
+<p class="footer">
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Mining the Web</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
+</p>
+
+---
+
+class: center, middle
+![img-center-30](../images/pratt_logo.png)
+#Mining the Web
+###Richard Dunks
+###Slides are available here: http://www.datapolitan.com/MiningTheWeb/class8/
+
+---
+class:center,middle
+#Day Eight
+
+---
+
+#Assignment
++ Find an interesting or visually compelling visualization online and write 2-3 paragraphs on the visualization, discussing the data source(s), the visual style, and how well the data was represented. Feel free to use the visualization resources listed above. Submit your text to the class page following the example shown.
+
+---
+
+#Readings
++ Heer, Jeffrey, Michael Bostock, and Vadim Ogievetsky. "[A tour through the visualization zoo.](http://hci.stanford.edu/jheer/files/zoo/)" Commun. ACM 53.6 (2010): 59-67. 
++ Munzer, Tamara. Chapter 27 – “[Visualization](http://www.cs.ubc.ca/labs/imager/tr/2009/VisChapter/akp-vischapter.pdf)”, p 675-707, of Fundamentals of Graphics, Third Edition. by Peter Shirley and Steve Marschner. AK Peters, 2009. 
++ [CartoDB “Introduction to Map Design”](http://bit.ly/1ugu0tA)
+
+---
+
+<!-- ![img-right-35](../images/cyoa2.jpg) -->
+#Goals for Tonight
+--
+
++ Discuss visualization design
+--
+
++ Practice designing visualizations in CartoDB
+--
+
++ Learn more about advanced CartoDB features (guest lecture)
+--
+
++ Discuss class on Monday and final projects
+
+---
+
+class:center,middle
+#Introduction to Visualization Design
+
+---
+
+# Why do we visualize data?
+--
+
++ Explore
+--
+
++ Explain
+--
+
++ Persuade
+
+---
+
+# Encoding
+--
+
++ Visual encoding is the process of encoding information visually
+--
+
++ Every visualization is a mapping between data objects and features to visual objects and features
+
+---
+
+#Bar Chart
+![img-center-80](../images/chart1.png)
+
+---
+
+#"Barless" Bar Chart
+![img-center-80](../images/chart2.png)
+
+---
+
+#Horizontal Bar Chart
+![img-full](../images/chart3.png)
+
+---
+
+#Ranked Horizontal Bar Chart
+![img-full](../images/chart4.png)
+
+---
+
+#Grouped Bar Chart
+![img-center-80](../images/chart5.png)
+
+---
+
+#Grouped Bar Chart
+![img-center-80](../images/chart6.png)
+
+---
+
+#Precognitive Processing
+![img-full](../images/chart7.png)
+
+---
+
+#Stacked Bar Chart
+![img-center-80](../images/chart7a.png)
+
+---
+
+#Line Chart
+![img-full](../images/chart8.png)
+
+---
+
+#Why use a line chart?
+![img-full](../images/chart8a.png)
+
+---
+
+#Line Chart with Categorical Data
+![img-full](../images/chart9.png)
+
+---
+
+#Line Chart
+![img-center-medium](../images/chart10.png)
+
+---
+
+#Line Chart
+![img-full](../images/chart11.png)
+
+---
+
+#Small Multiples
+![img-center-50](../images/chart12.png)
+
+---
+
+class:center,middle
+![img-full](../images/chart12a.png)
+
+---
+
+#Banking to 45 degrees
+![img-full](../images/chart12b.png)
+
+---
+
+#Scatter Plot
+![img](../images/chart12c.png)
+
+---
+
+#Scatter Plot
+![img](../images/chart12d.png)
+
+---
+
+#Pie Charts
+![img-full](../images/chart13.png)
+
+---
+
+#Pie Charts
+![img-center-80](../images/chart15.png)
+
+--
+
+![img-center-80](../images/chart16.png)
+"Piecharts". Licensed under [CC BY 1.0](https://creativecommons.org/licenses/by/1.0/legalcode) via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Piecharts.svg#/media/File:Piecharts.svg)
+
+---
+
+#Pie Charts
+![img-center-90](../images/chart14.png)
+"Badpie" by Gilgongo - Own work. Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/us/legalcode) via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Badpie.png#/media/File:Badpie.png)
+
+
+---
+
+#Pie Charts
+![img-center-medium](../images/chart17.png)
+http://simplystatistics.org/2012/11/26/the-statisticians-at-fox-news-use-classic-and-novel-graphical-techniques-to-lead-with-data/ 
+
+---
+
+#Channels and Marks
+![img-center-large](../images/chart18.png)
+<br>
+From Tamara Munzner, [Visualization Analysis and Design](http://www.cs.ubc.ca/~tmm/vadbook/)
+
+---
+class:center, middle
+![img-full](../images/chart19.png)
+
+---
+
+#Takeaway
+##Be able to reason in terms of visual encoding and relationships between categorical and quantitative values
+<!-- end of d block -->
+
+---
+
+class:center,middle
+#Design Exercise
+
+---
+
+#CartoCSS
+--
+
++ Defines map styles using CSS-style properties
+--
+
++ Gives you control of design at different levels
+--
+
++ Allows you to customize elements beyond the CartoDB wizard
+
+---
+
+#Using CartoCSS with CartoDB
+--
+
++ Use the wizard to generate CartoCSS and modify as necessary
+--
+
++ Always indent your code for readability
+--
+
++ Check that you’ve correctly enclosed code in curly braces
+--
+
++ Order matters
+
+---
+
+class:center,middle
+![img-full](../images/batman_docs.png)
+###http://docs.cartodb.com/cartodb-platform/cartocss/
+
+
+---
+
+#Let's Style a Map
+<iframe width="100%" height="520" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/c0d4f39e-962e-11e4-9b3b-0e9d821ea90d/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+---
+
+#Get the Data
++ [The percentage of subway users](https://richard-datapolitan.cartodb.com/tables/geoid_subway/public/map)
++ [Get subway routes and stations](https://spatialityblog.com/2015/10/05/new-subway-station-in-nyc-hudson-yards/)
+
+---
+
+class:center,middle
+# Style the Map
+##[Eric Brelsford CartoCSS Reference Sheet](http://ebrelsford.github.io/talks/2014/Methods3/week7/materials/cartocss-reference.pdf)
+
+
+---
+
+#Assignment
++ Create your final presentation. Have mockups ready for class on Monday ahead of presentations on Wednesday. More detailed requirements will be provided in class.  
+
+---
+
+class: center,middle
+#Any Questions?
+
+---
+
+class:center, middle
+#See you Monday
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
