@@ -34,6 +34,20 @@
     <hr></hr>
 
     <h2 id="final">Final Projects</h2>
+
+    <div class="project"> 
+      <h3>Class Project - Zak Accuardi</h3>
+      <p>BUSES in New York City are currently a second-tier transit option. The primary layer in this map is bus reliability by census block group, as measured by a performance metric called "excess wait time", which shows how much <em>more</em> time riders wait for the bus compared to the schedule. I added a torque layer of 511 bus service alerts, which is fairly limited in that it's only <em>reported</em> incidents and thus not necessarily reflective of broader system problems. The tweet layer uses CartoDB's "bubble" method to plot tweets according to the 'impact' or reach of the tweet-er, as measured by their follower count.</p> 
+
+      <p>The tweets themselves are a little disappointing, because they're mostly Foursquare check-ins. With a longer time window of collected tweets, it would be good to filter these out -- but as it stands now the map would be a bit too barren without them. I added a subway layer in which the subway lines are buffered to 400m as a means of visually de-emphasizing the areas where subway service exists. In these neighborhoods, poor bus service reliability is still important but less so than areas where subway service is absent.</p> 
+
+      <iframe width="100%" height="520" frameborder="0" src="https://zaccuardi.cartodb.com/viz/1abc1d8c-d5a9-11e5-8d2e-0e3ff518bd15/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+      <p>DATA in my map comes from several different sources. Twitter data is via the Twitter API, via the CartoDB-Twitter integration. I got NY State block groups from TIGER, clipped them to the NYC boundary, and joined them to both ACS population data (via American Fact Finder) and bus reliability data. The bus reliability data ("excess wait time") was calculated from Bus Time data via the <a href="http://bus-data-nyc.github.io/">Bus Data NYC</a> database (there's also an API to interface with this data, for anyone interested). I got the MTA subway shapefile from the CUNY mapping center. Finally, I downloaded the 511 bus service alerts directly from NY State's (socrata-based) open data platform.</p> 
+
+      <p>The TOOLS required to get this map to work were CartoDB, SQL, Python, and QGIS. The map itself is obviously in CartoDB, and I used SQL both to pull down bus reliability data from a MySQL server and within CartoDB to buffer subway routes, clip the tweet data to within the City of New York boundary, and join the reliability data with the block group layer. I used python to interface with the Twitter API... but then had an encoding error so I've stuck with just the tweets pulled via CartoDB's twitter integration.</p>
+    </div>
+
     <div class='project'>
       <h3>Final Project - Oliver Mika</h3>
 
