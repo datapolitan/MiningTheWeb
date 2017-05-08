@@ -407,7 +407,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ## Week 5: Advanced Topics/Final Presentations
 
 <a id='class9'></a>
-### Class 9 - May 9, 2016
+### [Class 9 - May 9, 2016](http://www.datapolitan.com/MiningTheWeb/class9)
 <a id='c9-topics'></a>
 #### Topics 
 + Course review
@@ -430,7 +430,7 @@ I won’t be holding regular office hours, but I’m happy to set up a time to m
 ----
 
 <a id='class10'></a>
-### Class 10 - May 11, 2016
+### [Class 10 - May 11, 2016](http://www.datapolitan.com/MiningTheWeb/class10)
 <a id='c10-topics'></a>
 #### Topics 
 + Final presentations
